@@ -14,6 +14,9 @@ repeat sleep(10) until get_shooting() == true
 release("shoot_half")
 repeat sleep(10) until get_shooting() == false
 
+set_aflock(1)
+set_aelock(1)
+
 repeat 
 	n = n - 1
 	ecnt=get_exp_count()
@@ -23,3 +26,6 @@ repeat
 	release("shoot_full_only")
 	
 	until n < 1
+
+set_aelock(0)
+set_aflock(0)
