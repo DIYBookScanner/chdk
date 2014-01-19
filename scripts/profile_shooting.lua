@@ -7,15 +7,14 @@ rem and check their exif data.
 @default a 5
 --]]
 
+press("shoot_half")
+
 repeat 
 	n = n - 1
 	
-	press("shoot_half")
 	repeat sleep(10) until get_shooting() == true
-
 	click("shoot_full")
-
-	repeat sleep(10) until get_shooting() == false	
-	release("shoot_half")
-
+	
 	until n < 1
+
+release("shoot_half")
