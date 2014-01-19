@@ -1,0 +1,21 @@
+Camera Settings, Environment:
+	canon a1400
+	class 4 sd card
+	image size, "L" = 4608x3456
+	image format is jpeg
+Test:
+	script: profile_shooting.lua
+	parameters: n=10
+	10 images
+03:57:34 PM Sun, January 19, 2014
+03:57:38 PM Sun, January 19, 2014
+03:57:42 PM Sun, January 19, 2014
+03:57:46 PM Sun, January 19, 2014
+03:57:49 PM Sun, January 19, 2014
+03:57:53 PM Sun, January 19, 2014
+03:57:57 PM Sun, January 19, 2014
+03:58:01 PM Sun, January 19, 2014
+03:58:05 PM Sun, January 19, 2014
+03:58:08 PM Sun, January 19, 2014
+
+... 4+4+4+3+4+4+4+4+3 / 10 = 3.8s
