@@ -9,14 +9,9 @@ chdk/lib/*/*.a
 chdk/CHDK/DATA/logo.dat
 chdk/lib/font/font_8x16_uni_packed.h
 chdk/lib/lang/lang_str.h
-chdk/loader/a1400/main.bin
-chdk/loader/a1400/main.bin.dump
-chdk/loader/a1400/main.elf
-chdk/loader/a1400/main.elf.syms
 chdk/modules/exportlist.inc
 chdk/modules/module_exportlist.h
 chdk/modules/module_hashlist.h
-chdk/platform/a1400/sub/100b/PRIMARY.BIN
 chdk/revision.inc
 chdk/tools/code_gen
 chdk/tools/dancingbits
@@ -31,4 +26,18 @@ chdk/tools/gensig_vxworks
 chdk/tools/makeexport
 chdk/tools/makelang
 chdk/tools/pakwif
+chdk/bin/DISKBOOT.BIN
+chdk/bin/caminfo.txt
+chdk/core/main.bin
+chdk/core/main.bin.dump
+chdk/core/main.elf
+chdk/loader/*/blobs.o
+chdk/loader/*/main.bin
+chdk/loader/*/main.bin.dump
+chdk/loader/*/main.elf
+chdk/loader/*/main.elf.syms
+chdk/platform/*/sub/*/PRIMARY.BIN
+chdk/platform/*/sub/*/camera_info.thm.o
+chdk/platform/*/sub/*/gui.thm.o
+chdk/platform/*/sub/*/libplatformsub.a
 
