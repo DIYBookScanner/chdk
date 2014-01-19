@@ -68,3 +68,29 @@ new test, image size set to "L" = 4608x3456
 04:42:24 PM Sun, January 19, 2014
 
 	4+4+3+4+4+4+4+3+4+4+4+4+3+4+4+4+4+3+4 / 19 = 3.8s
+
+new test
+	script: profile_shooting.lua @ 62fe410
+	parameters: n=20
+05:14:20 PM Sun, January 19, 2014
+05:14:23 PM Sun, January 19, 2014
+05:14:26 PM Sun, January 19, 2014
+05:14:30 PM Sun, January 19, 2014
+05:14:33 PM Sun, January 19, 2014
+05:14:37 PM Sun, January 19, 2014
+05:14:40 PM Sun, January 19, 2014
+05:14:44 PM Sun, January 19, 2014
+05:14:47 PM Sun, January 19, 2014
+05:14:51 PM Sun, January 19, 2014
+05:14:54 PM Sun, January 19, 2014
+05:14:57 PM Sun, January 19, 2014
+05:15:01 PM Sun, January 19, 2014
+05:15:04 PM Sun, January 19, 2014
+05:15:08 PM Sun, January 19, 2014
+05:15:11 PM Sun, January 19, 2014
+05:15:15 PM Sun, January 19, 2014
+05:15:18 PM Sun, January 19, 2014
+05:15:21 PM Sun, January 19, 2014
+05:15:25 PM Sun, January 19, 2014
+
+	3+3+4+3+4+3+4+3+4+3+3+4+3+4+3+4+3+3+4 / 19 = 3.4s
