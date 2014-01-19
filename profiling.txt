@@ -3,6 +3,8 @@ Camera Settings, Environment:
 	class 4 sd card
 	image size, "L" = 4608x3456
 	image format is jpeg
+	flash is off
+
 Test:
 	script: profile_shooting.lua @ f90e22c5
 	parameters: n=10
@@ -17,9 +19,9 @@ Test:
 03:58:05 PM Sun, January 19, 2014
 03:58:08 PM Sun, January 19, 2014
 
-	4+4+4+3+4+4+4+4+3 / 9 = 3.7s
+	4+4+4+3+4+4+4+4+3 / 9 = 3.8s
 
-new test, image size set to 640 x 480
+new test, image size set to "S" = 640x480
 	script: profile_shooting.lua @ f90e22c5
 	parameters: n=10
 04:27:41 PM Sun, January 19, 2014
@@ -40,3 +42,29 @@ intermediate buffers) is not a problem.
 
 Aside: does battery level effect any of this? Will need to wait for AC adapter
 to come in mail...
+
+new test, image size set to "L" = 4608x3456
+	script: profile_shooting.lua @ c128444
+	parameters: n=20
+04:41:12 PM Sun, January 19, 2014
+04:41:16 PM Sun, January 19, 2014
+04:41:20 PM Sun, January 19, 2014
+04:41:23 PM Sun, January 19, 2014
+04:41:27 PM Sun, January 19, 2014
+04:41:31 PM Sun, January 19, 2014
+04:41:35 PM Sun, January 19, 2014
+04:41:39 PM Sun, January 19, 2014
+04:41:42 PM Sun, January 19, 2014
+04:41:46 PM Sun, January 19, 2014
+04:41:50 PM Sun, January 19, 2014
+04:41:54 PM Sun, January 19, 2014
+04:41:58 PM Sun, January 19, 2014
+04:42:01 PM Sun, January 19, 2014
+04:42:05 PM Sun, January 19, 2014
+04:42:09 PM Sun, January 19, 2014
+04:42:13 PM Sun, January 19, 2014
+04:42:17 PM Sun, January 19, 2014
+04:42:20 PM Sun, January 19, 2014
+04:42:24 PM Sun, January 19, 2014
+
+	4+4+3+4+4+4+4+3+4+4+4+4+3+4+4+4+4+3+4 / 19 = 3.8s
