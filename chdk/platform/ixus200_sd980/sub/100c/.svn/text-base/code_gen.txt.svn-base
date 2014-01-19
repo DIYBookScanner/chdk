@@ -1,0 +1,77 @@
+//-------------------------- FILEWRITE.C ----------------------------------------------------------
+FILE filewrite.c
+
+>>> file=../filewrite_hdr.c
+
+//////////////////////////////////////////////////////////////
+// filewritetask
+//////////////////////////////////////////////////////////////
+FUNC sig=task_FileWrite name=filewritetask
+ASM
+FW 43
+PATCHSUB name=fwt_close
+FW 8
+PATCHSUB ref=0 comment="Open stage"
+FW 1
+PATCHSUB ref=1 comment="Write stage"
+FW 1
+PATCHSUB ref=2 comment="Close stage"
+FW $
+ENDASM
+ENDFUNC
+
+
+//////////////////////////////////////////////////////////////
+// open stage
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 13
+>>>
+//hook start
+"    MOV     R0, R4\n"
+"    BL      filewrite_main_hook\n"
+//hook end
+<<<
+FW 3
+PATCHSUB name=fwt_open
+->FW
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// write stage
+//////////////////////////////////////////////////////////////
+FUNC ref=1 length=67
+ASM
+FW 43
+PATCHSUB name=fwt_write
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// close stage
+//////////////////////////////////////////////////////////////
+FUNC ref=2
+ASM
+FW 11
+>>>
+//mod start
+"    LDR     R3, =current_write_ignored\n"
+"    LDR     R3, [R3]\n"
+"    CMP     R3, #0\n"
+"    BNE     loc_D\n" // jump over the next block
+//mod end
+
+<<<
+FW 2
+>>>
+"loc_D:\n"
+<<<
+PATCHSUB name=fwt_close
+->FW
+ENDASM
+ENDFUNC
+
+ENDFILE

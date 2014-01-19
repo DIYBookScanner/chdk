@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/chdk/!svn/ver/2453/trunk/lib/math
+END
+d2d.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/515/trunk/lib/math/d2d.c
+END
+s_scalbnf.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/515/trunk/lib/math/s_scalbnf.c
+END
+ef_log.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/515/trunk/lib/math/ef_log.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2453/trunk/lib/math/Makefile
+END
+ef_pow.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/515/trunk/lib/math/ef_pow.c
+END
+wrapper.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/515/trunk/lib/math/wrapper.c
+END
+fdlibm.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/515/trunk/lib/math/fdlibm.h
+END
+ef_sqrt.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/515/trunk/lib/math/ef_sqrt.c
+END
+rnd.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/515/trunk/lib/math/rnd.c
+END
+s_copysignf.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/515/trunk/lib/math/s_copysignf.c
+END
+sf_fabs.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/515/trunk/lib/math/sf_fabs.c
+END

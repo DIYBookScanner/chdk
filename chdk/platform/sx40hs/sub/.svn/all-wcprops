@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3259/trunk/platform/sx40hs/sub
+END
+movie_rec_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/2880/trunk/platform/sx40hs/sub/movie_rec_hdr.c
+END
+filewrite_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/2939/trunk/platform/sx40hs/sub/filewrite_hdr.c
+END
+capt_seq_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/2880/trunk/platform/sx40hs/sub/capt_seq_hdr.c
+END
+boot_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/2983/trunk/platform/sx40hs/sub/boot_hdr.c
+END

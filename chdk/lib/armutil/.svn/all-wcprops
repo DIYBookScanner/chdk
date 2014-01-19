@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdk/!svn/ver/2753/trunk/lib/armutil
+END
+callfunc_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/864/trunk/lib/armutil/callfunc_test.c
+END
+callfunc.S
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/1663/trunk/lib/armutil/callfunc.S
+END
+README.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/864/trunk/lib/armutil/README.TXT
+END
+reboot.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2453/trunk/lib/armutil/reboot.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2453/trunk/lib/armutil/Makefile
+END
+cache.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2753/trunk/lib/armutil/cache.c
+END

@@ -1,0 +1,389 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/chdk/!svn/ver/3319/trunk/include
+END
+modes.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2462/trunk/include/modes.h
+END
+versions.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3301/trunk/include/versions.h
+END
+battery.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2453/trunk/include/battery.h
+END
+shutdown.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2453/trunk/include/shutdown.h
+END
+fileutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2912/trunk/include/fileutil.h
+END
+file_counter.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2453/trunk/include/file_counter.h
+END
+modelist.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3232/trunk/include/modelist.h
+END
+touchscreen.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2453/trunk/include/touchscreen.h
+END
+gui.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/3247/trunk/include/gui.h
+END
+callfunc.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2931/trunk/include/callfunc.h
+END
+camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/3302/trunk/include/camera.h
+END
+shot_histogram.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/2453/trunk/include/shot_histogram.h
+END
+camera_info.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/3232/trunk/include/camera_info.h
+END
+dryos23.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/1865/trunk/include/dryos23.h
+END
+string.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2462/trunk/include/string.h
+END
+stddef.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/515/trunk/include/stddef.h
+END
+propset1.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2900/trunk/include/propset1.h
+END
+propset3.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3288/trunk/include/propset3.h
+END
+remotecap.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2927/trunk/include/remotecap.h
+END
+propset5.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2907/trunk/include/propset5.h
+END
+stdlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2723/trunk/include/stdlib.h
+END
+stdio.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/515/trunk/include/stdio.h
+END
+platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2483/trunk/include/platform.h
+END
+backlight.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3175/trunk/include/backlight.h
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/2483/trunk/include/core.h
+END
+sound.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2453/trunk/include/sound.h
+END
+lolevel.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/3254/trunk/include/lolevel.h
+END
+task.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/2453/trunk/include/task.h
+END
+cache.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2453/trunk/include/cache.h
+END
+debug_led.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2453/trunk/include/debug_led.h
+END
+viewport.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2453/trunk/include/viewport.h
+END
+asmsafe.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/1663/trunk/include/asmsafe.h
+END
+lang.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3032/trunk/include/lang.h
+END
+raw_buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2453/trunk/include/raw_buffer.h
+END
+vxworks.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/1865/trunk/include/vxworks.h
+END
+stdarg.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/515/trunk/include/stdarg.h
+END
+ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/1092/trunk/include/ctype.h
+END
+errno.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/515/trunk/include/errno.h
+END
+remotecap_core.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/3026/trunk/include/remotecap_core.h
+END
+shooting.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3303/trunk/include/shooting.h
+END
+meminfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/3248/trunk/include/meminfo.h
+END
+clock.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2605/trunk/include/clock.h
+END
+properties.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/3059/trunk/include/properties.h
+END
+sd_card.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2462/trunk/include/sd_card.h
+END
+keyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3281/trunk/include/keyboard.h
+END
+limits.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/515/trunk/include/limits.h
+END
+lens.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/2453/trunk/include/lens.h
+END
+cachebit.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2830/trunk/include/cachebit.h
+END
+console.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2579/trunk/include/console.h
+END
+script.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/3266/trunk/include/script.h
+END
+font.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/2453/trunk/include/font.h
+END
+propset2.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3150/trunk/include/propset2.h
+END
+propset4.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3003/trunk/include/propset4.h
+END
+propset6.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3059/trunk/include/propset6.h
+END
+conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3247/trunk/include/conf.h
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2453/trunk/include/debug.h
+END
+math.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/2453/trunk/include/math.h
+END
+levent.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2931/trunk/include/levent.h
+END
+temperature.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2453/trunk/include/temperature.h
+END
+locale.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/515/trunk/include/locale.h
+END
+stubs_asm.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3319/trunk/include/stubs_asm.h
+END
+assert.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/515/trunk/include/assert.h
+END
+setjmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/1663/trunk/include/setjmp.h
+END
+dryos31.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/1865/trunk/include/dryos31.h
+END

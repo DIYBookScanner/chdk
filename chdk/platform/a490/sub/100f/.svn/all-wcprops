@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3259/trunk/platform/a490/sub/100f
+END
+bin_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/3156/trunk/platform/a490/sub/100f/bin_compat.h
+END
+funcs_by_name.csv
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/chdk/!svn/ver/3250/trunk/platform/a490/sub/100f/funcs_by_name.csv
+END
+stubs_entry_2.S
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/chdk/!svn/ver/2979/trunk/platform/a490/sub/100f/stubs_entry_2.S
+END
+stubs_min.S
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/1641/trunk/platform/a490/sub/100f/stubs_min.S
+END
+funcs_by_address.csv
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/chdk/!svn/ver/3250/trunk/platform/a490/sub/100f/funcs_by_address.csv
+END
+filewrite.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/3049/trunk/platform/a490/sub/100f/filewrite.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/2979/trunk/platform/a490/sub/100f/Makefile
+END
+capt_seq.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/2979/trunk/platform/a490/sub/100f/capt_seq.c
+END
+code_gen.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/3230/trunk/platform/a490/sub/100f/code_gen.txt
+END
+stubs_entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/chdk/!svn/ver/3254/trunk/platform/a490/sub/100f/stubs_entry.S
+END
+boot.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/3230/trunk/platform/a490/sub/100f/boot.c
+END
+makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/3259/trunk/platform/a490/sub/100f/makefile.inc
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/1527/trunk/platform/a490/sub/100f/lib.c
+END
+stubs_auto.S
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/2979/trunk/platform/a490/sub/100f/stubs_auto.S
+END
+movie_rec.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/3049/trunk/platform/a490/sub/100f/movie_rec.c
+END

@@ -1,0 +1,17 @@
+Canon  iuxs130_sd1400
+========================
+
+This is  port was rescued from this forum thread :
+
+http://chdk.setepontos.com/index.php?topic=5034.0
+
+original source code here :
+
+https://github.com/emlyn/chdk
+
+and converted for a dev trunk build in July of 2012.
+
+---
+Additional merge notes from reyalp
+led.c in platform/sub/100a is probably not needed
+modemap appears to be incomplete, per stubs_entry.S

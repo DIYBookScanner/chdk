@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2346/trunk/loader/ixus105_sd1300
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/2346/trunk/loader/ixus105_sd1300/main.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/2346/trunk/loader/ixus105_sd1300/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/2346/trunk/loader/ixus105_sd1300/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/1833/trunk/loader/ixus105_sd1300/entry.S
+END

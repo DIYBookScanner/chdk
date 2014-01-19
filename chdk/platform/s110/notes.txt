@@ -1,0 +1,11 @@
+****************************************
+Beta CHDK for S110
+****************************************
+Development notes:
+---
+Known issues:
+    - none
+
+TODO:
+    - EXMEM unimplemented
+    - ???

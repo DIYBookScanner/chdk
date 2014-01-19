@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdk/!svn/ver/1375/trunk/loader/sx10
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/736/trunk/loader/sx10/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/736/trunk/loader/sx10/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/736/trunk/loader/sx10/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/736/trunk/loader/sx10/main.c
+END

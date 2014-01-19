@@ -1,0 +1,403 @@
+//-------------------------- BOOT.C ---------------------------------------------------------------
+FILE boot.c
+
+>>> file=../boot_hdr.c
+
+>>>
+//debug use only
+#define YELLOW_LED       0xC02200B0
+void __attribute__((naked,noinline)) my_blinker(int n) {
+    asm volatile (
+      "            STMFD   SP!, {R0-R9,LR}\n"
+);
+    int i, j;
+    for (j=0; j<n; j++)
+    {
+        *((volatile int *) YELLOW_LED) = 0x46; // Turn on LED
+        for (i=0; i<0x200000; i++) { asm volatile ( "nop \n" ); }
+
+        *((volatile int *) YELLOW_LED) = 0x44; // Turn off LED
+        for (i=0; i<0x400000; i++) { asm volatile ( "nop \n" ); }
+    }
+    for (i=0; i<0x900000; i++) { asm volatile ( "nop \n" ); }
+    asm volatile (
+      "            LDMFD   SP!, {R0-R9,PC}\n"
+    );
+}
+//end debug
+<<<
+
+//////////////////////////////////////////////////////////////
+// boot()
+//////////////////////////////////////////////////////////////
+>>>
+void boot()
+{
+    // All the asm code below is from: 0xff8100fc
+
+    long *canon_data_src = (void*)0xffc33020;
+    long *canon_data_dst = (void*)0x1900;
+    long canon_data_len = 0x18c70 - 0x1900;
+    long *canon_bss_start = (void*)0x18c70;
+    long canon_bss_len = 0xc5d80 - 0x18c70;
+
+    long i;
+
+    // @ 0xff8100fc:
+    asm volatile (
+    "MRC     p15, 0, R0,c1,c0\n"
+    "ORR     R0, R0, #0x1000\n"
+    "ORR     R0, R0, #4\n"
+    "ORR     R0, R0, #1\n"
+    "MCR     p15, 0, R0,c1,c0\n"
+    :::"r0");
+
+    for(i=0;i<canon_data_len/4;i++)
+    canon_data_dst[i]=canon_data_src[i];
+
+    for(i=0;i<canon_bss_len/4;i++)
+    canon_bss_start[i]=0;
+
+    // @ 0xff8101cc:
+    asm volatile (
+    "MRC     p15, 0, R0,c1,c0\n"
+    "ORR     R0, R0, #0x1000\n"
+    "BIC     R0, R0, #4\n"
+    "ORR     R0, R0, #1\n"
+    "MCR     p15, 0, R0,c1,c0\n"
+    :::"r0");
+
+    h_usrInit();
+}
+<<<
+
+//////////////////////////////////////////////////////////////
+// h_usrInit()
+//////////////////////////////////////////////////////////////
+FUNC name=h_usrInit start=0xff813f04 length=15
+ASM
+FW $-2
+PATCHSUB name=h_usrKernelInit ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// h_usrKernelInit()
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=32
+ASM
+FW 27
+PATCHSUB name=h_usrRoot ref=0
+FW 1
+REM "MEMISOSTART"
+>>>
+"    LDR     R2, =new_sa\n"   // +
+"    LDR     R2, [R2]\n"      // +
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// h_usrRoot()
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=25
+ASM
+FW $-2
+ENDASM
+>>>
+
+    _taskCreateHookAdd(createHook);
+    _taskDeleteHookAdd(deleteHook);
+
+    drv_self_hide();
+
+// Return from subroutine
+<<<
+ASM
+FW $
+ENDASM
+ENDFUNC
+
+ENDFILE
+
+//-------------------------- CAPT_SEQ.C -----------------------------------------------------------
+FILE capt_seq.c
+
+>>> file=../capt_seq_hdr.c
+
+//////////////////////////////////////////////////////////////
+// capt_seq_task
+//////////////////////////////////////////////////////////////
+FUNC sig=task_CaptSeq name=capt_seq_task
+ASM
+FW 32
+>>>
+"    BL      shooting_expo_param_override\n"   // +
+<<<
+FW 2
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+FUNC ref=0
+ASM
+FW 26
+PATCHSUB ref=0
+>>>
+"    BL      capt_seq_hook_raw_here\n"   // +
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+FUNC ref=0
+ASM
+FW 12
+>>>
+"    BL      wait_until_remote_button_is_released\n"
+"    BL      capt_seq_hook_set_nr\n"
+<<<
+->FW
+ENDASM
+ENDFUNC
+
+
+//////////////////////////////////////////////////////////////
+// exp_drv_task @ 0xff8fa108
+//////////////////////////////////////////////////////////////
+FUNC sig=task_ExpDrv name=exp_drv_task
+ASM
+FW 151
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+FUNC ref=0
+ASM
+FW 30
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+FUNC ref=0
+ASM
+FW 22
+PATCHSUB name=apex2us
+->FW
+ENDASM
+ENDFUNC
+
+ENDFILE
+
+//-------------------------- MOVIE_REC.C ----------------------------------------------------------
+FILE movie_rec.c
+
+>>> file=../movie_rec_hdr.c
+
+//////////////////////////////////////////////////////////////
+// movie_record_task
+//////////////////////////////////////////////////////////////
+FUNC sig=task_MovieRecord name=movie_record_task length=64
+ASM
+FW 25
+>>>
+"    BL      unlock_optical_zoom\n"  //+
+<<<
+FW 2
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// movie_record_task -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=109
+ASM
+FW 85
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// movie_record_task -> ref=0 -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=90
+ASM
+FW 4
+REM
+REM
+>>>
+"    LDREQ   R3, =CompressionRateTable\n" // +
+"    LDREQ   R2, [R3,#0x18]\n"            // +
+"    STREQ   R2, [R6]\n"                  // +
+<<<
+FW 19
+PATCHSUB name=table1
+FW 2
+PATCHSUB name=table2
+FW 15
+PATCHVAL value=0x1A
+PATCHVAL value=0x1A
+FW 23
+PATCHSUB name=video_mode
+FW 1
+PATCHSUB name=CompressionRateTable
+FW 6
+>>>
+
+"    LDREQ   R3, =video_quality\n"          // +
+"    LDREQ   R3, [R3]\n"                    // +
+"    LDREQ   R3, [R3]\n"                    // +
+
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+ENDFILE
+
+
+//-------------------------- MOUNT.C ----------------------------------------------------------
+FILE mount.c
+
+//////////////////////////////////////////////////////////////
+// init_file_modules_task
+//////////////////////////////////////////////////////////////
+FUNC sig=task_InitFileModules name=init_file_modules_task
+ASM
+FW 1
+>>>
+"    BL      _Unmount_FileSystem\n" // +
+<<<
+FW 7
+PATCHSUB ref=0
+FW 7
+ENDASM
+ENDFUNC
+
+
+//////////////////////////////////////////////////////////////
+// init_file_modules_task -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 1
+PATCHSUB ref=0 name="Mount_FileSystem_my"
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// Mount_FileSystem_my
+//////////////////////////////////////////////////////////////
+FUNC ref=0 name=Mount_FileSystem_my
+ASM
+FW 18
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// Mount_FileSystem_my -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 12
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// Mount_FileSystem_my -> ref=0 -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 48
+REM
+>>>
+"    STMFD   SP!, {R4-R11,LR}\n"    // +
+"    BL      mbr_read\n"            //----------->
+"    LDMFD   SP!, {R4-R11,LR}\n"    // +
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+ENDFILE
+
+//-------------------------- FILEWRITE.C ----------------------------------------------------------
+FILE filewrite.c
+
+>>> file=../filewrite_hdr.c
+
+//////////////////////////////////////////////////////////////
+// filewritetask
+//////////////////////////////////////////////////////////////
+FUNC sig=task_FileWrite name=filewritetask length=37
+ASM
+FW 12
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// filewritetask -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 12
+PATCHSUB ref=0
+FW $-1
+>>>
+"    BL      fwt_after_close\n" //+
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// filewritetask -> ref=0 -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 15
+>>>
+//place hook here
+//the task's data block is at [r4] at this point, filename starts at [r4+0x1c]
+//the block can be captured here for a (new) camera with unknown data block structure
+//for ptp remote capture, pass '/null' as filename
+//if writing does not need to be prevented, just continue
+"    STMFD SP!, {R1-R12,LR}\n"
+"    MOV R0, R4\n"
+"    BL filewrite_main_hook\n"
+"    BL filewrite_jpeg_complete\n"
+"    CMP R0, #0\n"
+"    LDRNE R0, =loc_mynull\n" // /null as file name (works only on VxWorks)
+"    LDMFD SP!, {R1-R12,LR}\n"
+"    MOVEQ R0, R5\n" //canon file name
+//hook end
+<<<
+REM "- file name"
+FW $
+>>>
+//mod start
+"loc_mynull:\n"
+".long   0x6c756e2f\n" // "/null"
+".long   0x0000006c\n"
+//mod end
+<<<
+ENDASM
+ENDFUNC
+
+
+ENDFILE

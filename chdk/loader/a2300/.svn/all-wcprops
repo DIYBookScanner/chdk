@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/chdk/!svn/ver/2521/trunk/loader/a2300
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2521/trunk/loader/a2300/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2521/trunk/loader/a2300/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2521/trunk/loader/a2300/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2521/trunk/loader/a2300/main.c
+END

@@ -1,0 +1,287 @@
+//-------------------------- BOOT.C ---------------------------------------------------------------
+
+FILE boot.c
+
+>>> file=../boot_hdr.c
+
+FUNC start=0xFF00000C length=88 name=boot
+ASM
+FW $-1
+PATCHSUB ref=0
+ENDASM
+ENDFUNC
+
+FUNC ref=0 length=27
+>>>
+
+	//http://chdk.setepontos.com/index.php/topic,4194.0.html
+	*(int*)0x1938=(int)taskHook;
+	*(int*)0x193C=(int)taskHook;	// need this for startup in Playback mode (otherwise init_file_modules_task doesn't hook properly)
+    
+	// replacement of sub_FF0571D4 for correct power-on.
+	*(int*)(0x2630) = (*(int*)0xC022F48C)&0x800000 ? 0x200000 : 0x100000; 
+
+<<<
+ASM
+FW $-1
+PATCHSUB ref=0
+ENDASM
+ENDFUNC
+
+FUNC ref=0 length=39
+ASM
+FW 7
+>>>
+
+#if defined(CHDK_NOT_IN_CANON_HEAP) // use original heap offset if CHDK is loaded in high memory
+<<<
+FW
+>>>
+#else
+"    LDR     R0, =new_sa\n"   // otherwise use patched value
+"    LDR     R0, [R0]\n"      // 
+#endif
+
+<<<
+FW $-1
+PATCHSUB ref=0
+->FW
+ENDASM
+ENDFUNC
+
+FUNC ref=0
+ASM
+FW $-1
+PATCHSUB name=taskcreate_Startup_my ref=0
+ENDASM
+ENDFUNC
+
+FUNC ref=0
+ASM
+FW 2
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+FUNC ref=0 length=55
+ASM
+FW 45
+REM "See begin of sub_FF000364_my()"
+FW $-1
+PATCHSUB name=task_Startup_my ref=0
+->FW
+ENDASM
+ENDFUNC
+
+FUNC ref=0 length=13
+ASM
+FW 11
+REM "start diskboot.bin"
+FW 4
+>>>
+
+"    BL      CreateTask_spytask\n"  // added
+
+<<<
+PATCHSUB name=taskcreatePhySw_my ref=0
+->FW
+ENDASM
+ENDFUNC
+
+FUNC ref=0 length=9
+ASM
+FW 7
+PATCHSUB name=mykbd_task
+PATCHVAL value=0x2000 comment="stack size for new task_PhySw"
+->FW
+ENDASM
+ENDFUNC
+
+FUNC sig=task_InitFileModules length=8 name=init_file_modules_task
+ASM
+FW $
+>>>
+"    BL      core_spytask_can_start\n"  // CHDK: Set "it's-safe-to-start" flag for spytask
+<<<
+->FW
+ENDASM
+ENDFUNC
+
+FUNC sig=task_RotaryEncoder name=JogDial_task_my
+ASM
+FW 6
+>>>
+
+// Save pointer for kbd.c routine
+"    ADD     R10, SP, #0x10 \n"
+"    LDR     R9, =jog_position \n"
+"    STR     R10, [R9] \n"
+
+<<<
+FW 42
+>>>
+//------------------  added code ---------------------
+"labelA:\n"
+"    LDR     R0, =jogdial_stopped\n"
+"    LDR     R0, [R0]\n"
+"    CMP     R0, #1\n"
+"    BNE     labelB\n"
+"    MOV     R0, #40\n"
+"    BL      _SleepTask\n"
+"    B       labelA\n"
+"labelB:\n"
+//------------------  original code ------------------
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+ENDFILE
+
+//-------------------------- MOVIE_REC.C ----------------------------------------------------------
+
+FILE movie_rec.c
+
+>>> file=../movie_rec_hdr.c
+
+FUNC sig=task_MovieRecord name=movie_record_task
+ASM
+FW 77
+>>>
+
+"    LDR     R0, =video_compression_rate\n" //added
+"    BL      set_quality\n"                 //added
+
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+ENDFILE
+
+//-------------------------- CAPT_SEQ.C -----------------------------------------------------------
+
+FILE capt_seq.c
+
+>>> file=../capt_seq_hdr.c
+
+FUNC sig=task_CaptSeq name=capt_seq_task
+ASM
+FW 60
+>>>
+"    BL      shooting_expo_iso_override\n"      // added
+<<<
+FW
+>>>
+"    BL      shooting_expo_param_override\n"    // added
+<<<
+FW
+>>>
+"    MOV     R0, #0\n"                          // added
+"    STR     R0, [R4,#0x28]\n"                  // added, fixes overrides behavior at short shutter press (from S95)
+<<<
+REM "above patch makes these three lines redundant"
+REM
+REM
+FW
+>>>
+"    BL      wait_until_remote_button_is_released\n"    // added
+"    BL      capt_seq_hook_set_nr\n"                    // added
+<<<
+FW
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+FUNC ref=0
+ASM
+FW 25
+>>>
+"    BL      capt_seq_hook_raw_here\n"      // added
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+FUNC sig=task_ExpDrv name=exp_drv_task
+ASM
+FW 262
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+FUNC ref=0 length=51
+ASM
+FW $-1
+PATCHSUB ref=0
+->FW
+ENDASM
+ENDFUNC
+
+FUNC ref=0 length=17
+ASM
+FW $-1
+PATCHSUB name=apex2us
+->FW
+ENDASM
+ENDFUNC
+
+ENDFILE
+
+//-------------------------- FILEWRITE.C ----------------------------------------------------------
+
+FILE filewrite.c
+
+>>> file=../filewrite_hdr.c
+
+FUNC sig=task_FileWrite name=filewritetask
+ASM
+FW 42
+PATCHSUB name=fwt_close
+FW 9
+PATCHSUB ref=0
+FW
+PATCHSUB ref=1
+FW
+PATCHSUB ref=2
+FW $
+ENDASM
+ENDFUNC
+
+FUNC ref=0
+ASM
+FW 18
+>>>
+//hook start
+"    STMFD   SP!, {R4-R12,LR} \n"
+"    MOV     R0, R4 \n"
+"    BL      filewrite_main_hook \n"
+"    LDMFD   SP!, {R4-R12,LR} \n"
+//hook end
+<<<
+FW 4
+PATCHSUB name=fwt_open
+->FW
+ENDASM
+ENDFUNC
+
+FUNC ref=1
+ASM
+FW 32
+PATCHSUB name=fwt_write
+->FW
+ENDASM
+ENDFUNC
+
+FUNC ref=2
+ASM
+FW 13
+PATCHSUB name=fwt_close
+->FW
+ENDASM
+ENDFUNC
+
+ENDFILE

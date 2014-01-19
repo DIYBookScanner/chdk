@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/1415/trunk/loader/sx150is
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/1415/trunk/loader/sx150is/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/1415/trunk/loader/sx150is/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/1415/trunk/loader/sx150is/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/1415/trunk/loader/sx150is/main.c
+END

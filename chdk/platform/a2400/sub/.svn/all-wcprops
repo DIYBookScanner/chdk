@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3260/trunk/platform/a2400/sub
+END
+filewrite_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/3260/trunk/platform/a2400/sub/filewrite_hdr.c
+END

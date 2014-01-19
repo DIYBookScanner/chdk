@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2755/trunk/tools/hostlua/emu
+END
+camera_funcs.lua
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/2755/trunk/tools/hostlua/emu/camera_funcs.lua
+END
+emu.lua
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/2724/trunk/tools/hostlua/emu/emu.lua
+END

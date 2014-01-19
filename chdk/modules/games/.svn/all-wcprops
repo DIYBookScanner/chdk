@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/3232/trunk/modules/games
+END
+gui_sokoban.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/3232/trunk/modules/games/gui_sokoban.c
+END
+simple_game.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/3232/trunk/modules/games/simple_game.c
+END
+gui_reversi.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/2677/trunk/modules/games/gui_reversi.c
+END
+gui_snake.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/2677/trunk/modules/games/gui_snake.c
+END
+gui_mastermind.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/2677/trunk/modules/games/gui_mastermind.c
+END
+gui_4wins.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/3232/trunk/modules/games/gui_4wins.c
+END
+gui_sudoku.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/3232/trunk/modules/games/gui_sudoku.c
+END
+gui_tetris.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/2677/trunk/modules/games/gui_tetris.c
+END

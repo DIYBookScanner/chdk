@@ -1,0 +1,3 @@
+a800 port by mland
+porting thread http://chdk.setepontos.com/index.php?topic=7409.0
+wiki page http://chdk.wikia.com/wiki/A800

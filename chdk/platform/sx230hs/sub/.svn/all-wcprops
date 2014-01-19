@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/3259/trunk/platform/sx230hs/sub
+END
+movie_rec_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/chdk/!svn/ver/3111/trunk/platform/sx230hs/sub/movie_rec_hdr.c
+END
+filewrite_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/chdk/!svn/ver/3111/trunk/platform/sx230hs/sub/filewrite_hdr.c
+END

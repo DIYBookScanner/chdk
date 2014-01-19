@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdk/!svn/ver/1375/trunk/loader/s90
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/888/trunk/loader/s90/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/888/trunk/loader/s90/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/888/trunk/loader/s90/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/888/trunk/loader/s90/main.c
+END

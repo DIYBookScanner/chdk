@@ -1,0 +1,9 @@
+0xff810000
+GetDrive_TotalClusters 0xFF86BB38 11
+GetDrive_FreeClusters 0xFF86BB64 9
+ReadFastDir 0xFFA7E1E4
+OpenFastDir 0xFFA7E0B0
+closedir 0xFFA7E06C 17
+GetFocusLensSubjectDistanceFromLens 0xFF9430E8 22
+SetFileTimeStamp 0xFF835694 17
+SetFileAttributes 0xFF8356D8

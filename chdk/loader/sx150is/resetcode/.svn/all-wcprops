@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/1415/trunk/loader/sx150is/resetcode
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/1415/trunk/loader/sx150is/resetcode/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/1415/trunk/loader/sx150is/resetcode/main.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/1415/trunk/loader/sx150is/resetcode/Makefile
+END

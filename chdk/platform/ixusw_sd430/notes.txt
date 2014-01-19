@@ -1,0 +1,15 @@
+************************************
+IXUS Wireless - SD430  Notes
+************************************
+Porting thread: http://chdk.setepontos.com/index.php?topic=10728.msg105621#msg105621
+
+To enter CHDK <ALT> mode use the Print button.
+
+KNOWN BUGS
+**********
+-
+
+
+For Developers
+**************
+- focal length table has not been verified

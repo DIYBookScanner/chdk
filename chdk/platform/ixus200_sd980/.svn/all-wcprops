@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3302/trunk/platform/ixus200_sd980
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/1909/trunk/platform/ixus200_sd980/lib.c
+END
+shooting.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/1663/trunk/platform/ixus200_sd980/shooting.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/2731/trunk/platform/ixus200_sd980/Makefile
+END
+kbd.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/3246/trunk/platform/ixus200_sd980/kbd.c
+END
+platform_camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/chdk/!svn/ver/3302/trunk/platform/ixus200_sd980/platform_camera.h
+END
+wrappers.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/1681/trunk/platform/ixus200_sd980/wrappers.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/2986/trunk/platform/ixus200_sd980/main.c
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/1212/trunk/platform/ixus200_sd980/notes.txt
+END

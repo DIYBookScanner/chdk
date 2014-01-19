@@ -1,0 +1,22 @@
+************************************
+A2300 Notes - alpha release
+************************************
+Porting thread: http://chdk.setepontos.com/index.php?topic=8318.msg87995#msg87995
+
+To enter CHDK <ALT> mode use the Playback [>] button.
+
+Playback [>] or Help [?] button can be configured as <ALT> mode button.
+
+
+KNOWN BUGS
+**********
+- Mute during zoom in/out is not implemented
+- Video Time limit removal is not implemented
+- AF during video recording is not implemented
+
+Development notes:
+*****************
+- This was a blind port.
+- hook_raw_image_addr() & hook_alt_raw_image_addr() return the same value
+- Tables in shooting.c not verified.
+- DNG calibration not done.

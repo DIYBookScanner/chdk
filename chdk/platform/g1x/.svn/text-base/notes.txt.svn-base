@@ -1,0 +1,11 @@
+****************************************
+Camera depending notes: 
+* DryOS Camera
+---
+CHDK for G1X.
+
+****************************************
+Development notes:
+---
+Known issues:
+    - CHDK native RAW image format will be 14 bits-per-pixel which nothing supports (not recommended for use)

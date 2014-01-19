@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 28
+.dep
+*.a
+*.o
+lua
+luac
+*.exe
+
+END

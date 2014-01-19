@@ -1,0 +1,66 @@
+//-------------------------- FILEWRITE.C ----------------------------------------------------------
+FILE filewrite.c
+
+>>> file=../filewrite_hdr.c
+
+//////////////////////////////////////////////////////////////
+// filewritetask
+//////////////////////////////////////////////////////////////
+FUNC sig=task_FileWrite name=filewritetask length=37
+ASM
+FW 12
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// filewritetask -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 12
+PATCHSUB ref=0
+FW $-1
+>>>
+"    BL      fwt_after_close\n" //+
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// filewritetask -> ref=0 -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 15
+>>>
+//place hook here
+//the task's data block is at [r4] at this point, filename starts at [r4+0x1c]
+//the block can be captured here for a (new) camera with unknown data block structure
+//for ptp remote capture, pass '/null' as filename
+//if writing does not need to be prevented, just continue
+"    STMFD SP!, {R1-R12,LR}\n"
+"    MOV R0, R4\n"
+"    BL filewrite_main_hook\n"
+"    BL filewrite_jpeg_complete\n"
+"    CMP R0, #0\n"
+"    LDRNE R0, =loc_mynull\n" // /null as file name (works only on VxWorks)
+"    LDMFD SP!, {R1-R12,LR}\n"
+"    MOVEQ R0, R5\n" //canon file name
+//hook end
+<<<
+REM "- file name"
+FW $
+>>>
+//mod start
+"loc_mynull:\n"
+".long   0x6c756e2f\n" // "/null"
+".long   0x0000006c\n"
+//mod end
+<<<
+ENDASM
+ENDFUNC
+
+ENDFILE

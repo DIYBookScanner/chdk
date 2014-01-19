@@ -1,0 +1,4 @@
+0xff810000
+GetDrive_ClusterSize 0xFF855D3C 11 0xFF85299C -4
+GetDrive_TotalClusters 0xFF855D68 11 0xFF8529AC -5
+GetDrive_FreeClusters 0xFF855D94 11 0xFF8529C0 -4

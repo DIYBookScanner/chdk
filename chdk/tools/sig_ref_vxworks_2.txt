@@ -1,0 +1,21 @@
+0xFFC00000
+EnterToCompensationEVF 0xffd58f08
+ExitFromCompensationEVF 0xffd5c524
+GetFocusLensSubjectDistance 0xFFEA2F3C
+GetFocusLensSubjectDistanceFromLens 0xffea34f0
+GetParameterData 0xFFD76090
+GetPropertyCase 0xFFC14DEC
+GetSystemTime 0xFFC04D38
+IsStrobeChargeCompleted 0xFFD11B24
+MakeAFScan 0xFFD5D538
+Mount_FileSystem 0xffc602ec
+PutInNdFilter 0xFFEB41D8
+PutOutNdFilter 0xFFEB4220
+SetParameterData 0xFFD75FB0
+SetPropertyCase 0xFFC14C9C
+TurnOffBackLight 0xffdbd750
+TurnOnBackLight 0xffdbd720
+WriteSDCard 0xFFC702A4
+exmem_alloc 0xFFC02834
+free 0xFFF00ACC
+malloc 0xFFF00AC0

@@ -1,0 +1,12 @@
+************************************
+IXUS220HS / ELPH300HS Notes
+
+To enter CHDK <Alt> mode use the Video button. Maybe this will be changed later to Playback button, but in this first version you have to use Video button.
+
+Short Press of Video button will toggle <ALT> mode.
+Long Press of Video button will execute original Canon functionality.
+
+Support for dual partition is not available.
+
+For more information please refer to IXUS200HS/ELPH300HS Porting Thread:
+http://chdk.setepontos.com/index.php?topic=6341

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdk/!svn/ver/3250/trunk/lib/ubasic
+END
+ubasic.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3250/trunk/lib/ubasic/ubasic.c
+END
+run-ubasic.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/3160/trunk/lib/ubasic/run-ubasic.c
+END
+tokenizer.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3250/trunk/lib/ubasic/tokenizer.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3241/trunk/lib/ubasic/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/511/trunk/lib/ubasic/README
+END
+tokenizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3250/trunk/lib/ubasic/tokenizer.h
+END
+camera_functions.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/3160/trunk/lib/ubasic/camera_functions.c
+END
+camera_functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/2605/trunk/lib/ubasic/camera_functions.h
+END

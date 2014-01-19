@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3161/trunk/loader/ixusw_sd430
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/3161/trunk/loader/ixusw_sd430/main.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/3161/trunk/loader/ixusw_sd430/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/3161/trunk/loader/ixusw_sd430/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/3161/trunk/loader/ixusw_sd430/entry.S
+END

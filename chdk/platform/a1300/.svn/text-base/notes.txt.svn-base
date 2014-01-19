@@ -1,0 +1,29 @@
+************************************
+A1300 Notes 
+************************************
+Porting thread: http://chdk.setepontos.com/index.php?topic=8909.msg92929#msg92929
+
+To enter CHDK <ALT> mode use the Playback [>] button.
+
+Playback [>] or Help [?] button can be configured as <ALT> mode button.
+
+
+KNOWN BUGS
+**********
+- GetBatteryTemperature() returns always -99° Celsius or -146° Fahrenheit
+- Video Time limit removal is not implemented.
+- AF during video recording is disabled.
+- Conflicting CHDK shortcuts
+
+For Developers
+**************
+A1300 and A810 ROM code appears identical, and builds for one camera will run on the other.
+However, the builds differ because
+ PLATFORMID is different, so PS.FI2 files are not compatible and script would report the wrong value.
+Any code changes made to one camera should probably be applied to the other.
+
+- rand() and srand() are not part of original firmware. 
+  They were added in platorm/generic/wrappers.c under #ifdef CAM_MISSING_RAND
+- AF during video recording is disabled: 
+  http://chdk.setepontos.com/index.php?topic=8450.msg90563#msg90563
+- hook_raw_image_addr() & hook_alt_raw_image_addr() return the same value

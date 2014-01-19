@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/3259/trunk/platform/ixus90_sd790/sub/100c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/chdk/!svn/ver/1376/trunk/platform/ixus90_sd790/sub/100c/Makefile
+END
+capt_seq.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/chdk/!svn/ver/1376/trunk/platform/ixus90_sd790/sub/100c/capt_seq.c
+END
+bin_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/chdk/!svn/ver/3156/trunk/platform/ixus90_sd790/sub/100c/bin_compat.h
+END
+funcs_by_name.csv
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/chdk/!svn/ver/3250/trunk/platform/ixus90_sd790/sub/100c/funcs_by_name.csv
+END
+stubs_entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/chdk/!svn/ver/3254/trunk/platform/ixus90_sd790/sub/100c/stubs_entry.S
+END
+stubs_entry_2.S
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/chdk/!svn/ver/1641/trunk/platform/ixus90_sd790/sub/100c/stubs_entry_2.S
+END
+boot.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/chdk/!svn/ver/1376/trunk/platform/ixus90_sd790/sub/100c/boot.c
+END
+stubs_min.S
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/chdk/!svn/ver/1641/trunk/platform/ixus90_sd790/sub/100c/stubs_min.S
+END
+makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/chdk/!svn/ver/3259/trunk/platform/ixus90_sd790/sub/100c/makefile.inc
+END
+funcs_by_address.csv
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/chdk/!svn/ver/3250/trunk/platform/ixus90_sd790/sub/100c/funcs_by_address.csv
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/chdk/!svn/ver/1527/trunk/platform/ixus90_sd790/sub/100c/lib.c
+END
+movie_rec.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/chdk/!svn/ver/1376/trunk/platform/ixus90_sd790/sub/100c/movie_rec.c
+END
+stubs_auto.S
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/chdk/!svn/ver/1173/trunk/platform/ixus90_sd790/sub/100c/stubs_auto.S
+END

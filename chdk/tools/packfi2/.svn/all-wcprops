@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/3056/trunk/tools/packfi2
+END
+trees.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/trees.h
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/compress.c
+END
+adler32.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/adler32.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2453/trunk/tools/packfi2/Makefile
+END
+aes128.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/768/trunk/tools/packfi2/aes128.c
+END
+deflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/deflate.c
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/zlib.h
+END
+fi2enc.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3056/trunk/tools/packfi2/fi2enc.c
+END
+zutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/zutil.c
+END
+aes128.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/aes128.h
+END
+deflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/deflate.h
+END
+zutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/zutil.h
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/crc32.c
+END
+crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/crc32.h
+END
+trees.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/trees.c
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/zconf.h
+END

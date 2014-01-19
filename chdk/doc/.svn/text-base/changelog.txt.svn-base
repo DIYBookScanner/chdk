@@ -1,0 +1,35 @@
+Detailed change history is available from the trac page http://trac.assembla.com/chdk/timeline
+=1.2=
+Version 1.2 is in the release candidate phase. The following major features were implemented for 1.2.
+* intermittent Lua crashing bug fixed (finally. Also backported to 1.1)
+* Improved UI - discussion thread http://chdk.setepontos.com/index.php?topic=8151.0
+** menu items renamed and sometimes moved for clarity
+** input of numeric values simplified
+** the "Disable Overrides" menu item is now understandable
+** Tv override input value can be in Ev step,  seconds or HHMMSS format
+* Remote capture over USB
+* Improved DNG performance, now very close to framebuffer raw
+* Support raw operations on DNG
+* Improved memory usage by moving more code to modules
+* Fast integer based trigonometric functions for Lua
+* new editor for User Menu
+* scripts can be added to the User Menu
+* menu option to enable Lua native calls
+* menu option to disable keyboard shortcuts
+* improve console mode with menu options to extend the visibility time of console or review (scroll back) console output
+* loadable palette values allow a better range of colors in the UI  (not implemented on all cameras)
+* auto operation of internal / external flash enabled when other exposure values are in "M" mode
+* enhanced UI for script parameters :  @value allows use of named input values rather than just numeric
+* scripts can be set to always use the default parameter values in the code rather than stored parameters
+* ISO input for override, bracketing and auto-ISO now use approximately the same units as Canon UI ("market" ISO)
+* addition of an annoying "help" window that continuously pops up in <ALT> mode until you figure out how to disable it from the CHDK menu
+
+=1.1=
+Current stable, released July 25 2012. Major features added in this release include
+* Loadable binary modules
+* Re-write of USB remote code
+* "Live view" over the CHDK PTP Extension
+* Integration of chdkde features (actually got added to previous stable too)
+
+=1.0=
+Previous stable, no further changes. Released Feb 2012.

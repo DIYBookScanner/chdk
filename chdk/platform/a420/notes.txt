@@ -1,0 +1,57 @@
+****************************************
+
+Camera depending notes: 
+
+- A420 uses Propset 1 of Properties (see http://tinyurl.com/6zbv9b)
+- The A420 does not have an iris diaphragm, it has a smaller snap-in aperture (not an ND filter)
+  Seen this in a dismantled A430 optics, suspect the same in at least the A410 - A430 models.
+  The CHDK controls this the same as an ND-filter.
+
+
+Changelog
+
+Beta 2, 2011-08-22
+- modemap is now correct
+- movie mode is now supported (quality override, zoom, af-scan, exposure override works, filesize can grow over 1GB)
+  crashes, when af-scan is attempted during 640x480 movie recording (no such problem in 320x240, 160x120 mode)
+  A430 also exhibits this problem
+- aperture table corrected
+- movie time limit lifted to 1 hour / recording in 320x240 and 640x480 modes
+- USB remote should work
+
+Beta 1, 2011-06-25
+
+- based on A430, thanks to the authors of that port
+- the loader part almost identical (changed one led address in an inactive function)
+- USB completely untested, don't know if it works or not, A430 stuff without change
+
+- sensor data the same as in A430 (probably the same sensor in the two models)
+- RAW/DNG works, RAW is only recognized by DNG4PS2
+- RAW/DNG file numbers work as expected (using hack from A530)
+- extra long exposures work (tested with 80sec), shutter speed override works
+- flash adjustment seems to work
+- zebra works
+- grids work
+- histogram works
+- manual focusing works, but barely usable (small display resolution)
+
+As the mechanical shutter and the "ND-filter" (see above) is broken in my camera, can't test their functionality.
+
+Bugs
+- AF-scan causes crash during 640x480 movie recording, works fine otherwise
+
+
+Camera specific CHDK behaviour:
+
+- enabling both "video quality control" and "enable optical zoom" in the "video parameters" submenu is not recommended
+  pressing the up/down buttons would zoom AND change compression quality at the same time
+
+
+LED ADDRESSES
+
+AF_LED		0xC0220080
+BLUE_LED	0xC0220084
+RED_LED		0xC0220088
+GREEN_LED	0xC022008C
+ORANGE_LED	0xC0220090
+

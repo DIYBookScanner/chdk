@@ -1,0 +1,17 @@
+************************************
+A1400 Notes
+************************************
+Porting thread: http://chdk.setepontos.com/index.php?topic=11006.msg107645#msg107645
+
+To enter CHDK <ALT> mode use the Playback [>] button.
+
+Playback [>] or Help [?] button can be configured as <ALT> mode button.
+
+Known Bugs
+**********
+- Mute mic on zoom during video recording does not work.
+- Set quality video does not work
+
+For Developers
+**************
+-

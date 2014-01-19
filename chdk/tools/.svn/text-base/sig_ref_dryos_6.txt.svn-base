@@ -1,0 +1,11 @@
+0xff000000
+Fgets_Fut 0xFF026C6C 19
+GetDrive_TotalClusters 0xFF06ADEC 10
+GetDrive_FreeClusters 0xFF06AE14 8
+ReadFastDir 0xFF2DD404
+SetFileTimeStamp 0xFF027410
+_sqrt 0xFF3AED14
+OpenFastDir 0xFF2DD2B0
+qsort 0xFF359478 19
+time 0xFF084A48
+SetFileAttributes 0xFF027488 21

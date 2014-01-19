@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/2329/trunk/loader/ixus115_elph100hs
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/2329/trunk/loader/ixus115_elph100hs/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/2329/trunk/loader/ixus115_elph100hs/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/1977/trunk/loader/ixus115_elph100hs/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/2329/trunk/loader/ixus115_elph100hs/main.c
+END

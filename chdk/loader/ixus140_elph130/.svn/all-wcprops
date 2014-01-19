@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3066/trunk/loader/ixus140_elph130
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/3066/trunk/loader/ixus140_elph130/main.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/3066/trunk/loader/ixus140_elph130/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/3066/trunk/loader/ixus140_elph130/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/3066/trunk/loader/ixus140_elph130/entry.S
+END

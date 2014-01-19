@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/515/trunk/loader/g7/resetcode
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/515/trunk/loader/g7/resetcode/Makefile
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/515/trunk/loader/g7/resetcode/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/515/trunk/loader/g7/resetcode/main.c
+END

@@ -1,0 +1,44 @@
+************************************
+IXUS140 / ELPH130IS Notes 
+************************************
+To enter CHDK <ALT> mode use the [>] Play button.
+This may be changed to Video in the options
+
+This camera does not have an adjustable aperture. It does have an ND filter
+
+This is a beta port, use at your own risk!
+
+TESTED
+******
+shutter, iso and ND override (not comprehensively)
+llibtst.lua
+ubtest.bas
+ptp control, rec/play switching
+RAW/DNG capture
+zebra
+PTP live view, but note fisheye mode issue below
+led functions
+dark frame control - note overrides outside of long shutter mode do not appear to trigger auto dark frame
+usb remote hook - only tested with plug / unplug test
+current bitmap buffer
+fast live view buffer
+extra long exposures / exp_drv task
+remote capture / filewrite hook
+
+NOT IMPLEMENTED
+***************
+video functions / movie_rec task
+exmem support (note, camera has ~1.7 mb regular heap free on startup with CHDK)
+
+OTHER ISSUES
+************
+Folder naming and file counter use a new method, seem to be working but may have issues
+Not clear if fast press override hack is needed, needs more testing
+subject distance override is only available in AF lock
+If using set_aflock from script, you must use set the AF_LOCK propcase to 1
+
+KNOWN BUGS
+**********
+DNG color matrix is copy+paste from D10
+PTP Live view and functions like zebra, histogram do not work correctly in fisheye effect mode
+Zoom lever doesn't work when zoom has been set to something other than 0 with set_zoom. set_zoom(0) allows it to work again

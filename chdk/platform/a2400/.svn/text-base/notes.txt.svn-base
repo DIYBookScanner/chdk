@@ -1,0 +1,29 @@
+************************************
+A2400 Notes
+************************************
+Porting thread: http://chdk.setepontos.com/index.php?topic=9513.msg97387#msg97387
+
+To enter CHDK <ALT> mode use the Playback [>] button.
+Long Press of Playback button will execute original Canon functionality.
+
+Playback [>] or Help [?] button can be configured as <ALT> mode button.
+
+
+KNOWN BUGS
+**********
+- CHDK GUI sometimes flashes in shotting mode. 
+  Reported here:  http://chdk.setepontos.com/index.php?topic=9513.msg99675#msg99675
+
+Development notes:
+*****************
+- This is a blind port.
+- rand() and srand() are not part of original firmware. 
+  They were added to platform/generic/wrappers.c under #ifdef CAM_MISSING_RAND
+- Extended video time not implemented
+- AF during video recording is not implemented
+- hook_raw_image_addr() & hook_alt_raw_image_addr() return the same value
+- Tables in shooting.c not verified.
+- DNG calibration not done.
+- LED addresses not found. This version is using address from A4000=A2300
+- camera_set_led() was not tested.
+

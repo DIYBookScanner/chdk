@@ -1,0 +1,15 @@
+********************************
+
+02 - Installation
+
+To install CHDK on your Canon P&S camera,  you need to know the model number and firmware version of your cameras in order to get the right version of CHDK for your camera  Details on how to determine this can be found here :
+
+http://chdk.wikia.com/wiki/Downloads
+
+
+Once you have the correct CHDK installation file for your camera,  you need to prepare and load your camera's SD card with CHDK.  The best method for doing this depends on how you intend to use your camera and the date your particular carmera was released.  Details can be found here :
+
+http://chdk.wikia.com/wiki/Prepare_your_SD_card
+
+Once you have correctly loaded CHDK,  you can refer to the following section for instructions on how to use CHDK.
+

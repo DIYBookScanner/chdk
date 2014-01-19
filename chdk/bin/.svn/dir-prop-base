@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 36
+*.BIN
+*.FIR
+*.zip
+caminfo.txt
+*.FI2
+
+END

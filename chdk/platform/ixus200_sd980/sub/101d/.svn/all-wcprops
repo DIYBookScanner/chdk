@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/3259/trunk/platform/ixus200_sd980/sub/101d
+END
+filewrite.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/chdk/!svn/ver/3246/trunk/platform/ixus200_sd980/sub/101d/filewrite.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/chdk/!svn/ver/3246/trunk/platform/ixus200_sd980/sub/101d/Makefile
+END
+capt_seq.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/chdk/!svn/ver/1909/trunk/platform/ixus200_sd980/sub/101d/capt_seq.c
+END
+code_gen.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/chdk/!svn/ver/3246/trunk/platform/ixus200_sd980/sub/101d/code_gen.txt
+END
+stubs_entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/chdk/!svn/ver/3254/trunk/platform/ixus200_sd980/sub/101d/stubs_entry.S
+END
+boot.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/chdk/!svn/ver/3246/trunk/platform/ixus200_sd980/sub/101d/boot.c
+END
+makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/chdk/!svn/ver/3259/trunk/platform/ixus200_sd980/sub/101d/makefile.inc
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/chdk/!svn/ver/1909/trunk/platform/ixus200_sd980/sub/101d/lib.c
+END
+stubs_auto.S
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/chdk/!svn/ver/3246/trunk/platform/ixus200_sd980/sub/101d/stubs_auto.S
+END
+movie_rec.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/chdk/!svn/ver/1376/trunk/platform/ixus200_sd980/sub/101d/movie_rec.c
+END
+bin_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/chdk/!svn/ver/3156/trunk/platform/ixus200_sd980/sub/101d/bin_compat.h
+END
+funcs_by_name.csv
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/chdk/!svn/ver/3250/trunk/platform/ixus200_sd980/sub/101d/funcs_by_name.csv
+END
+stubs_entry_2.S
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/chdk/!svn/ver/1641/trunk/platform/ixus200_sd980/sub/101d/stubs_entry_2.S
+END
+stubs_min.S
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/chdk/!svn/ver/1909/trunk/platform/ixus200_sd980/sub/101d/stubs_min.S
+END
+funcs_by_address.csv
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/chdk/!svn/ver/3250/trunk/platform/ixus200_sd980/sub/101d/funcs_by_address.csv
+END

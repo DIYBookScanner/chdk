@@ -1,0 +1,42 @@
+Powershot D10
+Port for Canon firmware 100a also works on 100b 
+
+Camera information
+
+Digic IV
+propset 2
+No iris, only ND filter
+
+Not implemented/Not Working
+- DNG extension over USB: won't be implemented 
+
+Working/completed
+- bracketing in continuous mode
+- histogram
+- multi partition support
+- motion detection. Fast MD implemented
+- DNG matrix (DavidB)
+- OSD size/aspect (DavidB,reyalP)
+- zebra
+- dark frame subtraction control
+- video quality override
+- video optical zoom unlock
+- USB remote support
+- bracketing in custom timer mode
+- CHDK ptp extension
+- extra long exposures
+- SD override in MF and AF mode.
+- remote capture over USB
+
+Scripts tested successfully
+- llibtst.lua 
+- setmode.lua batch mode, including play/rec change
+- tstcallf.lua
+- romlog.lua
+- badpixel.lua
+- mdfb digic 3
+- remote.bas
+
+Known issues:
+- DNG has dark borders. This is intentional, the active area covers all pixels that have any data, but there are large areas which have data but are distinct from the normal jpeg area.
+- Camera will crash if SD override is used while servo AF is enabled.

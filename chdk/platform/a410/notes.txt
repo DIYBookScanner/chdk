@@ -1,0 +1,81 @@
+****************************************
+
+Camera depending notes: 
+
+- A410 uses Propset 1 of Properties (see http://tinyurl.com/6zbv9b)
+- The A410 does not have an iris diaphragm, it has a smaller snap-in aperture (not an ND filter)
+  Seen this in a dismantled A430 optics, suspect the same in at least the A410 - A430 models.
+  The CHDK controls this the same as an ND-filter.
+
+Changelog
+
+Beta 5, 2011-08-07
+- manual focus / subject distance override is now possible (disabled an assert that caused the shutdown)
+  note: this does not include af-scan in video (which would be too much work to fix)
+- movie time limit increase was tested, it's no longer "experimental"
+
+Beta 4, 2011-07-28
+- experimental change: movie time limit increased to 60 minutes / recording in 320x240, 640x480 modes
+  tested in both modes, resulting files show no sign of corruption
+
+Beta 3, 2011-07-11
+- modemap is now correct
+- USB remote should work
+
+Beta 2, 2011-07-06
+- optical data corrected, aperture display is now correct
+
+Beta 1, 2011-07-03
+
+- based on A430/A610/A530/..., thanks to the authors of those ports
+- USB completely untested, don't know if it works or not, A430 stuff without change
+- optics stuff based on A450
+  3.2x zoom (41-131mm eqv.), 5.4-17.3mm, F2.8-5.1 1/3.2" CCD (-> A410, A420, A450 might use very similar optical units)
+- probably incorrect color profile for this CCD
+- "circle of confusion" may be incorrect for this sensor
+
+- RAW/DNG works, RAW not recognized by popular software (DNG4PS2 can handle it when configured by hand)
+- RAW/DNG file numbers should work (not tested extensively)
+- extra long exposures are enabled, shutter speed override works (even with display off)
+- flash adjustment seems to work
+- zebra works
+- grids should work, but not tested yet
+- histogram works
+- "ND filter" (see above) control works, DOF-change confirmed
+- no manual focusing or subject distance override possible
+
+- movie mode works, 1G filesize limit removed (impossible to reach, because of the 180 sec time limit)
+- no AF scan possible during movie recording, so it is disabled (would crash the camera)
+- movie exposure override sometimes works, sometimes not
+- video compression override works
+- optical zoom works during movie recording
+
+
+Bugs:
+
+x [fixed] Aperture (F) display (while half-shooting) often missing, displays "?" (when draw exposition is active)
+- camera functions got frozen (no shutdown!) once while experimenting with overrides/chdk controls... can't reproduce
+There might be other bugs, use it with caution.
+
+Camera specific CHDK behaviour:
+
+- enabling both "video quality control" and "enable optical zoom" in the "video parameters" submenu is not recommended
+  pressing the up/down buttons would zoom AND change compression quality at the same time
+
+RAW:
+
+10bit, full dimensions: 2144x1560
+
+#define CAM_ACTIVE_AREA_X1              2
+#define CAM_ACTIVE_AREA_Y1              6
+#define CAM_ACTIVE_AREA_X2              2090
+#define CAM_ACTIVE_AREA_Y2              1558
+
+
+LED ADDRESSES (not all confirmed yet)
+
+AF_LED		0xC0220080
+BLUE_LED	0xC0220084
+RED_LED		0xC0220088
+GREEN_LED	0xC022008C
+ORANGE_LED	0xC0220090

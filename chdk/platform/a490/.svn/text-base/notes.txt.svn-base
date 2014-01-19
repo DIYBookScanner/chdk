@@ -1,0 +1,9 @@
+- playback (>) key switch to ALT mode and back. Press longer for switching between Play/Shoot mode
+- Map KEY_PRINT to KEY_PLAYBACK when running script and change back when script isn't running
+
+TODO:
+
+- probably many things that I couldn't test
+
+Know bugs:
+- remote shoot via chdkptp (rs -jpg | -dng) fails after a variable number of shoots.

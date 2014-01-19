@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/804/trunk/loader/sx200is/resetcode
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/804/trunk/loader/sx200is/resetcode/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/804/trunk/loader/sx200is/resetcode/main.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/804/trunk/loader/sx200is/resetcode/Makefile
+END

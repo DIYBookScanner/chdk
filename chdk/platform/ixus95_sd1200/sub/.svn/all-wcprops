@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/3259/trunk/platform/ixus95_sd1200/sub
+END
+boot_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/chdk/!svn/ver/3251/trunk/platform/ixus95_sd1200/sub/boot_hdr.c
+END
+movie_rec_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/chdk/!svn/ver/3251/trunk/platform/ixus95_sd1200/sub/movie_rec_hdr.c
+END
+FAT32_detect.S
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/chdk/!svn/ver/3251/trunk/platform/ixus95_sd1200/sub/FAT32_detect.S
+END
+filewrite_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/chdk/!svn/ver/3251/trunk/platform/ixus95_sd1200/sub/filewrite_hdr.c
+END
+capt_seq_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/chdk/!svn/ver/3251/trunk/platform/ixus95_sd1200/sub/capt_seq_hdr.c
+END

@@ -1,0 +1,17 @@
+************************************
+IXUS 105 / SD 1300IS Notes
+************************************
+*** General info:
+Digic IV, dryos r43
+
+Porting thread: http://chdk.setepontos.com/index.php?topic=5720.0
+
+To enter CHDK <ALT> mode use the Playback [>] button.
+
+KNOWN BUGS
+**********
+
+For Developers
+**************
+- Live view functions not tested
+

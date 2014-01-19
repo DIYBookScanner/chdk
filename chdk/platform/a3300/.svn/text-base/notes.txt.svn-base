@@ -1,0 +1,34 @@
+Canon A3300is
+
+Just to Note: I am not a programmer, I have never touched coding before this port, I wanted this port for my daughter so I gave it a shot and am pleased with the progress.
+
+I have never used CHDK before, but from what I can tell, everything in the menus seem to work.
+
+One thing I notice is with the aperture, when you override it, it does effect the exposure of the image and it shows the value in stats display, but only at F2.8 will it actually show F2.8 on the canon OSD. But it is working it seems and does change the exposure on every setting. Any override at wide zoom other then F2.8 will show F8.0 on Canons OSD.
+
+Shutter seems fine except when you go past 15", the cam can take 64sec expsosures when overridden so it is working fine, but canon only shows 15"
+
+-------------------------------------------------------------------------
+To enter CHDK <Alt> mode use the Playback [>] button.
+Playback [>], Face or Display button can be configured as <ALT> mode button.
+
+
+-----------------------------------------------------------------------
+Shortcut Keys
+ In Alt mode
+:
+Press Display to toggle Zoom focusing if Stats are turn on in OSD menu
+Press + or - to change Factor
+Use zoom lever to focus.
+------------------------------------------------------------
+For now colors to get Red logo are set for Shooting mode, Play mode will be orange.
+Go into visual settings to adjust and menu colors the way you want.
+
+Also I had to add a new Pallette==14 to /core/gui_draw.h  to get
+red splash screen in shoot mode.
+------------------------------------------------------------------------------------ 
+
+I also needed to add to /include/modelist.h to get Mode_Live and Mode_Discreet for my cam.
+--------------------------------------------------------------------------------------
+Have not tested USB shutter control yet.
+-------------------------------------------------------------------------------------------------------

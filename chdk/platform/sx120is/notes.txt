@@ -1,0 +1,25 @@
+****************************************
+
+Camera depending notes: 
+
+- DryOS Camera
+- BETA test
+- ALT button -> FACE key
+- LEDs: 0=green, 1=orange, 9,10,11=AF
+
+ok:
+- overrides
+- bracketing
+- autoISO
+- RAW and DNG support
+- dark frame subtraction
+- video support (fast vido control is not supported)
+- USB remote controle
+- edgeoverlay
+- grids
+- games
+- scripts, lua io & os lib also ok
+
+TODO:
+- ps.fi2 don't work, commented out for the moment
+- saving RAW in the correct folder

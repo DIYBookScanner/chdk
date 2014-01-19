@@ -1,0 +1,33 @@
+#################################################################
+#location;latitude xxx.x°=xxxx;longitude xxx.x°=xxxx;+/-TZ (min)#
+#################################################################
+London;513;0;0
+Berlin;525;135;60
+Wien;482;163;60
+Prague;500;144;60
+Warsaw;522;210;60
+Maribor;465;156;60
+Zagreb;458;159;60
+Bern;469;74;60
+Paris;488;23;60
+Luxemburg;498;61;60
+Brussels;508;43;60
+Amsterdam;523;48;60
+Copenhagen;556;125;60
+Rome;419;124;60
+Madrid;404;-37;60
+Oslo;599;107;60
+Stockholm;593;180;60
+Helsinki;601;249;120
+Moscow;554;374;240
+Las Palmas;281;-154;0
+Johannesburg;-261;280;120
+New Delhi;284;771;330
+Beijing;395;1162;480
+Rio de Janeiro;-229;-432;-180
+Sydney;-338;1512;600
+Wellington;-411;1745;720
+New York;407;-740;-300
+Los Angeles;340;-1181;-480
+Tokyo;356;1396;540
+Singapur;13;1038;420

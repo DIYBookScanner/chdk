@@ -1,0 +1,341 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/chdk/!svn/ver/3303/trunk/core
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdk/!svn/ver/515/trunk/core/entry.S
+END
+autoiso.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3242/trunk/core/autoiso.c
+END
+gui.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdk/!svn/ver/3302/trunk/core/gui.c
+END
+conf.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdk/!svn/ver/3247/trunk/core/conf.c
+END
+autoiso.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/2959/trunk/core/autoiso.h
+END
+live_view.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2483/trunk/core/live_view.c
+END
+raw.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdk/!svn/ver/3301/trunk/core/raw.c
+END
+gui_lang.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3140/trunk/core/gui_lang.h
+END
+suba.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdk/!svn/ver/3253/trunk/core/suba.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/3230/trunk/core/Makefile
+END
+levent.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/2453/trunk/core/levent.c
+END
+kbd_process.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3281/trunk/core/kbd_process.c
+END
+live_view.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2483/trunk/core/live_view.h
+END
+raw.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdk/!svn/ver/2941/trunk/core/raw.h
+END
+gui_batt.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3232/trunk/core/gui_batt.c
+END
+console.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/2978/trunk/core/console.c
+END
+camera_info.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3160/trunk/core/camera_info.c
+END
+gui_batt.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3232/trunk/core/gui_batt.h
+END
+gui_user_menu.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/3032/trunk/core/gui_user_menu.c
+END
+usb_input.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2677/trunk/core/usb_input.c
+END
+gui_script.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/3247/trunk/core/gui_script.c
+END
+gui_mbox.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2697/trunk/core/gui_mbox.c
+END
+gui_user_menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/3032/trunk/core/gui_user_menu.h
+END
+gps_palette.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2145/trunk/core/gps_palette.h
+END
+gui_mbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2697/trunk/core/gui_mbox.h
+END
+remotecap.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/3232/trunk/core/remotecap.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdk/!svn/ver/3248/trunk/core/main.c
+END
+usb_sync.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3302/trunk/core/usb_sync.c
+END
+gui_osd.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3263/trunk/core/gui_osd.c
+END
+gps.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdk/!svn/ver/3232/trunk/core/gps.c
+END
+shooting.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3303/trunk/core/shooting.c
+END
+shot_histogram.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2453/trunk/core/shot_histogram.c
+END
+gui_usb.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3232/trunk/core/gui_usb.c
+END
+gui_osd.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3241/trunk/core/gui_osd.h
+END
+usb_module.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2492/trunk/core/usb_module.c
+END
+gps.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdk/!svn/ver/2507/trunk/core/gps.h
+END
+gui_space.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/3232/trunk/core/gui_space.c
+END
+gui_draw.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3232/trunk/core/gui_draw.c
+END
+ptp_chdk.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2516/trunk/core/ptp_chdk.h
+END
+action_stack.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3232/trunk/core/action_stack.c
+END
+gps_math.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2453/trunk/core/gps_math.c
+END
+gui_usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3232/trunk/core/gui_usb.h
+END
+memmgmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3253/trunk/core/memmgmt.c
+END
+ptp.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdk/!svn/ver/3281/trunk/core/ptp.c
+END
+script.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/3266/trunk/core/script.c
+END
+usb_remote.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/3302/trunk/core/usb_remote.c
+END
+gui_space.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/3232/trunk/core/gui_space.h
+END
+gui_draw.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3205/trunk/core/gui_draw.h
+END
+action_stack.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2530/trunk/core/action_stack.h
+END
+gps_math.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2453/trunk/core/gps_math.h
+END
+gui_menu.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3232/trunk/core/gui_menu.c
+END
+modules.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3301/trunk/core/modules.c
+END
+ptp.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdk/!svn/ver/3268/trunk/core/ptp.h
+END
+usb_remote.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2473/trunk/core/usb_remote.h
+END
+gui_menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2799/trunk/core/gui_menu.h
+END
+modules.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3241/trunk/core/modules.h
+END

@@ -1,0 +1,18 @@
+************************************
+D20 Notes 
+************************************
+
+To enter CHDK <Alt> mode use the Playback [>] button.
+
+Playback [>] or Video(REC) [o] button can be configured as <ALT> mode button.
+
+Known bugs
+*****************
+-
+
+Development notes
+*****************
+- This is a blind port
+- Modemap entry 32776 (MODE_HIGHSPEED_BURST) is not documented in D20 manual but works
+- vid_get_viewport_* functions have not been verified.
+- aperture_table is not complete: http://chdk.setepontos.com/index.php?topic=9722.msg100580#msg100580

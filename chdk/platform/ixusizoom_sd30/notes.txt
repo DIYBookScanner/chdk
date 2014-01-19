@@ -1,0 +1,5 @@
+****************************************
+
+Camera depending notes: 
+- ISO real / market conversion not know, so override values may not match
+  Canon UI values. Please post on the forum if you can test

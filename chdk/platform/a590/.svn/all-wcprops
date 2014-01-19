@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/3259/trunk/platform/a590
+END
+wrappers.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/977/trunk/platform/a590/wrappers.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2986/trunk/platform/a590/main.c
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/585/trunk/platform/a590/notes.txt
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/1921/trunk/platform/a590/lib.c
+END
+shooting.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/1632/trunk/platform/a590/shooting.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2731/trunk/platform/a590/Makefile
+END
+kbd.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2603/trunk/platform/a590/kbd.c
+END
+platform_camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/2996/trunk/platform/a590/platform_camera.h
+END

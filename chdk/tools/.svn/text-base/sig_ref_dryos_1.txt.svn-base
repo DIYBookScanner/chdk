@@ -1,0 +1,32 @@
+0xffc00000
+CreateJumptable 0xFFDAB7D4
+kbd_pwr_on 0xFFC37068
+kbd_pwr_off 0xFFC370C0
+GetParameterData 0xFFD1C5B8
+SetParameterData 0xFFD1C528
+GetDrive_ClusterSize 0xFFC3F4C4 13 0xFFC41890 -4
+GetDrive_TotalClusters 0xFFC3F4F8 13 0xFFC418A0 -5
+GetDrive_FreeClusters 0xFFC3F564 13 0xFFC418B4 -4
+_sqrt 0xFFE3DC44
+stat 0xFFC15238
+OpenFastDir 0xFFDC1B04
+ReadFastDir 0xFFDC1B98
+closedir 0xFFDC1C68 10
+qsort 0xFFD62A14 13
+strncpy 0xFFC0E84C 15
+strrchr 0xFFC71BCC 10
+strncmp 0xFFC71B5C 19
+strchr 0xFFC71BA8 9
+strcat 0xFFC71B20 15
+Fgets_Fut 0xFFC14B64 19
+Feof_Fut 0xFFC14BFC 14
+Fflush_Fut 0xFFC14C38 17
+strftime 0xFFC71E68
+mktime_ext 0xFFC72460 16
+DeleteFile_Fut 0xFFC14894
+RenameFile_Fut 0xFFC14840 17
+SetFileTimeStamp 0xFFC15308 20
+SetLogicalEventActive 0xFFC5BCD0 20
+GetFocusLensSubjectDistanceFromLens 0xFFCFDE48 22
+set_control_event 0xFFC5BAA4 20
+SetFileAttributes 0xFFC15358

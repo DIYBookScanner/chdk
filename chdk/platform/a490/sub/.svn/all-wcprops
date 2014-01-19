@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/3259/trunk/platform/a490/sub
+END
+movie_rec_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/2979/trunk/platform/a490/sub/movie_rec_hdr.c
+END
+FAT32_detect.S
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/2979/trunk/platform/a490/sub/FAT32_detect.S
+END
+filewrite_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/2979/trunk/platform/a490/sub/filewrite_hdr.c
+END
+capt_seq_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/2979/trunk/platform/a490/sub/capt_seq_hdr.c
+END
+boot_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/2979/trunk/platform/a490/sub/boot_hdr.c
+END

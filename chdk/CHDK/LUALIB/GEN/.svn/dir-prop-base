@@ -1,0 +1,16 @@
+K 10
+svn:ignore
+V 141
+modelist.lua
+propset1.lua
+propset2.lua
+propset3.lua
+cnf_core.lua
+cnf_gps.lua
+cnf_osd.lua
+cnf_user.lua
+propset4.lua
+propset5.lua
+propset6.lua
+
+END

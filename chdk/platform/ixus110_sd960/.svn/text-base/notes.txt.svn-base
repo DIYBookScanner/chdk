@@ -1,0 +1,15 @@
+Camera has no adjustable aperture, only an ND filter.
+- As a wide screen model, it has some issues: 
+    Operation with TV out is not supported (right side of CHDK OSD is clipped, zebra, histogram wrong)
+
+- zebra & histogram, liveview over ptp can be wrong in stitch mode (untested)
+
+- On/Off button acts as the "shortcut button" when in ALT mode, exit ALT to switch the cam off!
+
+- ALT button is the Play [>] button (short press), long press = original function
+
+- exmem allocation is forced due to insufficient amount of free RAM
+
+Other notes
+- Some overrides (Tv?) may be ignored for the first shot after a play -> rec mode transition.
+- The camera may engage the ND filter in bright light, but take the picture without it (not CHDK related).

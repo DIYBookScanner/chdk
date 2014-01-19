@@ -1,0 +1,729 @@
+// CHDK language file:Croatian codepage(win1250) Translated by blackhole@net.hr
+// Format of language line:
+// <id> "<text>"
+//   <id>   - should be positive number
+//   <text> - any text enclosed into quotes
+  
+  1 "Glavni Izbornik"
+
+  2 "RAW parametri"
+  3 "OSD parametri"
+  4 "Histogram parametri"
+  5 "Zebra parametri"
+  6 "Parametri skripti"
+  7 "Boje"
+  8 "Razno"
+  9 "Debug parametri"
+ 10 "Povrat na poèetne postavke"
+ 11 "Spremi postavke"
+ 
+ 12 "Nazad"
+ 
+ 
+ 13 "RAW"
+ 
+ 14 "Spremi RAW"
+ 16 "Samo prvi RAW u seriji"
+ 17 "RAW datoteka u mapu sa JPEG"
+ 18 "Prefiks RAW datoteke"
+ 19 "Nastavak RAW datoteke"
+ 
+ 
+ 20 "OSD"
+ 
+ 21 "Prikaži OSD" 
+ 22 "Prikaži informacije RAW/EXP"
+ 23 "Prikaži razne vrijed."
+ 24 "Prikaz poveèanja"
+ 25 "Prikaži DOF kalkulator"
+ 26 "Prikaži sat"
+ 27 "Pozicioniranje OSD"
+ 28 "Baterija"
+ 
+ 
+ 29 "Histogram"
+ 
+ 30 "Prikaži histogram"
+ 31 "Izgled histograma"
+ 32 "Histogram (lin/log)"
+ 33 "Prikaži histogram Nad/Pod Exp"
+ 34 "Zanemari krajnje vrijednosti"
+ 35 "Automatsko poveèanje"
+ 
+ 
+ 36 "Zebra" 
+ 
+ 37 "Nacrtaj zebru-preeksponirano"
+ 38 "Vrsta zebre"
+ 39 "Prag podeksponiranosti"
+ 40 "Prag preeksponiranosti"
+ 41 "Obnovi originalni ekran"
+ 42 "Obnovi OSD" 
+ 43 "Crtaj preko zebre"
+ 
+ 
+ 44 "Skripta-automatizacija aparata"
+ 
+ 45 "Uèitaj skriptu iz datoteke"
+ 46 "Odgoda poèetka skripte.1s"
+ 47 "Trenutna skripta"
+ 48 "Parametri skripte"
+ 
+ 
+ 49 "Boje"
+ 
+ 50 "Jezik..."
+ 51 "Stranica kodova"
+ 52 "Izbornik RBF fonta..."
+ 53 "Boje"
+ 54 "OSD-tekst"
+ 55 "OSD-pozadina"
+ 56 "Histogram"
+ 57 "Histogram-pozadina"
+ 58 "Histogram-rub"
+ 59 "Histogram-EXP oznake"
+ 60 "Zebra-podekspozicija"
+ 61 "Zebra-nadekspozicija" 
+ 62 "Ikona baterije"
+ 63 "Izbornik-tekst"
+ 64 "Izbornik-pozadina"
+ 65 "Preglednik teksta-tekst"
+ 66 "Preglednik teksta-pozadina"
+ 
+ 
+ 67 "Razno"
+ 
+ 68 "Preglednik datoteka"
+ 69 "Kalendar"
+ 70 "Preglednik tekstualnih datoteka"
+ 71 "Igre" 
+ 72 "Bljeskalica"
+ 73 "Prikaži logo kod uèitavanja"
+ 74 "Koristi Zoom tipku za MF"
+ 75 "<ALT> Mode tipka"
+ 76 "Nacrtaj paletu boja"
+ 77 "Prikaži podatke o verziji"
+ 78 "Prikaži podatke o RAM memoriji"
+ 
+ 
+ 79 "Debug"
+ 
+ 80 "Debug data display"
+ 81 "PropCase stranica"
+ 82 "Prikaži razne vrijednosti"
+ 83 "Preglednik memorije"
+ 84 "ALT +/- debug action"
+ 85 "Make Card Bootable..."
+ 
+ 
+ 86 "Prikaz informacija o bateriji"
+ 
+ 87 "Baterija MAX napon (mV)"
+ 88 "Baterija MIN napon (mV)"
+ 90 "Prikaži postotak baterije"
+ 91 "Prikaži napon baterije"
+ 92 "Prikaži ikonu baterije"
+ 
+ 
+ 93 "Preglednik teksta"
+ 
+ 94 "Otvori novu datoteku..."
+ 95 "Otvori zadnju korištenu datoteku"
+ 96 "Odaberi RBF font"
+ 97 "Stranica kodova"
+ 98 "Prijelom po rijeèima"
+ 99 "Omoguæi automatsko pomicanje"
+100 "Kašnjenje auto.pomicanja (sec)"
+
+
+101 "Igre"
+
+102 "Reversi"
+103 "Sokoban"
+
+
+104 "*** Resetiranje opcija ***"
+105 "Želite li resetirati\nsve opcije?"
+
+106 "*** Build Info ***"
+107 "CHDK Ver: %s %s\nRevizija: %s\nDatum:    %s\nVrijeme:    %s\nAparat:  %s\nFW Vers: %s\nKompajler: %s"
+
+108 "*** Podaci o memoriji ***"
+109 "Slobodna memorija: %d bytes\nCHDK zauzeæe:   %d bytes\nuèitano: 0x%X"
+
+110 "*** Informacije ***"
+111 "Prebacite aparat\nu PLAY Mode\ni probajte ponovo. :)"
+
+// file browser titles
+112 "Preglednik datoteka"
+113 "Odaberite datoteku skripte"
+114 "Odaberite tekstualnu datoteku"
+115 "Odaberite RBF-Font datoteku"
+116 "Odaberite datoteku jezika"
+
+// for calendar
+117 "Sijeèanj"
+118 "Veljaèa"
+119 "Ožujak"
+120 "Travanj"
+121 "Svibanj"
+122 "Lipanj"
+123 "Srpanj"
+124 "Kolovoz"
+125 "Rujan"
+126 "Listopad"
+127 "Studeni"
+128 "Prosinac"
+
+129 "Pon"
+130 "Uto"
+131 "Sri"
+132 "Èet"
+133 "Pet"
+134 "Sub"
+135 "Ned"
+
+136 "Danas:"
+
+// messagebox buttons
+137 "Ok"
+138 "Da"
+139 "Ne"
+140 "Odustani"
+
+// OSD layout editor
+141 "Histogram"
+142 "DOF kalkulator"
+143 "RAW/SCR/EXP"
+144 "Razne vrijednosti"
+145 "Baterija-ikona"
+146 "Baterija-tekst"
+147 "Sat"
+
+// palette
+148 "Pritisni SET za pojedinaène boje"
+149 "      Pritisni MENU za izlaz       "
+150 "Boja"
+151 "Koristi %s za izbor boje"
+
+// reversi
+152 "*** Rezultati ***"
+153 "Pobjedio si :)"
+154 "Izgubio si! :("
+155 "Crtaj! :/"
+
+156 "*** Pogrešan korak ***"
+157 "Nemožeš tu!"
+158 "Mjesto nije prazno!"
+
+159 "Potez: Vi     "
+160 "Potez: Kompjuter"
+161 "  KRAJ  IGRE  "
+162 " Bijeli  Crni "
+
+163 "*** About ***"
+
+// sokoban
+164 "  Nivo"
+165 "  Poteza"
+166 "*** Završeno ***"
+167 "DA!\n  Uspjeli ste!  "
+
+// console
+168 "*** POKRENUTO ***"
+169 "*** PREKINUTO ***"
+170 "*** ZAVRŠENO ***"
+
+// file browser
+171 "*** Briši direktorij ***"
+172 "Želite li obrisati\nSVE datoteke\nu direktoriju?"
+173 "*** Obriši datoteku ***"
+174 "Želite li obrisati\nodabranu datoteku?"
+
+// benchmark
+175 "Testiranje aparata"
+176 "Mjerenje..."
+177 "Testiranje aparata  pritisni [SET] za start"
+178 "Ekran"
+179 "Pisanje       :"
+180 "Èitanje       :"
+181 "Memorija"
+182 "Kartica"
+183 "Pisanje (RAW) :"
+184 "Pisanje (Mem) :"
+185 "Pisanje (64k) :"
+186 "Èitanje (64k) :"
+
+187 "Onemoguæi isklj.LCD-a"
+
+188 "Izreži"
+189 "Kopiraj"
+190 "Spoji"
+191 "Obriši"
+192 "Odaberi inverzno"
+193 "*** Sijeci datoteku ***"
+194 "Želite li isjeæi\n%d biranu datoteku\nIz %s/?"
+195 "*** Kopiraj datoteku ***"
+196 "Želite li kopirati\n%d biranu datoteku\nIz %s/?"
+197 "*** Obriši datoteku ***"
+198 "Želite li obrisati\n%d biranu datoteku?"
+199 "Saèekajte..."
+
+200 "Prikaži mrežu linija"
+201 "Uèitaj mrežu iz datoteke..."
+202 "Mreža linija"
+203 "Mreža"
+204 "Odaberi datoteku mreže"
+205 "Trenutna mreža"
+
+206 "Redukcija šuma-NR"
+
+207 "Izmijeni boju mreže"
+208 "Boja linija"
+209 "Boja polja"
+
+210 "DOF kalkulator"
+211 "DOF kalkulator"
+212 "Canon Subj.Dist.as Near Limit" 
+213 "Koristi EXIF Subj.Dist.(PC65)"
+214 "Prikaži Subj.Dist. u Razno."
+215 "Prikaži Near Limit U Razno."
+216 "Prikaži Far Limit U Razno."
+217 "Prikaži Hyperfocal Dist.U Razno."
+218 "Prikaži DOF U Razno."
+
+
+219 "Razne vrijednosti"
+220 "Razne vrijednosti"
+221 "Prikaži kod pregledavanja"	
+222 "Prikaži Zoom"
+223 "Prikaži 'Stvarnu' aperturu"
+224 "Prikaži 'Stvarni' ISO"
+225 "Prikaži 'Market' ISO"
+226 "Prikaži ISO samo u AutoISO Modu"
+227 "Prikaži odab.eksp. Ev(Tv+Av)"
+228 "Prikaži izmjerenu Ev (Bv+Sv)"
+229 "Prikaži odabranu Bv"
+230 "Prikaži izmjerenu Bv"
+231 "Prikaži preeksp.vrijednost (No Flash!)"
+232 "Prikaži osvijetljenost"
+
+233 "Video parametri"
+234 "Video parametri"
+235 "Video Mode"
+236 "Video bitrate"
+237 "Video quality"
+
+
+238 "Dodatne foto operacije"
+239 "Dodatne foto operacije"
+240 "EV korak"
+241 "Dugaèka ekspozicija"
+242 "Apertura AV"
+243 "ISO osjetljivost"
+244 "Kratka ekspozicija"
+245 "Udaljenost"
+246 "    Koeficijent (mm)"
+
+247 "Stupnjevanje u seriji"
+248 "Stupnjevanje u seriji"
+249 "TV stupnjevanje"
+250 "AV stupnjevanje"
+251 "ISO stupnjevanje"
+252 "    Koeficijent"
+253 "Stupnj.udaljenosti(MF)"
+254 "    Koeficijent (mm)"
+255 "Vrsta stupnjevanja"
+
+256 "Autostart"
+257 "Omoguæi daljinsku kontr.USB"
+
+258 "Omoguæavanje Lua 'Native Calls'\nmože trajno oštetiti vašu kameru!\nAko niste sigurni\nne radite to!\n\nŽelite li omoguæiti 'Native Calls'?"
+259 "Omoguæi Lua 'Native Calls'"
+//260 "Rekalk.ekspozicije"
+//261 "TV rekalk.ekspozicije"
+//262 "AV rekalk.ekspozicije"
+//263 "ISO rekalk.ekspozicije"
+
+264 "Obriši prekrivanja na startu"
+
+265 "Prikaži Canon preexp.vrijed."
+
+266 "RAW reprodukcija"
+267 "Prebacite kameru\nu REC.mod i napravite\njednu sliku."
+268 "Odaberi RAW datoteku"
+269 "RAW zbroj"
+270 "RAW prosjek"
+271 "Nedovoljno memorije:\n%dM potrebno, %dM dostupno."
+
+272 "Prikaži OSD kod pregledavanja"
+273 "Popis zadataka-Start"
+
+274 "Udaljenost objekta od leæe"
+
+275 "Obriši stupnjevanje na startu"
+
+276 "Napravi karticu sa dvije particije"
+277 "Izmijeni particije"
+278 "Obrisaæe podatke\nna kartici. Nastaviti?"
+279 "Kartica sa jednom particijom."
+280 "Greška"
+281 "Upozorenje"
+282 "Obavijest"
+283 "RGB Zebra (samo nadexp.)"
+
+284 "Stanje ND filtera"
+
+285 "Prikaži Histo Ev mrežu"
+
+286 "OSD-upozorenje"
+287 "OSD-pozadina upozorenja"
+288 "Boja ikone"
+289 "Ikona slobodne SD-memorije"
+290 "Slobodna memorija"
+291 "Prikaži SD memoriju u %"
+292 "Prikaži SD memoriju u MB"
+293 "SD memorija-tekst"
+294 "Prikaži RAW preostale slike"
+295 "Preostali RAW"
+
+296 "Prikaži RAW stanje"
+
+297 "Prikaži vrijednosti videa"
+
+298 "Tip zatvaraèa"
+299 "Omoguæi korisnièki izbornik"
+300 "Korisnièki izbornik"
+301 "Uredi korisnièki izbornik"
+
+302 "Skala adapt.leæe,100=1x"
+303 "Prikaži SD-memoriju"
+304 "Velièina na ekranu"
+305 "Širina/Visina"
+306 "Postotak praga"
+307 "Prag MB"
+308 "Jedinica upozorenja"
+309 "Prag upozorenja"
+310 "Omoguæi optièki Zoom"
+311 "Sat"
+312 "Postavke sata"
+313 "Format sata"
+314 "Boja preostale memorije"
+315 "12h indikator sata"
+316 "Polustisnuti okidaè"
+
+317 "Prikaži RAW postavke"
+318 "Raw"
+
+319 "Postavke slobodne SD-memorije"
+320 "Slobodna SD-memorija"
+
+321 "Korisnièki Auto ISO"
+322 "Korisnièki Auto ISO"
+323 "Omoguæi korisnièki Auto ISO"
+324 "Min. brzina zatvaraèa"
+325 "Korisnièki koef.(1/FL/factor)"
+326 "IS koef. (Tv*factor)"
+327 "Max ISO HI "
+328 "Max ISO AUTO "
+329 "Min ISO "
+
+330 "Boja naslova u izborniku"
+331 "Boja pozadine u izborniku"
+332 "Boja tekst kursora"
+333 "Boja pozadine kursora"
+334 "Centriranje izbornika"
+335 "Bez zvuka tokom zumiranja"
+
+336 "Brisanje mrtvih piksela"
+337 "Iskljuèeno"
+338 "Prosjek."
+339 "RAWconv"
+
+340 "Prekrivanje"
+341 "Pozadina prekrivanja"
+342 "Onemoguæi prekrivanje"
+343 "Ukljuèujuæi AutoIso & Stup.?"
+344 "Sakrij OSD u ?"
+345 "Onemoguæi @ Video Rec"
+346 "Preostalo vrijeme videa"
+347 "Refreshrate (~sec)"
+348 "Preostalo vrijeme videa"
+349 "Obriši videoparam. na startu"
+350 "Omoguæi brzi EV"
+//351 "   Korak (1 EV)"
+352 "EV korekcija"
+353 "Obriši sve\nRAW dat. bez odgovarajuæih JPG\nu DCIM mapi?"
+354 "Obriši sve\nRAW dat. bez odgovarajuæih JPG\nu odabranoj mapi?"
+355 "Obriši sve RAW dat.\nBez odgovarajuæih JPG?\n(Osim Oznaèenih)"
+356 "Obriši RAW \nNe primjenjuj na ovaj podložak"
+357 "*** Obriši RAW datoteke ***"
+358 "Obriši RAW"
+
+359 "Korisnièki izbornik Root"
+
+360 "Simbol fonta"
+361 "Odaberi datoteku simbola"
+362 "Omoguæi  simbole"
+363 "Simbol-boja teksta" 
+364 "Simbol-boja pozadine"
+
+365 "Korisnièke tonalne krivulje"
+366 "Korisnièke tonalne krivulje"
+367 "Uèitaj profil tonalnih krivulja..."
+368 "Omoguæi tonalne krivulje"
+369 "Odaberi datoteku krivulja"
+
+370 "Panorama-crtanje rubova"
+371 "Panorama-crtanje rubova"
+
+372 "Omoguæi crtanje rubova"
+373 "Prag crtanja rubova"
+374 "Boja crtanja rubova"
+
+375 "Daljinski parametri"
+376 "Daljinski parametri"
+377 "Omoguæi daljinski"
+378 "Omoguæi sinkronizaciju"
+379 "Omoguæi kašnjenje sinkronizacije"
+380 "Kašnjenje sink. 0.1ms"
+
+382 "AF tipka"
+383 "Uèitaj poèetne vrijednosti parametara"
+384 "Postavke parametara"
+
+385 "Onemoguæi Raw u Sport"
+386 "Onemoguæi Raw u Burst"
+387 "Onemoguæi Raw u EV stupnjevanju"
+388 "Onemoguæi Raw u Timer"
+
+389 "Iznimke"
+390 "Izbornik RAW iznimki"
+391 "Oznaèi iznimke?"
+392 "Auto izbor 1.ulaza u izbornik"
+
+393 "Pauza (0.1s)"
+394 "Sinkronizacija daljinskog"
+395 "Brza video kontrola"
+396 "Temperatura"
+397 "Prikaži temperaturu?"
+398 "Kontrola kvalitete videa"
+401 "Zvuk pri startu"
+402 "Oduzimanje RAW prefiksa"
+403 "Oduzimanje RAW nastavka"
+404 "Oduzimanje ulazne tamne vrijednosti"
+405 "Oduzimanje izlazne tamne vrijednosti"
+406 "Od"
+407 "...%d Više datoteka"
+408 "Oduzimanje"
+409 "Oduz. od oznaèenih"
+410 "Spremi parametre"
+411 "Prikazani video EV"
+415 "Dodaj RAW sufiks"
+416 "  U Fahrenheitima"
+417 "Uèitaj nacrtane rubove"
+418 "Spremi nacrtane rubove"
+419 "Omoguæi u pregledavanju"
+
+421 "Uèitaj+postavke Zooma"
+422 "Panorama"
+423 "Bljesak na zadnju lamelu"
+424 "DNG format"
+425 "Koristi RAW meðumemoriju"
+426 "Nemogu uèitati/badpixel.bin\nPokreni \nCHDK/SCRIPTS/TEST/badpixel.lua"
+427 "Vrijeme spremanja RAW"
+428 "Spoji 4"
+429 "Protivnik:"
+430 "Èovjek"
+431 "Pobjednik Igraè 1"
+432 "Pobjednik Igraè 2"
+433 "Jesam te"
+434 "Neriješeno"
+435 "Onemoguæi Raw u Panorami"
+436 "Onemoguæi Raw u Auto modu"
+437 "   SAMO u videu"
+438 "Auto blic+Exp.komp."
+439 "'DNG' nastavak datoteke"
+440 "DNG vidljiv preko USB"
+441 "Planiranje"
+442 "Dostupne boje"
+443 "Na pravom mjestu"
+444 "Boja odgovora"
+445 "Ispravno :-)"
+446 "KRAJ IGRE"
+447 "[<-][->] Izaberi stupac"
+448 "[UP][DOWN] Izaberi boju"
+449 "[SET] Sljedeæi red"
+450 "BEZ DUPLE BOJE"
+451 "Reset datoteka"
+452 "Restart aparata..."
+453 "Bljeskalica"
+454 "Kvaliteta"
+455 "Restart Lua kod greške"
+456 "Rubovi filtera"
+457 "Uvijek prikaži"
+458 "Preklop panoa (%)"
+459 "Kreiraj badpixel.bin"
+460 "Moraš biti u REC-mode\nza ovu operaciju."
+461 "%s Onemoguæeno"
+462 "Touchscreen overrides"
+463 "Video AE kontrole"
+464 "<Alt> Preèaci"
+465 "USB info"
+466 "Prikaži USB info"
+467 "Snimi ROM crash log"
+468 "ERROR: SystemEventInit and System.Create failed"
+469 "ROM crash log se nemože snimiti"
+470 "ROM crash log snimljen u ROMLOG.LOG"
+
+471 "Promjena tipa"
+472 "Mod"
+473 "Opcije"
+
+474 "Tekst.okvir-postavke"
+475 "Odaberi polje'charmap'"
+476 "Više ->"
+477 "Napravi 'dir'"
+478 "Preimenuj"
+479 "Ime direktorija:"
+480 "Novo ime datoteke:"
+481 "Obriši 'dir'"
+
+482 "Trenutne korisnièke krivulje"
+483 "Tetris"
+484 "Prikaži broj particije"
+485 "Video bez vremenskog ogranièenja"
+486 "CMOS se može pregrijati kod dugog snimanja!"
+
+//GPS Anfang---------------------------------
+487 "GPS-postavke"
+488 "Prikaži navigaciju"
+489 "Prikaži kompas"
+490 "Prikaži koordinate"
+491 "Prikaži visinu"
+492 "Spremi putnu toèku na svaki JPG"
+493 "GPX-Track - Time Interval           [s]"
+494 "GPX-Track Record                  Start"
+495 "GPX-Track Record                   Stop"
+496 "Ne prikazuj kompas"
+497 "Ne prikazuj navigaciju"
+498 "Vrijeme èekanja za GPS-signal         [s]"
+499 "Kompas    - Sample interval        [s]"
+500 "Navigacija - Sample interval        [s]"
+501 "Vrijeme za promjenu u PLAY-mod         [s]"
+502 "Vrijeme za isklj.pozad.osvjetljenja       [s]"
+503 "Zajednièke postavke"
+504 "Uzimanje uzorka intervala do GPS primitka.[s]"
+505 "Atenuacija kompasa           [1-40]"
+506 "Logging    - postavke"
+507 "Tagging    - postavke"
+508 "Navigacija - postavke"
+509 "Gašenje na praznoj bateriji       [0-99%]"
+510 "Odgoðeno oznaèavanje - kratki niz"
+511 "0 - 2D-3D Fix"
+512 "Bljeskanje LED tokom odgoðenog oznaèavanja"
+513 "Promjena u PLAY-mod"
+514 "Gašenje pozadinskog osvjetljenja"
+515 "Promjena u PLAY-mod"
+516 "Gašenje pozadinskog osvjetljenja"
+517 "Vrijeme za promjenu u PLAY-mod         [s]"
+518 "Vrijeme za gašenje pozad.osvijet.        [s]"
+519 "Prikaži GPS-Status"
+520 "Upozorenje na praznu bateriju"
+521 "Postaviti kao poèetnu lokaciju" 
+522 "Vodi me kuæi                     Start"
+523 "Postavi kao vremensku zonu"
+524 "Prikaži snimanje staze"
+525 "Vodi me kuæi                      Stop"
+526 "Provjera vremenske zone"
+527 "Zvuèna upozorenja                 [on/off]"
+528 "GPS - CHDK                     [on/off]"
+529	"Bez GPS!"
+530	"Vremenska zona je promijenjena!"
+531	"Baterija - postavke!"
+532	"Gašenje za %02d sekundi!"
+533	"Autom.gašenje opozvano!"
+534	"Èekanje na GPS još %01d:%02d"
+535	"Poèetna lokacija nemoguæa"
+536	"Cant navigate to photo: %s!"
+537	"Udaljenost:    = %i m"
+538	"Trajanje:    = %i:%i:%i"
+539	"Brzina:        = %s km/h"
+540	"Smjer:   = %i°"
+541	"Odredište: = %i°"
+542	"Navigation to photo: %s started"
+543	"latitude=%s  -  longitude=%s "
+544	"heading = %i°"
+545	"Poèetna lokacija pokrenuta"
+//GPS Ende-----------------------------------------
+
+546 "2.alter.min.zatvaraè"
+547 "2.alter.max.ISO "
+548 "Preeksp.kompenzacija"
+549 "Kompenziraj ako je preeksp.>= x%"
+
+550 "Odustajanje [Press half]"
+
+551 "Omoguæi'start skripte'"
+
+552 "Onemoguæi ZOOM dugme"
+
+553 "DNG verzija"
+554 "Postavke izbornika"
+555 "<ALT> pomoæni prozor"
+556 "Pomoæni prozor-odgoda"
+557 "CHDK postavke"
+
+// <ALT> mode help screen text
+558 "%-20s %-14s"                           // Header format, adjust if needed; but total len must be 35
+559 "<ALT> kratice"                       // Len must be <= first string in header format (20)
+560 "Shutter Half Press +"                  // Len must be <= first string in header format (20)
+561 "MENU=CHDK Menu"                        // Len must be <= second string in header format (14)
+562 "MENU=User Menu"                        // Len must be <= second string in header format (14)
+563 "SET=Script Menu, SHUTTER=Run Script"   // Len must be <= 35
+564 "Focus  %5s=Inf.  %5s=HyperFocal"       // Len must be <= 35
+565 "Manual Focus"
+566 "Hide CHDK OSD while pressed"
+567 "  * - nedostupno u <ALT> modu  "   // Len must be <= 35
+
+568 "'%s'\ndodano u korisnièki izbornik"
+569 "Korisnièki izbornik je pun"
+
+570 "SD kartica"
+571 "Jezik i font"
+
+572 "Dodaj skriptu u korisnièki izbornik"
+
+573 "Beskrajan fokus"
+574 "Fokus faktor"
+
+575 "ON/OFF tipka za <ALT> mod"
+
+576 "Moduli"
+577 "Modul Inspektor"
+578 "Omoguæi zapisnik"
+579 "Obriši zapisnik"
+
+580 "Omoguæi kratice tipki"
+581 "<< Kratice onemoguæene  >>"
+
+582 "Konzola"
+583 "Prikaži konzolu u"
+584 "Sakrij N sec.od promjene"
+585 "Reset konzole"
+586 "Prikaži zadnju konzolu"
+587 "Reset velièine i pozicije konzole"
+
+588 "RAM Dump postavke"
+589 "Poèetna adresa"
+590 "Dump_velièina(0=Cijeli RAM)"
+591 "Dump_odgoda (s)"
+
+592 "Nema mjesta za modul\n'%s'"
+593 "Modul\n'%s'\nne podržava 'simple' mod"
+
+594 "Dodaj\n%s\nu korisnièki izbornik?"
+595 "Ukloni\n%s\niz korisnièkog izbornika?"
+596 "Dodaj i ukloni stavke izbornika"
+597 "Dodaj modul u korisnièki izbornik"
+598 "Ukloni stavku iz korisnièkog izbornika"

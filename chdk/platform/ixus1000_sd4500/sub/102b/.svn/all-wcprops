@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/3259/trunk/platform/ixus1000_sd4500/sub/102b
+END
+funcs_by_address.csv
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/chdk/!svn/ver/3250/trunk/platform/ixus1000_sd4500/sub/102b/funcs_by_address.csv
+END
+filewrite.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/sub/102b/filewrite.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/sub/102b/Makefile
+END
+capt_seq.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/chdk/!svn/ver/1789/trunk/platform/ixus1000_sd4500/sub/102b/capt_seq.c
+END
+code_gen.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/sub/102b/code_gen.txt
+END
+stubs_entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/chdk/!svn/ver/3254/trunk/platform/ixus1000_sd4500/sub/102b/stubs_entry.S
+END
+boot.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/sub/102b/boot.c
+END
+makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/chdk/!svn/ver/3259/trunk/platform/ixus1000_sd4500/sub/102b/makefile.inc
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/chdk/!svn/ver/1828/trunk/platform/ixus1000_sd4500/sub/102b/lib.c
+END
+stubs_auto.S
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/sub/102b/stubs_auto.S
+END
+movie_rec.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/chdk/!svn/ver/1789/trunk/platform/ixus1000_sd4500/sub/102b/movie_rec.c
+END
+bin_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/chdk/!svn/ver/3156/trunk/platform/ixus1000_sd4500/sub/102b/bin_compat.h
+END
+funcs_by_name.csv
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/chdk/!svn/ver/3250/trunk/platform/ixus1000_sd4500/sub/102b/funcs_by_name.csv
+END
+stubs_entry_2.S
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/chdk/!svn/ver/1789/trunk/platform/ixus1000_sd4500/sub/102b/stubs_entry_2.S
+END
+stubs_min.S
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/chdk/!svn/ver/1789/trunk/platform/ixus1000_sd4500/sub/102b/stubs_min.S
+END

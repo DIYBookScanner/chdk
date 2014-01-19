@@ -1,0 +1,3 @@
+0xff810000
+kbd_pwr_off 0xff842a88
+kbd_pwr_on 0xff842a38

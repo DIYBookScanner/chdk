@@ -1,0 +1,35 @@
+This is first time CHDK help.
+
+To quit from this guide press PRINT
+To read this guide again: Miscelanous Stuff - Show HELP
+
+   ===== Newbiew GUIDE =====
+Press 'PRINT' to switch into ALT mode.
+
+In ALT mode:
+ Print - turn off ALT mode
+ Shoot - run current script
+ Menu - goto CHDK menu
+ Set  - goto script menu
+
+In Menu:
+ Up, Down, JogDial - navigate
+ Left, Right - goto submenu/change value
+ Disp - go back one level menu
+ Zoom - change incrementor
+ Set - switch value/ toggle edit mode
+ Menu - turn off CHDK menu
+
+When edit menu item:
+ Left, Right,JogDial - change value by 1
+ Up,Down - change value by 10
+ Menu - turn off/on feature
+ Set - accept change
+ Disp - cancel change
+
+FileBrowser:
+  Up,Down - navigate
+  Set - default action/enter to dir
+  Menu - exit
+  Right - mark/unmark
+  Left - popup menu (menu - cancel)

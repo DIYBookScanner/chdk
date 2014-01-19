@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/3259/trunk/platform/ixus1000_sd4500/sub
+END
+FAT32_detect.S
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/sub/FAT32_detect.S
+END
+filewrite_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/sub/filewrite_hdr.c
+END
+capt_seq_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/sub/capt_seq_hdr.c
+END
+boot_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/sub/boot_hdr.c
+END
+movie_rec_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/sub/movie_rec_hdr.c
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2329/trunk/loader/ixus300_sd4000
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/2329/trunk/loader/ixus300_sd4000/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/2329/trunk/loader/ixus300_sd4000/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/1375/trunk/loader/ixus300_sd4000/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/2329/trunk/loader/ixus300_sd4000/main.c
+END

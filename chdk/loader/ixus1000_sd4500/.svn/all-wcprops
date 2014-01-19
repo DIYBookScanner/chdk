@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3195/trunk/loader/ixus1000_sd4500
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/3195/trunk/loader/ixus1000_sd4500/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/3195/trunk/loader/ixus1000_sd4500/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/1385/trunk/loader/ixus1000_sd4500/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/3195/trunk/loader/ixus1000_sd4500/main.c
+END

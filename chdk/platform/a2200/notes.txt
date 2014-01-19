@@ -1,0 +1,28 @@
+****************************************
+Camera depending notes: 
+* DryOS Camera
+
+To enter CHDK <Alt> mode use the Playback[>] button.
+To use Playback button, use long press.
+
+This port support the use of the Face or DISP button as alternative ALT buttoms
+
+To put camera in Auto Focus Lock (AFL), half press SHUTTER + LEFT button combination.
+
+****************************************
+Development notes:
+
+Override Subj. Dist. only works if camera is put in AFL.
+
+Other overrides (eg. Shutter speed) might need AFL mode too, or at least wait untill Auto Focus finishes, or they might be ignored.
+
+Version specific notes:
+
+* 100B & 100C:
+
+	To shoot images with lua over PTP, first put the camera in "mode 1" and back to "mode 0" before using it normaly or it might crash.
+	
+* 100D
+    -When CHDK boots up, OSD colors might be wrong, they change back to normal after first action (eg. taking a picture or changing camera modes).
+    -CHDK is loaded in Extended memory
+

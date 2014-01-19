@@ -1,0 +1,461 @@
+//-------------------------- BOOT.C ---------------------------------------------------------------
+FILE boot.c
+
+>>> file=../boot_hdr.c
+
+//////////////////////////////////////////////////////////////
+// boot
+//////////////////////////////////////////////////////////////
+FUNC start=0xFF00000C name=boot length=95
+ASM
+FW $-1
+PATCHSUB ref=0
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// boot -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=27
+>>>
+
+    //http://chdk.setepontos.com/index.php/topic,4194.0.html
+    *(int*)0x1938=(int)taskHook;
+    *(int*)0x193C=(int)taskHook;
+
+    // Replacement of sub_FF0257D4 (sub_FF065650) for correct power-on.
+    // (short press = playback mode, long press = record mode)
+    // look at power-on switch @ 0xFF00D08C
+    *(int*)(0x28D4) = (*(int*)0xC022C30C)&1 ? 0x200000 : 0x100000;
+
+<<<
+ASM
+FW $-1
+PATCHSUB ref=0
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=41
+ASM
+FW 7
+>>>
+
+#if defined(CHDK_NOT_IN_CANON_HEAP) // use original heap offset if CHDK is loaded in high memory
+<<<
+FW
+>>>
+#else
+"    LDR     R0, =new_sa\n"   // otherwise use patched value
+"    LDR     R0, [R0]\n"      //
+#endif
+
+<<<
+FW $-1
+PATCHSUB ref=0
+->FW
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW $-1
+PATCHSUB ref=0
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=5
+ASM
+FW 2
+PATCHSUB name=taskcreate_Startup_my ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// taskcreate_Startup_my
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 37
+REM "See begin of sub_FF00038C_my"
+FW 8
+PATCHSUB name=task_Startup_my ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// task_Startup_my
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=23
+ASM
+FW 6
+REM "start diskboot.bin"
+FW 6
+>>>
+
+"    BL      CreateTask_spytask\n"  // added
+
+<<<
+PATCHSUB name=taskcreatePhySw_my ref=0
+->FW
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// taskcreatePhySw_my
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=9
+ASM
+FW 7
+PATCHSUB name=mykbd_task
+PATCHVAL value=0x2000 comment="stack size for new task_PhySw"
+->FW
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// init_file_modules_task
+//////////////////////////////////////////////////////////////
+FUNC sig=task_InitFileModules length=8 name=init_file_modules_task
+ASM
+FW $
+>>>
+"    BL      core_spytask_can_start\n"  // CHDK: Set "it's-safe-to-start" flag for spytask
+<<<
+->FW
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// task_TouchPanel_my
+//////////////////////////////////////////////////////////////
+FUNC sig=task_TouchPanel name=task_TouchPanel_my
+ASM
+FW $-18
+PATCHSUB
+FW $-5
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// task_TouchPanel_my -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 9
+PATCHSUB ref=0
+FW 26
+PATCHSUB name=process_TouchCoords_my
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// task_TouchPanel_my -> ref=0 -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW $-3
+PATCHSUB ref=0 name=process_TouchCoords_my
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// process_TouchCoords_my
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=1
+ASM
+>>>
+"    STMFD   SP!, {R4,R5,LR} \n"
+"    BL      chdk_process_touch \n"
+"    LDMFD   SP!, {R4,R5,LR} \n"
+"    CMP     R0, #0 \n"
+"    BXNE    LR \n"
+<<<
+->FW
+ENDASM
+ENDFUNC
+
+ENDFILE
+
+//-------------------------- MOVIE_REC.C ----------------------------------------------------------
+
+FILE movie_rec.c
+
+>>> file=../movie_rec_hdr.c
+
+//////////////////////////////////////////////////////////////
+// movie_record_task
+//////////////////////////////////////////////////////////////
+FUNC sig=task_MovieRecord name=movie_record_task
+ASM
+FW 63
+ENDASM
+>>>
+if (conf.ext_video_time == 1)
+{
+<<<
+    ASM
+    PATCHSUB ref=0
+    ENDASM
+>>>
+}
+else
+{
+<<<
+    ASM
+    SKIP -1
+    FW
+    ENDASM
+>>>
+}
+<<<
+ASM
+FW 3
+>>>
+//begin patch
+"    LDR     R0, =video_compression_rate\n" //added
+"    BL      set_quality\n"                 //added
+//end patch
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// movie_record_task -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=207
+ASM
+FW 143
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// movie_record_task -> ref=0 -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 78
+PATCHVAL value=0x57600000 comment="2hrs 240fps"
+FW 2
+PATCHVAL value=0x28800000 comment="2hrs 120fps"
+FW 8
+PATCHVAL value=7200 comment="2hrs"
+FW 27
+PATCHVAL value=7200 comment="2hrs"
+FW 5
+REM
+>>>
+"    MOV     R0, #2097152 \n" // 10 mins
+<<<
+FW 97
+>>>
+//SKIP DATA
+<<<
+SKIP 11
+FW $
+ENDASM
+ENDFUNC
+
+ENDFILE
+
+
+//-------------------------- CAPT_SEQ.C -----------------------------------------------------------
+
+FILE capt_seq.c
+
+>>> file=../capt_seq_hdr.c
+
+//////////////////////////////////////////////////////////////
+// capt_seq_task
+//////////////////////////////////////////////////////////////
+FUNC sig=task_CaptSeq name=capt_seq_task
+ASM
+FW 55
+>>>
+"    BL      shooting_expo_iso_override\n"      // added
+<<<
+FW
+>>>
+"    BL      shooting_expo_param_override\n"    // added
+<<<
+FW
+>>>
+"    MOV     R0, #0\n"                          // added
+"    STR     R0, [R4,#0x28]\n"                  // added, fixes overrides behavior at short shutter press (from S95)
+<<<
+REM "above patch makes these three lines redundant"
+REM
+REM
+FW 20
+PATCHSUB ref=0
+>>>
+"    BL      capt_seq_hook_raw_here\n"      // added
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// capt_seq_task -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0
+ASM
+FW 72
+>>>
+
+"    BL      wait_until_remote_button_is_released\n"    // added
+"    BL      capt_seq_hook_set_nr\n"                    // added
+
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+
+//////////////////////////////////////////////////////////////
+// exp_drv_task
+//////////////////////////////////////////////////////////////
+FUNC sig=task_ExpDrv name=exp_drv_task
+ASM
+FW 263
+PATCHSUB ref=0
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// exp_drv_task -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=49
+ASM
+FW $-1
+PATCHSUB ref=0
+->FW
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// exp_drv_task -> ref=0 -> ref=0
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=17
+ASM
+FW $-1
+PATCHSUB name=apex2us
+->FW
+ENDASM
+ENDFUNC
+
+ENDFILE
+
+
+//-------------------------- FILEWRITE.C ----------------------------------------------------------
+
+FILE filewrite.c
+
+>>> file=../filewrite_hdr.c
+
+//////////////////////////////////////////////////////////////
+// filewritetask
+//////////////////////////////////////////////////////////////
+FUNC sig=task_FileWrite name=filewritetask length=82
+ASM
+FW 43
+PATCHSUB name=fwt_close
+FW 10
+PATCHSUB ref=0 comment="Open stage"
+FW 5
+PATCHSUB name=fwt_lseek
+FW 8
+PATCHSUB ref=1 comment="Write stage"
+FW 1
+PATCHSUB ref=2 comment="Close stage"
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// open stage
+//////////////////////////////////////////////////////////////
+FUNC ref=0 length=91
+ASM
+FW 2
+FW 1
+>>>
+//hook start placed here to avoid bne a few instructions below
+//R0 holds data block start
+"    STMFD   SP!, {R4-R12,LR}\n"
+"    BL      filewrite_main_hook\n"
+"    LDMFD   SP!, {R4-R12,LR}\n"
+//hook end
+<<<
+FW 22
+PATCHSUB name=fwt_open
+FW 46
+>>>
+//mod start
+"    LDR     R3, =current_write_ignored\n"
+"    LDR     R3, [R3]\n"
+"    CMP     R3, #0\n"
+"    BNE     loc_A\n" // jump over the next block
+//mod end
+<<<
+FW 7
+>>>
+"loc_A:\n"
+<<<
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// write stage
+//////////////////////////////////////////////////////////////
+FUNC ref=1 length=56
+ASM
+FW 32
+PATCHSUB name=fwt_write
+FW $
+ENDASM
+ENDFUNC
+
+//////////////////////////////////////////////////////////////
+// close stage
+//////////////////////////////////////////////////////////////
+FUNC ref=2 length=102
+ASM
+FW 14
+>>>
+//mod start
+"    LDR     R3, =current_write_ignored\n"
+"    LDR     R3, [R3]\n"
+"    CMP     R3, #0\n"
+"    BNE     loc_B\n" // jump over the next block
+//mod end
+<<<
+FW 2
+>>>
+"loc_B:\n"
+<<<
+PATCHSUB name=fwt_close
+FW $
+ENDASM
+ENDFUNC
+
+ENDFILE

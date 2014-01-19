@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/chdk/!svn/ver/3032/trunk/lib/lang
+END
+lang.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3032/trunk/lib/lang/lang.c
+END
+lang_str.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2677/trunk/lib/lang/lang_str.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2453/trunk/lib/lang/Makefile
+END
+fileutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2977/trunk/lib/lang/fileutil.c
+END

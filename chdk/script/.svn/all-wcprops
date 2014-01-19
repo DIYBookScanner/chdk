@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/chdk/!svn/ver/985/trunk/script
+END
+set_tv96_tst1.bas
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/985/trunk/script/set_tv96_tst1.bas
+END
+script.bas
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/985/trunk/script/script.bas
+END
+iso_bracket1.bas
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/985/trunk/script/iso_bracket1.bas
+END
+dof_test.bas
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/985/trunk/script/dof_test.bas
+END
+test_leds2.bas
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/515/trunk/script/test_leds2.bas
+END
+prop_case.bas
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/985/trunk/script/prop_case.bas
+END
+set_tv96_tst.bas
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/985/trunk/script/set_tv96_tst.bas
+END
+md_test1.bas
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/985/trunk/script/md_test1.bas
+END
+foc-bracket.bas
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/985/trunk/script/foc-bracket.bas
+END
+md_test2.bas
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/985/trunk/script/md_test2.bas
+END
+foc_bracket1.bas
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/985/trunk/script/foc_bracket1.bas
+END
+foc_bracket2.bas
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/985/trunk/script/foc_bracket2.bas
+END
+white_balance.bas
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/985/trunk/script/white_balance.bas
+END
+iso_bracket.bas
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/985/trunk/script/iso_bracket.bas
+END
+iso_set1.bas
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/985/trunk/script/iso_set1.bas
+END
+zoom-video.bas
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/985/trunk/script/zoom-video.bas
+END
+interval-video.bas
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/985/trunk/script/interval-video.bas
+END
+set_av96_tst.bas
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/985/trunk/script/set_av96_tst.bas
+END
+bracketing1.bas
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/985/trunk/script/bracketing1.bas
+END
+bracketing2.bas
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/985/trunk/script/bracketing2.bas
+END
+led_tst.bas
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/985/trunk/script/led_tst.bas
+END
+exp_info_tst.bas
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/985/trunk/script/exp_info_tst.bas
+END
+set_shutter_tst.bas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/985/trunk/script/set_shutter_tst.bas
+END
+iso_set.bas
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/985/trunk/script/iso_set.bas
+END
+video.bas
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/985/trunk/script/video.bas
+END
+set_nd_tst.bas
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/515/trunk/script/set_nd_tst.bas
+END
+bracketing.bas
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/515/trunk/script/bracketing.bas
+END
+md_demo_v1.bas
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/985/trunk/script/md_demo_v1.bas
+END
+fingalo.bas
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/985/trunk/script/fingalo.bas
+END
+default.bas
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/985/trunk/script/default.bas
+END
+interval.bas
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/985/trunk/script/interval.bas
+END
+zoom.bas
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/515/trunk/script/zoom.bas
+END
+test_leds.bas
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/515/trunk/script/test_leds.bas
+END

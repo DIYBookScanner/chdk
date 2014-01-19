@@ -1,0 +1,21 @@
+0xFFC00000
+EnterToCompensationEVF 0xffea4f84
+ExitFromCompensationEVF 0xffea5008
+Feof_Fut 0xFFE4249C
+Fflush_Fut 0xFFE424D8
+Fgets_Fut 0xFFE42404
+GetDrive_FreeClusters 0xFFE463BC
+GetDrive_TotalClusters 0xFFE46380
+GetFocusLensSubjectDistanceFromLens 0xFFE72080
+MakeDirectory_Fut 0xFFE421E0
+Mount_FileSystem 0xFFE45E7C
+PT_PlaySound 0xFFEB5340
+Remove 0xFFE46B78
+RenameFile_Fut 0xFFE42084
+SetFileAttributes 0xFFE46D40
+SetLogicalEventActive 0xFFEDE6B0 22
+SetPropertyCase 0xFFC0BB5C
+WriteSDCard 0xFFE58EEC
+free 0xFFCD9B84
+kbd_pwr_off 0xFFDE7BD4
+kbd_read_keys_r2 0xFFDE74F0

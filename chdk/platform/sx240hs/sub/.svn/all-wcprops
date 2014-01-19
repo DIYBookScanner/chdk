@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/3259/trunk/platform/sx240hs/sub
+END
+boot_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/2987/trunk/platform/sx240hs/sub/boot_hdr.c
+END
+movie_rec_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/chdk/!svn/ver/2953/trunk/platform/sx240hs/sub/movie_rec_hdr.c
+END
+filewrite_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/chdk/!svn/ver/2953/trunk/platform/sx240hs/sub/filewrite_hdr.c
+END
+capt_seq_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/2953/trunk/platform/sx240hs/sub/capt_seq_hdr.c
+END

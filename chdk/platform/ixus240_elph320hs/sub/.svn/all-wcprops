@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/3259/trunk/platform/ixus240_elph320hs/sub
+END
+filewrite_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/chdk/!svn/ver/3099/trunk/platform/ixus240_elph320hs/sub/filewrite_hdr.c
+END
+capt_seq_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/chdk/!svn/ver/3099/trunk/platform/ixus240_elph320hs/sub/capt_seq_hdr.c
+END
+boot_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/chdk/!svn/ver/3099/trunk/platform/ixus240_elph320hs/sub/boot_hdr.c
+END
+movie_rec_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/chdk/!svn/ver/3099/trunk/platform/ixus240_elph320hs/sub/movie_rec_hdr.c
+END

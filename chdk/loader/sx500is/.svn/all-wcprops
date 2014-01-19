@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3075/trunk/loader/sx500is
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/3075/trunk/loader/sx500is/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3075/trunk/loader/sx500is/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3075/trunk/loader/sx500is/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/3075/trunk/loader/sx500is/main.c
+END

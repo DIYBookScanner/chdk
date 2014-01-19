@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/3277/trunk/loader/sx40hs
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2325/trunk/loader/sx40hs/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/3277/trunk/loader/sx40hs/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2325/trunk/loader/sx40hs/main.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2325/trunk/loader/sx40hs/Makefile
+END

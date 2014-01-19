@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/1641/trunk/tools/idc-scripts
+END
+scan-refs.idc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/511/trunk/tools/idc-scripts/scan-refs.idc
+END
+resolve-tasks.idc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/511/trunk/tools/idc-scripts/resolve-tasks.idc
+END
+scan.idc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/511/trunk/tools/idc-scripts/scan.idc
+END
+scan-event-procedures-list.idc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/chdk/!svn/ver/511/trunk/tools/idc-scripts/scan-event-procedures-list.idc
+END
+scan-string-refs.idc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/chdk/!svn/ver/511/trunk/tools/idc-scripts/scan-string-refs.idc
+END
+scan-tasks.idc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/511/trunk/tools/idc-scripts/scan-tasks.idc
+END
+scan-lib.idc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/1641/trunk/tools/idc-scripts/scan-lib.idc
+END
+scan-swinv.idc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/511/trunk/tools/idc-scripts/scan-swinv.idc
+END
+scan-strings.idc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/511/trunk/tools/idc-scripts/scan-strings.idc
+END
+scan-event-procedures.idc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/chdk/!svn/ver/511/trunk/tools/idc-scripts/scan-event-procedures.idc
+END
+scan-symbol-info.idc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/chdk/!svn/ver/511/trunk/tools/idc-scripts/scan-symbol-info.idc
+END

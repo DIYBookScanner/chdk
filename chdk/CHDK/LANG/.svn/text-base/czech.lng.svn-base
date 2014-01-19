@@ -1,0 +1,723 @@
+// CHDK language file
+// Format of language line:
+// <id> "<text>"
+//   <id>   - should be positive number
+//   <text> - any text enclosed into quotes
+  
+  1 "Hlavní menu"
+
+  2 "RAW (digitální negativ)"
+  3 "Nastavení OSD"
+  4 "Histogram (graf expozice)"
+  5 "Zebra (zobrazení pøe/pod exponování)"
+  6 "Skript (programování foáku)"
+  7 "Nastavení barev"
+  8 "Rùzné vìci"
+  9 "Parametry ladìní"
+ 10 "Obnovit nastavení na vıchozí..."
+ 11 "Uloit nastavení nyní..."
+
+ 12 "Zpìt"
+
+ 13 "RAW"
+
+ 14 "Ukládat RAW"
+ 16 "Pouze první RAW v sérii"
+ 17 "Soubor RAW v adresáøi s JPEG"
+ 18 "Pøedpona souboru RAW"
+ 19 "Pøípona souboru RAW"
+
+
+ 20 "OSD"
+
+ 21 "Zobrazit OSD"
+ 22 "Zobrazit stav"
+ 23 "Zobrazit rùzné hodnoty"
+ 24 " Hodnota pøiblíení"
+ 25 "Zobrazit DOF kalkulátor"
+ 26 "Zobrazit hodiny"
+ 27 "Editor rozvrení prvkù OSD"
+ 28 "Baterie"
+
+
+ 29 "Histogram"
+
+ 30 "Zobr. ivı histogram"
+ 31 "Rozvrení histogramu"
+ 32 "Reim histogramu"
+ 33 "Zobr. v histogr. pøe/pod EXP"
+ 34 "Ignorovat hranièní špièky"
+ 35 "Automatická velikost"
+
+
+ 36 "Zebra"
+
+ 37 "Vykreslovat zebru"
+ 38 "Reim zebry"
+ 39 "Práh podexponování"
+ 40 "Práh pøeexponování"
+ 41 "Obnovit pùvodní obrazovku"
+ 42 "Obnovit OSD"
+ 43 "Kreslit pøes zebru"
+
+
+ 44 "Skript"
+
+ 45 "Naèíst skript ze souboru..."
+ 46 "Prodleva zahájení skriptu (.1s)"
+ 47 "Aktuální skript"
+ 48 "Parametry skriptu"
+
+
+ 49 "Nastavení barev"
+
+ 50 "Jazyk..."
+ 51 "Kódová stránka OSD"
+ 52 "RBF písmo menu..."
+ 53 "Barvy"
+ 54 "OSD - text"
+ 55 "OSD - pozadí"
+ 56 "Histogram"
+ 57 "Histogram - pozadí"
+ 58 "Histogram - okraj"
+ 59 "Histogram - EXP znaèky"
+ 60 "Zebra - podexponování"
+ 61 "Zebra - pøeexponování"
+ 62 "Baterie - ikona"
+ 63 "Menu - text"
+ 64 "Menu - pozadí"
+ 65 "Prohlíeè textù - text"
+ 66 "Prohlíeè textù - pozadí"
+
+
+ 67 "Rùzné"
+
+ 68 "Prohlíeè souborù"
+ 69 "Kalendáø"
+ 70 "Prohlíeè textovıch souborù"
+ 71 "Hry"
+ 72 "Baterka"
+ 73 "Zobr. úvod. obraz. @ naètení"
+ 74 "Pouít páèky pøiblí. pro MF"
+ 75 "Tlaèítko reimu <ALT>"
+ 76 "Vykreslit paletu"
+ 77 "Zobrazit Informace o sestavení"
+ 78 "Zobrazit Informace o pamìti"
+
+
+ 79 "Ladìní"
+
+ 80 "Zobrazit data ladìní"
+ 81 "Stránka PropCase/ParamsData"
+ 82 "Zobrazit rùzné hodnoty"
+ 83 "Prohlíeè pamìti"
+ 84 "Akce ladìní ALT +/-"
+ 85 "Vytvoøit bootovací kartu..."
+
+
+ 86 "Nastavení zobrazení baterie"
+
+ 87 "MAX napìtí baterie (mV)"
+ 88 "MIN napìtí baterie (mV)"
+ 90 "Zobr. procenta baterie"
+ 91 "Zobr. napìtí baterie"
+ 92 "Zobr. ikonu baterie"
+
+
+ 93 "Prohlíeè textovıch souborù"
+
+ 94 "Otevøít novı soubor..."
+ 95 "Otevøít naposledy otevøenı"
+ 96 "Vybrat RBF písmo"
+ 97 "Kódová stránka"
+ 98 "Zalamovat podle slov"
+ 99 "Povolit aut. posouvání"
+100 "Prodleva aut. posouvání (s)"
+
+
+101 "Hry"
+
+102 "Reversi"
+103 "Sokoban"
+
+
+104 "*** Obnovit nastavení ***"
+105 "OPRAVDU obnovit nastavení\nna vıchozí hodnoty?"
+
+106 "*** Informace o sestavení ***"
+107 "Verze CHDK: %s %s\nRevize:     %s\nDatum:      %s\nÈas:        %s\nFoák:      %s\nVerze FW:   %s\nKompilér:   %s"
+
+108 "*** Informace o pamìti ***"
+109 "Volná pamì: %d bajtù\nVelikost CHDK: %d bajtù\nNaèteno na: 0x%X"
+
+110 "*** Informace ***"
+111 "Prosím pøepnìte foák\ndo reimu PROHLÍENÍ\na zkuste to znovu. :)"
+
+// file browser titles
+112 "Prohlíeè souborù"
+113 "Vybrat soubor skriptu"
+114 "Vybrat soubor textu"
+115 "Vybrat soubor RBF písma"
+116 "Vybrat soubor jazyka"
+
+// for calendar
+117 "Leden"
+118 "Únor"
+119 "Bøezen"
+120 "Duben"
+121 "Kvìten"
+122 "Èerven"
+123 "Èervenec"
+124 "Srpen"
+125 "Záøí"
+126 "Øíjen"
+127 "Listopad"
+128 "Prosinec"
+
+129 " Po"
+130 " Út"
+131 " St"
+132 " Èt"
+133 " Pá"
+134 " So"
+135 " Ne"
+
+136 "Dnes:"
+
+// messagebox buttons
+137 "OK"
+138 "Ano"
+139 "Ne"
+140 "Storno"
+
+// OSD layout editor
+141 "Histogram"
+142 "DOF kalkulátor"
+143 "Zobrazení stavù"
+144 "Rùzné hodnoty"
+145 "Ikona baterie"
+146 "Text baterie"
+147 "Hodiny"
+
+// palette
+148 "Stisknìte SET pro vykreslení barvy"
+149 "     Stisknìte MENU pro ukonèení"
+150 "Barva"
+151 "Pouijte %s pro vıbìr barvy"
+
+// reversi
+152 "*** Vısledek hry ***"
+153 "Vyhrál jste! :)"
+154 "Prohrál jste! :("
+155 "Remíza! :/"
+
+156 "*** Chybnı tah ***"
+157 "Sem nelze táhnout!"
+158 "Toto pole není prázdné!"
+
+159 "Na tahu: Ty   "
+160 "Na tahu: PC   "
+161 "    KONEC     "
+162 " Bílá   Èerná "
+
+163 "*** O høe ***"
+
+// sokoban
+164 " Úroveò"
+165 " Tahy"
+166 "*** Konec ***"
+167 "ANO!\n  Zvládl jste to!  "
+
+// console
+168 "*** SPUŠTÌN  ***"
+169 "*** PØERUŠEN ***"
+170 "*** UKONÈEN  ***"
+
+// file browser
+171 "*** Vymazat adresáø ***"
+172 "OPRAVDU smazat\nVŠECHNY soubory\nz vybraného adresáøe?"
+173 "*** Vymazat soubor ***"
+174 "OPRAVDU vymazat\nvybranı soubor?"
+
+// benchmark
+175 "Vıkonnostní testy"
+176 "Vıpoèet..."
+177 "Testování foáku   Stisknìte [SET] pro start"
+178 "Obrazovka"
+179 "Zápis       :"
+180 "Ètení       :"
+181 "Pamì"
+182 "Karta"
+183 "Zápis (RAW) :"
+184 "Zápis (Mem) :"
+185 "Zápis (64k) :"
+186 "Ètení (64k) :"
+
+187 "Zakázat vypnutí LCD"
+
+188 "Vyjmout"
+189 "Kopírovat"
+190 "Vloit"
+191 "Smazat"
+192 "Inverzní vıbìr"
+193 "*** Vyjmutí souborù ***"
+194 "OPRAVDU vyjmout\n%d vybranıch souborù\nz %s/?"
+195 "*** Kopírování souborù ***"
+196 "OPRAVDU kopírovat\n%d vybranıch souborù\nz %s/?"
+197 "*** Mazání souborù ***"
+198 "OPRAVDU vymazat\n%d vybranıch souborù?"
+199 "Moment prosím..."
+
+200 "Zobrazit èáry møíky"
+201 "Naèíst møíku ze souboru..."
+202 "Èáry møíky"
+203 "Møíka"
+204 "Vybrat soubor s møíkou"
+205 "Aktuální møíka"
+
+206 "Redukce šumu"
+
+207 "Potlaèit barvy møíky"
+208 "Barva èar"
+209 "Barva vıplnì"
+
+210 "DOF kalkulátor"
+211 "DOF kalkulátor"
+212 "Canon subj. vzd. jako pøed.rov.ostr." 
+213 "Pouít subj. vzdál. EXIF(PC65)"
+214 "Zobr. subj. vzdál. v rùz."
+215 "Zobr. pøední rov. ostr. v rùz."
+216 "Zobr. zadní rov. ostr.  v rùz."
+217 "Zobr. hyperf. vzdál.  v rùz."
+218 "Zobr. hloub. ostr.  v rùz."
+
+
+219 "Rùzné hodnoty"
+220 "Rùzné hodnoty"
+221 "Zobr. v reimu náhledu"
+222 "Zobrazit pøiblíení"
+223 "Zobrazit 'skuteènou' clonu"
+224 "Zobrazit 'skuteèné' ISO"
+225 "Zobrazit 'market' ISO"
+226 "Zobr. ISO jen pøi reimu AutoISO"
+227 "Zobr. nast. expozice EV (Tv+Av)"
+228 "Zobrazit namìøené EV (Bv+Sv)"
+229 "Zobr. nastav. Bv (hod. jasu)"
+230 "Zobrazit namìøené Bv"
+231 "Zobr. hodn. pøeexp. (ne blesk!)"
+232 "Zobrazit jas scény"
+
+233 "Parametry videa"
+234 "Parametry videa"
+235 "Reim videa"
+236 "Datovı tok videa"
+237 "Kvalita videa"
+
+
+238 "Rozšíøené monosti focení"
+239 "Rozšíøené monosti focení"
+240 "  Hodnota kroku EV"
+241 "  Hodnota dlouhé expozice"
+242 "Potlaèit clonu"
+243 "Potlaèit ISO"
+244 "  Hodnota krátké expozice"
+245 "Potlaèit subj. vzdálenost"
+246 "  Zmìna pomocí +/-"
+
+247 "Bracketing v souvis. reimu"
+248 "Bracketing v souvis. reimu"
+249 "TV Bracketing"
+250 "AV Bracketing"
+251 "ISO Bracketing"
+253 "Subj. rozestup Bracketingu (mm)"
+255 "Typ Bracketingu"
+
+256 "Autostart"
+257 "Povolit dálk. ovládání"
+
+258 "Povolení nativního volání Lua mùe\nskriptùm dovolit znièit foák.\nPokud si nejste jisti,\nnepovolujte tuto monost.\n\nOpravdu chcete povolit nativní volání?"
+259 "Povolit nativní volání Lua?"
+260 "*** UKONÈENO ***"
+261 "*** Autostart ***"
+
+264 "Smazat hodn. potl. @ spušt."
+
+265 "Zobr. hodn. 'Canon' pøeexp."
+
+266 "Zpracování RAW"
+267 "Prosím pøepnìte fotoaparát\ndo reimu záznamu a zhotovte\njednu fotografii."
+268 "Vybrat soubor RAW"
+269 "RAW suma"
+270 "RAW prùmìr"
+271 "Nedostatek místa na kartì:\n%dM poadováno, %dM k dispozici."
+
+272 "Zobrazit OSD v reimu náhledu"
+273 "Spuštìní seznamu úkolu"
+
+274 "Subj. vzdál od èoèek"
+
+275 "Zakázat bracketing @ spušt."
+
+276 "Vytvoøit kartu se dvìma oddíly"
+277 "Pøepnout oddíly"
+278 "Tímto se ZNIÈÍ VŠECHNA DATA\nna kartì. Pokraèovat?"
+279 "Tato karta má pouze jeden oddíl"
+280 "Chyba"
+281 "Varování"
+282 "Informace"
+283 "RGB zebra (pouze pøeexp.)"
+
+284 "Stav ND filtru"
+
+285 "Zobr. møíku EV v histogramu"
+
+286 "OSD - varování"
+287 "OSD - pozadí varování"
+288 "Barva ikony zbıv. místa"
+289 "Zobr. ikonu místa na kartì"
+290 "Zbıvající místo"
+291 "Zobr. místo na kartì v proc."
+292 "Zobr. místo na kartì v MB"
+293 "Text místa"
+294 "  Zobr. poèet snímkù RAW"
+295 "Zbıvající pro RAW"
+
+296 "Zobrazit stav RAW"
+
+297 "Zobr. hodnoty pøi videu"
+
+298 "Pøepsat TV     typ ->"
+299 "Povolit Uivatel. menu"
+300 "Uivatelské menu"
+301 "Upravit uivatelské menu"
+
+302 " Mìøítko èoèky adaptéru, 100=1x"
+303 "Zobr. indikát. místa"
+304 "  Velikost na obraz."
+305 "  Šírka/Vıška"
+306 "  Práh limitu v %"
+307 "  Práh limitu v MB"
+308 "Jednotka varování"
+309 "  Práh limitu varování"
+310 "Povolit optické pøiblíení"
+311 "Hodiny"
+312 "Nastavení hodin"
+313 "Formát hodin"
+314 "Barva pozadí zbıvajícího místa"
+315 "Indikace 12h èasu"
+316 "Zobrazit @ namáèknutí spouštì"
+
+317 "Nastavení zobrazení RAW"
+318 "RAW"
+
+319 "Nastavení zobr. místa na kartì"
+320 "Místo na kartì"
+
+321 "Uivatelské Auto ISO"
+322 "Uivatelské Auto ISO"
+323 "Povolit uivatel. Auto ISO"
+324 "Min. rychlost závìrky"
+325 "Uivatel. koefic. (1/FL/koef.)"
+326 "IS koeficient (Tv*koef.)"
+327 "Max ISO HI "
+328 "Max ISO AUTO "
+329 "Min ISO "
+
+330 "Menu - barva textu titulku"
+331 "Menu - barva pozadí titulku"
+332 "Kurzor - barva textu"
+333 "Kurzor - barva pozadí"
+334 "Centrovat menu"
+335 "Ztlumit zvuk pøi pøiblíení"
+
+336 "Ruèní odstranìní vadnıch pixelù"
+337 "Vyp."
+338 "Prùmìr"
+339 "RAWkonv"
+
+340 "Potlaèení"
+341 "Potlaèení - pozadí"
+342 "Zakázat potlaèení"
+343 "  Vèet. AutoIso & Bracketing?"
+344 "  Skrıt v ?"
+345 "Zakázat @ záznam videa?"
+346 "Zobr. zbıv. èas videa?"
+347 "  Frekvence obnovení (~s)"
+348 "Zbıvající èas videa"
+349 "Smazat param. videa @ spušt.?"
+350 "Povolit rychlı pøepínaè EV?"
+352 "Korekce EV"
+353 "OPRAVDU vymazat VŠECHNY\nRAW soubory bez odpovídajících JPG\nv adresáøi DCIM?"
+354 "OPRAVDU vymazat VŠECHNY\nRAW soubory bez odpovídajících JPG\nve vybraném adresáøi?"
+355 "OPRAVDU vymazat VŠECHNY\nRAW soubory bez odpovídajících JPG\n(vyjma oznaèenıch)"
+356 "Funkce èištìní RAW\nse nedá aplikovat na tuto poloku"
+357 "*** Èištìní RAW souborù ***"
+358 "Èištìní RAW"
+ 
+359 "Uivatel. menu jako poèátek"
+
+360 "Písmo symbolù"
+361 "Vybrat soubor symbolù"
+362 "Povolit symboly"
+363 "Symbol - barva textu" 
+364 "Symbol - barva pozadí"
+
+365 "Uivatelské tonální køivky"
+366 "Uivatelské tonální køivky"
+367 "Naèíst profil køivky..."
+368 "Povolit køivky"
+369 "Vybrat soubor s køivkami"
+
+370 "Pøekrytí okrajù"
+371 "Pøekrytí okrajù (nástroj panoramat)"
+
+372 "Povolit pøekrytí okrajù"
+373 "Práh pøekrytí okrajù"
+374 "Barva pøekrytí okrajù"
+
+375 "Parametry dálk. spouštì"
+376 "Parametry dálk. spouštì"
+377 "Povolit synch. dálk. spouš"
+378 "Povolit synchronizaci"
+379 "Povolit synchr. prodlevu"
+380 "Synchr. prodleva 0,1ms"
+
+382 "Tlaèítko AF"
+383 "Naèíst vıch. hodnoty param."
+384 "Nastavení parametrù"
+
+385 "Zakázat RAW @ sport"
+386 "Zakázat RAW @ shluk"
+387 "Zakázat RAW @ EV Bracketing"
+388 "Zakázat RAW @ èasovaè"
+
+389 "Vıjimky"
+390 "Menu vıjimek RAW"
+391 "Varovat pøi vıjimkách"
+392 "Vdy vybrat 1. poloku @ menu"
+
+393 "Prodleva (0,1s)"
+394 "Synchroniz. dálk. spouš"
+395 "Rychlé ovládání videa?"
+396 "Teplota"
+397 "Zobrazit teplotu?"
+398 "Øídit kvalitu videa?"
+401 "Zvuk pøi startu"
+402 "Pøedpona operací RAW"
+403 "Pøípona operací RAW"
+404 "Odeè. vstup. tmavé hodn."
+405 "Odeè. vıstup. tmavé hodn."
+406 "od"
+407 "...%d více souborù"
+408 "Odeèítání"
+409 "Odeèíst od oznaèeného"
+410 "Uloit parametry"
+411 "Zobrazení EV videa"
+415 "Pøipojit RAW pøíponu"
+416 "  ve Fahrenheitech"
+417 "Naèíst pøekrytí okrajù"
+418 "Uloit pøekrytí okrajù"
+419 "Povolit v Prohlíení"
+
+421 "Naèíst+nastavit pøiblíení"
+422 "Reim panoramat"
+423 "Synch. blesku na 2. lamelu"
+424 "DNG formát"
+425 "Uloit vyrov. pamì RAW"
+426 "Nelze naèíst CHDK/badpixel.bin\nPouijte nejprve 'Vytvoøit badpixel.bin'"
+427 "Zobrazit èas uloení RAW"
+428 "Ètveøice"
+429 "Soupeø:"
+430 "Èlovìk"
+431 "Hráè è. 1 vyhrál"
+432 "Hráè è .2 vyhrál"
+433 "Porazil jsem Tì"
+434 "Nerozhodnì"
+435 "Zakázat RAW @ pøekrytí okrajù"
+436 "Zakázat RAW @ reim Auto"
+437 "   POUZE ve videu"
+438 "Automatickı blesk + Kompen. exp."
+439 "Pøípona 'DNG' souboru"
+440 "DNG viditelné pøes USB"
+441 "Mastermind"
+442 "dostupné barvy"
+443 "na správném místì"
+444 "odpovídající barvy"
+445 "SPRÁVNÌ :-)"
+446 "KONEC HRY"
+447 "[<-] [->] vybrat sloupec"
+448 "[UP] [DOWN] vybrat barvu"
+449 "[SET] další øádek"
+450 "ádná barva 2x"
+451 "Obnovit písma menu"
+452 "restartovat foák..."
+453 "Manuální blesk + síla"
+454 "Potlaèit kvalitu JPEG"
+455 "Restartovat Lua pøi chybì"
+456 "Filtrovat okraje"
+457 "Zobrazit vdy"
+458 "   Pøekrytí panoramat (%)"
+459 "Vytvoøit badpixel.bin"
+460 "Pro tuto operaci je nutné bıt\n v reimu záznamu."
+461 "%s zakázáno pøi sestavení"
+462 "Potlaèení dotykové obrazovky"
+463 "Ovládání AE videa"
+464 "Tlaèítka zkratek <Alt>"
+465 "Informace o USB"
+466 "Zobrazit informace o USB"
+467 "Uloit log ROM selhání"
+468 "CHYBA: SystemEventInit a System.Create selhalo"
+469 "Log ROM selhání nemohl bıt uloen"
+470 "Log ROM selhání byl uloen do ROMLOG.LOG"
+
+471 "Typ pøepnutí"
+472 "Reim ovládání"
+473 "Monosti"
+
+474 "Nastavení textového pole"
+475 "Vybrat znak. sadu text. pole"
+476 "Více ->"
+477 "Vytvoøit sloku"
+478 "Pøejmenovat"
+479 "Zadejte název sloky:"
+480 "Zadejte novı název souboru:"
+481 "Odstranit sloku"
+
+482 "Aktuální uivatelská køivka"
+483 "Tetris"
+484 "Zobrazit èíslo oddílu"
+485 "Video bez èasového limitu"
+486 "CMOS se mùe bìhem dlouhého záznamu pøehøát!"
+
+//GPS Anfang---------------------------------
+487 "Nastavení GPS"
+488 "Zobrazit navigaci"
+489 "Zobrazit kompas"
+490 "Zobrazit zemìpisné souøadnice"
+491 "Zobrazit nadmoøskou vıšku"
+492 "Save waypoint to each JPG"
+493 "GPX-Track - Time Interval           [s]"
+494 "GPX-Track Record                  Start"
+495 "GPX-Track Record                   Stop"
+496 "Quit showing Compass"
+497 "Quit showing navigation"
+498 "Waiting Time for GPS-Signal         [s]"
+499 "Compass    - Sample interval        [s]"
+500 "Navigation - Sample interval        [s]"
+501 "Time to change to play-mode         [s]"
+502 "Time to deactivate backlight        [s]"
+503 "Common Settings"
+504 "Sampling interval until GPS receipt.[s]"
+505 "Attenuation of compass           [1-40]"
+506 "Logging    - Settings"
+507 "Tagging    - Settings"
+508 "Navigation - Settings"
+509 "Shutdown at battery level       [0-99%]"
+510 "Delayed Tagging - Short string"
+511 "0 - 2D-3D Fix"
+512 "Blinking LED during Delayed Tagging"
+513 "Change to play-mode"
+514 "Shutdown backlight"
+515 "Change to play-mode"
+516 "Shutdown backlight"
+517 "Time to change to play-mode         [s]"
+518 "Time to deactivate backlight        [s]"
+519 "Zobrazit stav GPS"
+520 "Alert on low battery"
+521 "Set position as home location" 
+522 "Bring me home                     Start"
+523 "Set position as current timezone"
+524 "Show track record symbol"
+525 "Bring me home                      Stop"
+526 "Check change of Timezone"
+527 "Audio Warnings                 [on/off]"
+528 "GPS - CHDK                     [on/off]"
+529 "Bez GPS!"
+530 "Timezone has changed!"
+531 "Battery below setting!"
+532 "Camera will shutdown in %02d seconds!"
+533 "Automatic shutdown cancelled!"
+534 "Camera will wait for GPS for %01d:%02d"
+535 "Navigation to Home Loc is not possible!"
+536 "Cant navigate to photo: %s!"
+537 "Distance:    = %i m"
+538 "Duration:    = %i:%i:%i"
+539 "Pace:        = %s km/h"
+540 "Direction:   = %i°"
+541 "Destination: = %i°"
+542 "Navigation to photo: %s started"
+543 "latitude=%s  -  longitude=%s "
+544 "heading = %i°"
+545 "Navigation to Home Loc started"
+//GPS Ende-----------------------------------------
+
+546 "Druhá alternativní MIN spouš"
+547 "Druhé alternativní MAX ISO "
+548 "Denní kompen. pøeexp."
+549 "Kompenzovat, kdy pøeexp.>= x%"
+
+550 "Pro storno [namáèknìte]"
+
+551 "Povolit start skriptu"
+
+552 "Zakázat tlaèítko asistence pøiblíení"
+
+553 "Verze DNG"
+554 "Nastavení menu"
+555 "Zobr. obrazovku nápov. <ALT>"
+556 "  Prodleva obraz. nápov."
+557 "Nastavení CHDK"
+
+// <ALT> mode help screen text
+558 "%-17s %-18s"                           // Header format, adjust if needed; but total len must be 35
+559 "Zkratky <ALT>"                       // Len must be <= first string in header format (17)
+560 "Namáèknutí +"                  // Len must be <= first string in header format (17)
+561 "MENU = Menu CHDK"                        // Len must be <= second string in header format (18)
+562 "MENU = Uiv. menu"                        // Len must be <= second string in header format (18)
+563 "SET/SPOUŠ = Menu/Spuštìní skriptu "   // Len must be <= 35
+564 "Fokus  %5s=Inf.  %5s=HyperFocal"       // Len must be <= 35
+565 "Manuální fokus"
+566 "Skrıt OSD CHDK pøi zmáèknutí"
+567 "  * - není k dispoz. v reimu <ALT>"   // Len must be <= 35
+
+568 "Poloka '%s'\npøidána do Uivatelského menu"
+569 "Uivatelské menu je plné"
+
+570 "SD karta"
+571 "Jazyk a písmo"
+
+572 "Pøidat skript do Uivatel. menu"
+
+573 "Nekoneènı fokus"
+574 "Zmìnit koeficient fokusu"
+
+575 "Tlaèítko ON/OFF v reimu <ALT>"
+
+576 "Moduly"
+577 "Inspektor modulù"
+578 "Povolit logování"
+579 "Vymazat log modulù"
+
+580 "Povolit zkratky namáèknutí spouštì"
+581 "<< Zkratky zakázány  >>"
+
+582 "Konzole"
+583 "Zobrazit konzoli v"
+584 "Skrıt N sek po poslední zmìnì"
+585 "Obnovit konzoli"
+586 "Zobrazit poslední konzoli"
+587 "Obnovení velikosti a pozice konzole."
+
+588 "Nastavení Vıpisu RAM"
+589 "Poèáteèní adresa"
+590 "Velikost vıpisu (0 = CELÁ RAM)"
+591 "Zpodìní vıpisu (s)"
+
+592 "Pro bìh modulu\n'%s'\nnení místo"
+593 "Modul\n'%s'\nnepodporuje 'jednoduchı' reim"
+
+594 "Pøidat\n%s\ndo Uivatelského menu?"
+595 "Odstranit\n%s\nz Uivatelského menu?"
+596 "Pøidat & Odstranit poloky Menu"
+597 "Pøidat modul do Uivatelského menu"
+598 "Odstranit aktuální poloku z Uivatelského menu"

@@ -1,0 +1,18 @@
+#include "stubs_asm.h"
+
+DEF(physw_status, 0xE778)
+DEF(physw_run, 0x1FD0)
+DEF(zoom_busy, 0x71F28)
+DEF(focus_busy, 0x722DC)
+DEF(FlashParamsTable,0xFFD6D590)
+DEF(canon_menu_active,0x8240)
+DEF(canon_shoot_menu_active,0x7785)
+DEF(recreview_hold, 0x6ED28)
+DEF(movie_status, 0x66894)
+DEF(some_flag_for_af_scan, 0x6278)
+DEF(zoom_status, 0x761C)
+DEF(some_f_for_dng, 0x8B0C)
+DEF(second_ext_for_dng, 0x8B30)
+DEF(levent_table,0xFFD63808)
+DEF(playrec_mode,0x658C)
+DEF(sys_mempart_id,0xC140)

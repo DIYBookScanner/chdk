@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/2106/trunk/loader/sx210is
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2106/trunk/loader/sx210is/main.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/2106/trunk/loader/sx210is/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2106/trunk/loader/sx210is/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2106/trunk/loader/sx210is/entry.S
+END

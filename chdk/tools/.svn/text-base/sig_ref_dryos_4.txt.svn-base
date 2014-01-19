@@ -1,0 +1,6 @@
+0xff810000
+GetDrive_FreeClusters 0xff8769a8 9
+qsort 0xFFB5FA2C 18
+SetFileTimeStamp 0xFF83737C 23
+ReadFastDir 0xFFAE2C14 26
+OpenFastDir 0xFFAE2AC0

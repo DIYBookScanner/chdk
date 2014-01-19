@@ -1,0 +1,35 @@
+Hilfe für den ersten CHDK-Start
+
+Zum Beenden [PRINT] bzw. [>] drücken.
+Erneute Aktivierung dieser Hilfe: Verschiedene Einstellung - Hilfe-Anzeige
+
+   ===== Hinweise für CHDK-Einsteiger =====
+[PRINT] bzw. [>]  für den ALT-Modus drücken.
+
+Im ALT-Modus:
+ [PRINT]/[>]  - ALT-Modus an/aus
+ [Auslöser] - aktuelles Skript starten
+ [Menu] - CHDK-Menü
+ [Set]  - Skript-Menü
+
+Im Menü:
+ [Hoch, Runter, Drehrad] - Navigieren
+ [Links, Rechts] - Untermenüs/Werteänderung
+ [Disp] - eine Menüebene zurück
+ [Zoom] - Schrittweite der Werteeingabe ändern
+ [Set] - Zustand oder Editiermodus umschalten
+ [Menu] - CHDK-Menü verlassen
+
+Wenn Menüeditiermodus aktiv ist:
+ [Links, Rechts, Grehrad] - Werteänderung um 1
+ [Hoch, Runter] - Werteänderung um 10
+ [Menu] - Funktion ein- oder ausschalten
+ [Set] - Änderung bestätigen
+ [Disp] - Änderung abbrechen
+ 
+Datei-Browser:
+ [Hoch, Runter] - Navigieren
+ [Set] - Standardaktion/Verzeichnis öffnen
+ [Menu] - Beenden
+ [Rechts] - Markieren, Markieren aufheben
+ [Links] - Popup-Menü ([Menu] abbrechen)

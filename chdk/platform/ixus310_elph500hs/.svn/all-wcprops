@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/3279/trunk/platform/ixus310_elph500hs
+END
+wrappers.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/chdk/!svn/ver/1339/trunk/platform/ixus310_elph500hs/wrappers.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/2453/trunk/platform/ixus310_elph500hs/main.c
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/chdk/!svn/ver/1339/trunk/platform/ixus310_elph500hs/notes.txt
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/3232/trunk/platform/ixus310_elph500hs/lib.c
+END
+shooting.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/chdk/!svn/ver/2284/trunk/platform/ixus310_elph500hs/shooting.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/2731/trunk/platform/ixus310_elph500hs/Makefile
+END
+kbd.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/3279/trunk/platform/ixus310_elph500hs/kbd.c
+END
+platform_camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/chdk/!svn/ver/3279/trunk/platform/ixus310_elph500hs/platform_camera.h
+END

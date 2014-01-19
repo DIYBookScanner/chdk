@@ -1,0 +1,12 @@
+****************************************
+Beta CHDK for G15
+****************************************
+Development notes:
+---
+Known issues:
+    - none
+
+TODO:
+    - Debug LEDs address and ON/OFF mechanism in lib.c
+    - EXMEM unimplemented
+    - ???

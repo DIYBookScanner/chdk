@@ -1,0 +1,13 @@
+K 14
+bugtraq:number
+V 4
+true
+K 10
+svn:ignore
+V 25
+.dep
+*.o
+*.a
+PRIMARY.BIN
+
+END

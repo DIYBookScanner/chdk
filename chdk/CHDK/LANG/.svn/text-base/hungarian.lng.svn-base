@@ -1,0 +1,762 @@
+// CHDK language file
+// Format of language line:
+// <id> "<text>"
+//   <id>   - should be positive number
+//   <text> - any text enclosed into quotes
+//
+// version 0.99 by kuf(at)megesz(dot).hu & Titan_G9 & rhen
+// version 1.2 update by srsa
+// version 1.3 - codepage Win1252 for font compatibility
+
+
+
+  
+  1 "Fömenü"
+
+  2 "RAW beállítások"
+  3 "OSD beállítások"
+  4 "Hisztogram beállítások"
+  5 "Zebra beállítások"
+  6 "Szkript beállítások"
+  7 "Színek"
+  8 "Egyebek"
+  9 "Hibakeresés (debug)"
+ 10 "Visszaállítás alaphelyzetbe..."
+ 11 "Beállítások mentése..."
+
+ 12 "Vissza"
+
+ 13 "RAW"
+
+ 14 "Mentés RAW-ba"
+ 16 "Csak a sorozat elsö képe RAW"
+ 17 "RAW fájl a JPEG-ek mellett"
+ 18 "RAW fájl elötag"
+ 19 "RAW fájl kiterjesztés"
+
+
+ 20 "OSD"
+
+ 21 "OSD megjelenítése"
+ 22 "Állapotjelzök megjelenítése"
+ 23 "Egyéb értékek megjelenítése"
+ 24 " Zoom kijelzési módja"
+ 25 "DOF kijelzö mutatása"
+ 26 "Óra megjelenítése"
+ 27 "OSD szerkesztése"
+ 28 "Akku beállítások"
+
+
+ 29 "Hisztogram"
+
+ 30 "Élö hisztogram mutatása"
+ 31 "Hisztogram típusa"
+ 32 "Hisztogram mód"
+ 33 "Alul/túlexp. a hisztogramon"
+ 34 "Csúcsok figyelmen kívül hagyása"
+ 35 "Automatikus nagyítás"
+
+
+ 36 "Zebra"
+
+ 37 "Zebra megjelenítése"
+ 38 "Zebra mód"
+ 39 "Alulexponáltsági küszöb"
+ 40 "Túlexponáltsági küszöb"
+ 41 "Eredeti képernyö"
+ 42 "OSD visszaállítás"
+ 43 "Zebra felülrajzolása"
+
+
+ 44 "Szkript menü"
+
+ 45 "Szkript betöltése..."
+ 46 "Szkript késleltetés (.1s)"
+ 47 "Jelenlegi szkript"
+ 48 "Szkript beállítások"
+
+
+ 49 "Színek beállítása"
+
+ 50 "Nyelv..."
+ 51 "OSD kódlap"
+ 52 "Menü RBF betütípus..."
+ 53 "Színek"
+ 54 "OSD szöveg"
+ 55 "OSD háttér"
+ 56 "Hisztogram"
+ 57 "Hisztogram háttér"
+ 58 "Hisztogram keret"
+ 59 "Hisztogram EXP jelölö"
+ 60 "Zebra alulexponáltságnál"
+ 61 "Zebra túlexponáltságnál"
+ 62 "Akku/elem ikon"
+ 63 "Menü szöveg"
+ 64 "Menü háttér"
+ 65 "Szövegolvasó szöveg"
+ 66 "Szövegolvasó háttére"
+
+
+ 67 "Egyebek"
+
+ 68 "Fájlkezelö"
+ 69 "Naptár"
+ 70 "Szövegfájl olvasó"
+ 71 "Játékok"
+ 72 "Zseblámpa"
+ 73 "Bemutatkozó képernyö mutatása"
+ 74 "Manuális fókusz a zoomgyürüvel"
+ 75 "<ALT> mód gomb"
+ 76 "Paletta megjelenítése"
+ 77 "CHDK verzióinfó"
+ 78 "Memória infó"
+
+
+ 79 "Hibakeresés (debug)"
+
+ 80 "Lista megjelenítése"
+ 81 "Prop/Param oldalszám"
+ 82 "Egyéb értékek megjelenítése"
+ 83 "Memória böngészö"
+ 84 "ALT +/- debug müvelet"
+ 85 "SD kártya bootolhatóvá tétele..."
+
+
+ 86 "Akku"
+
+ 87 "Akku MAX feszültség (mV)"
+ 88 "Akku MIN feszültség (mV)"
+ 89 "Lépésköz (ON= 25, OFF= 1 mV)"
+ 90 "Százalékos megjelenítés"
+ 91 "Feszültség megjelenítése"
+ 92 "Ikon megjelenítése"
+
+
+ 93 "Szövegfájl olvasó"
+
+ 94 "Fájl megnyitása..."
+ 95 "Legutóbbi fájl"
+ 96 "RBF betütípus választás"
+ 97 "Kódlap"
+ 98 "Tördelés szavanként"
+ 99 "Auto görgetés"
+100 "Görgetés késleltetés (s)"
+
+
+101 "Játékok"
+
+102 "Reversi"
+103 "Sokoban"
+
+
+104 "*** Beállítások alaphelyzetbe ***"
+105 "Biztos visszaállítod\naz alaphelyzetet?"
+
+106 "*** Verzióinfó ***"
+107 "Kiadás:   %s, #%s\nRevízió:  %s\nDátum:    %s\nIdö:      %s\nGéptípus: %s\nFirmware: %s\nFordító:  %s"
+
+108 "*** Memóriainfó ***"
+109 "Szabad RAM: %d byte\nCHDK mérete: %d byte\nbetöltödve ide: 0x%X"
+
+110 "*** Információ ***"
+111 "Válts lejátszás módba\nés próbáld újra. :)"
+
+// file browser titles
+112 "Fájlkezelö"
+113 "Szkript választás"
+114 "Szövegfájl választás"
+115 "RBF betütípusfájl választás"
+116 "Nyelv fájl választás"
+
+// for calendar
+117 "Január"
+118 "Február"
+119 "Március"
+120 "Április"
+121 "Május"
+122 "Június"
+123 "Július"
+124 "Augusztus"
+125 "Szeptember"
+126 "Október"
+127 "November"
+128 "December"
+
+129 "Hét"
+130 "Ked"
+131 "Sze"
+132 "Csü"
+133 "Pén"
+134 "Szo"
+135 "Vas"
+
+136 "Ma:"
+
+// messagebox buttons
+137 "OK"
+138 "Igen"
+139 "Nem"
+140 "Mégse"
+
+// OSD layout editor
+141 "Hisztogram"
+142 "DOF kijelzö"
+143 "Állapotjelzök"
+144 "Egyéb értékek"
+145 "Akku ikon"
+146 "Akku szöveg"
+147 "Óra"
+
+// palette
+148 "Egyéni szín: [SET]"
+149 "Kilépés:    [MENU]"
+150 "Szín"
+151 "Színválasztás: %s"
+
+// reversi
+152 "*** Eredmény ***"
+153 "Nyertél! :)"
+154 "Vesztettél! :("
+155 "Döntetlen! :/"
+
+156 "*** Hibás lépés ***"
+157 "Nem rakhatod oda!"
+158 "A cella nem üres!"
+
+159 "Lépés: Te     "
+160 "Lépés: Gép    "
+161 "  GAME  OVER  "
+162 " Fehér  Fekete "
+
+163 "*** Infó ***"
+
+// sokoban
+164 "  Pálya"
+165 "  Lépés"
+166 "*** Végeztél ***"
+167 "Igen!\n  Megcsináltad!  "
+
+// console
+168 "*** ELKEZDVE ***"
+169 "*** MEGSZAKITVA ***"
+170 "*** BEFEJEZVE ***"
+
+// file browser
+171 "*** Könyvtár törlése ***"
+172 "BIZTOS, hogy MINDENT\nTÖRÖLSZ\na kiválasztott könyvtárból?"
+173 "*** Fájl törlés ***"
+174 "BIZTOS, hogy TÖRLÖD\na fájlt?"
+
+// benchmark
+175 "Sebességmérés"
+176 "Mérés folyamatban "
+177 "Sebességmérés      Indítás: [SET]"
+178 "Képernyö"
+179 "Írás        :"
+180 "Olvasás     :"
+181 "Memória"
+182 "SD kártya"
+183 "Írás   (RAW):"
+184 "Írás   (Mem):"
+185 "Írás   (64k):"
+186 "Olvasás(64k):"
+
+187 "LCD kikapcs. tiltás"
+
+188 "Kivág"
+189 "Másol"
+190 "Beilleszt"
+191 "Töröl"
+192 "Kijelölés megfordítás"
+193 "*** Fájl kivágás ***"
+194 "BIZTOS, hogy ki akarod vágni a(z)\n%d kiválaszott fájlt\ninnen: %s/?"
+195 "*** Fájl másolás ***"
+196 "BIZTOS, hogy másolni akarod a(z)\n%d kiválasztott fájlt\ninnen: %s/?"
+197 "*** Fájl törlés ***"
+198 "BIZTOS, hogy törölni akarod a(z)\n%d kiválasztott fájlt?"
+199 "Kérlek várj..."
+
+200 "Rács megjelenítése"
+201 "Rács betöltés fájlból..."
+202 "Rács vonalak"
+203 "Rács beállítások"
+204 "Rács kiválasztás"
+205 "Jelenlegi rács"
+
+206 "Zajszürés (dark frame)"
+
+207 "Rácsszín felülbírálása"
+208 "Vonal színe"
+209 "Kitöltés színe"
+
+ 210 "DOF kijelzö (mélységélesség)"
+ 211 "DOF kijelzö (mélységélesség)"
+ 212 "Canon tárgytáv. mint közeli határ"
+ 213 "Tárgytáv. EXIF alapján"
+ 214 "Tárgytáv. az egyéb értékek közt"
+ 215 "Közelpont az egyéb értékek közt"
+ 216 "Távolpont az egyéb értékek közt"
+ 217 "Hiperfokális táv. az egyéb értékek közt"
+ 218 "DOF az egyéb értékek közt"
+
+ 
+ 219 "Egyéb értékek"
+ 220 "Egyéb értékek"
+ 221 "Megjelenítés ellenörzés módban"
+ 222 "Zoom"
+ 223 "Valós rekesz"
+ 224 "Valós ISO"
+ 225 "Market ISO"
+ 226 " ISO kijel. csak AutoISO módban"
+ 227 "Beállított exp. érték (Tv+Av)"
+ 228 "Mért exp. érték (Bv+Sv)"
+ 229 "Beállított fénysürüség (Bv)"
+ 230 "Mért fénysürüség (Bv)"
+ 231 "Túlexp. kijelzése (vaku nem!)"
+ 232 "Jelenet fénysürüsége"
+
+ 233 "Videó beállítások"
+ 234 "Videó beállítások"
+ 235 "Videó mód"
+ 236 "Videó bitráta"
+ 237 "Videó minöség"
+
+ 
+ 238 "Extra fotó beállítások"
+ 239 "Extra fotó beállítások"
+ 240 " Ev lépés"
+ 241 " Hosszú záridö"
+ 242 "Rekesz felülbírálása"
+ 243 "ISO felülbírálása"
+ 244 " Rövid záridö"
+ 245 "Fókusz felülbírálása"
+ 246 " Léptetés +/-(mm)"
+
+ 247 "Felvételsorozat foly. módban"
+ 248 "Felvételsorozat foly. módban"
+ 249 "Záridö sorozat"
+ 250 "Rekesz sorozat"
+ 251 "ISO sorozat"
+ 253 "Fókusz sorozat (mm)"
+ 255 "Sorozat típusa"
+
+ 256 "Autostart"
+ 257 "Távvezérlés (USB távkioldó)"
+
+ 258 "A Lua rendszerhívások engedélyezése\nlehetövé teszi, hogy egy szkript\nesetleg kárt tegyen a gépben.\n\nBiztosan engedélyezed?"
+ 259 "Lua rendszerhívások engedélyezése"
+ 260 "*** MEGSZAKÍTVA ***"
+ 261 "*** Autostart ***"
+
+ 264 "Nincs felülbírálás induláskor"
+
+ 265 "Canon túlexp. érték kijelzése"
+
+ 266 "RAW elöhívás"
+ 267 "Kapcsold a kamerát\nfelvételi módba és\kattints."
+ 268 "Válassz RAW fájlt"
+ 269 "RAW összegzés"
+ 270 "RAW átlagolás"
+ 271 "Kevés a hely a kártyán:\n%dM szükséges, %dM elérhetö."
+
+ 272 "OSD kijelzése ellenörzés módban"
+ 273 "Task lista kezdete"
+
+ 274 "Tárgy táv. objektívtöl"
+
+ 275 "Induláskor értékek alaphelyzetbe"
+
+ 276 "Kártya 2 particióra osztása"
+ 277 "Partició csere"
+ 278 "MINDEN ADAT ELVÉSZ a kártyán.\nFolytatod?"
+ 279 "Csak egy partició van ezen a kártyán."
+ 280 "Hiba"
+ 281 "Figyelmeztetés"
+ 282 "Információ"
+ 283 "RGB zebra (csak túlexp.)"
+
+ 284 "ND szürö állapota"
+
+ 285 "Hisztogram Ev rács kijelzése"
+
+ 286 "OSD figyelmeztetés"
+ 287 "OSD figyelmeztetés háttere"
+ 288 "Üres hely ikon színe"
+ 289 "Üres hely ikon kijelzése"
+ 290 "Üres hely"
+ 291 "Üres hely százalékban"
+ 292 "Üres hely MB-ban"
+ 293 "Üres hely szöveg"
+ 294 " Hátralévö RAW kijelzése"
+ 295 "Hátralévö RAW"
+
+ 296 "RAW állapot kijelzése"
+
+ 297 "Értékek kijelzése videó módban"
+
+ 298 "Záridö felülbírálása"
+ 299 "Saját menü engedélyezés"
+ 300 "Saját menü"
+ 301 "Saját menü szerkesztése"
+ 
+ 302 " Elötétlencse szorzója (%)"
+ 303 "Üres hely sáv kijelzése"
+ 304 " Mérete a kijelzön"
+ 305 " Szélesség/Hossz"
+ 306 " %  küszöb"
+ 307 " MB küszöb"
+ 308 "Figyelmeztetési egység"
+ 309 " Figyelmeztetési küszöb"
+ 310 "Optikai zoom engedélyezése"
+ 311 "Óra"
+ 312 "Óra beállítások"
+ 313 "Óra formátum"
+ 314 "Üres hely háttér színe"
+ 315 "12 órás formátum"
+ 316 "Exp. gomb félig lenyomásakor"
+
+ 317 "RAW kijelzés beállítások"
+ 318 "RAW"
+
+ 319 "Üres hely kijelzés beállítás"
+ 320 "Üres hely"
+
+ 321 "Egyedi Auto ISO"
+ 322 "Egyedi Auto ISO"
+ 323 "Egyedi Auto ISO engedélyezése"
+ 324 "Legrövidebb záridö"
+ 325 "Felh.tényezö(1/FL/tényezö)"
+ 326 "IS tényezö (Tv*tényezö)"
+ 327 "Max ISO HI"
+ 328 "Max ISO AUTO"
+ 329 "Min ISO"
+
+ 330 "Menü cimke szöveg színe"
+ 331 "Menü cimke háttér színe"
+ 332 "Kurzor szöveg színe"
+ 333 "Kurzor háttér színe"
+ 334 "Középre igazított"
+ 335 "Némítás zoom alatt"
+
+ 336 "Külön pixelhiba kezelés"
+ 337 "Kikapcs"
+ 338 "Átlagol"
+ 339 "Jelölés"
+
+ 340 "Felülbírálás"
+ 341 "Felülbírálás háttere"
+ 342 "Felülbírálások kikapcsolása"
+ 343 " AutoISO és sorozatfelv is"
+ 344 " Elrejtés"
+ 345 "Kikapcsolva videófelvételnél"
+ 346 "Hátralévö felv. idö"
+ 347 " Kijelzés frissül (s)"
+ 348 "Maradék felvételi idö"
+ 349 "Beállítások törlése induláskor"
+ 350 "Gyors Ev kapcsoló engedélyezése"
+ 352 "EV korrekció"
+ 353 "BIZTOSAN TÖRÖLSZ MINDEN\nRAW fájlt JPG hivatkozás nélkül\na DCIM könyvtárban?"
+ 354 "BIZTOSAN TÖRÖLSZ MINDEN\nRAW fájlt JPG hivatkozás nélkül\na választott könyvtárban?"
+ 355 "BIZTOSAN TÖRLÖD a JPG pár nélküli\nRAW fájlokat?\n(A jelölteket kivéve)"
+ 356 "RAW törlés nem lehetséges\nezen a tételen"
+ 357 "*** RAW fájl törlés ***"
+ 358 "RAW törlés"
+
+ 359 "Saját menü fömenüként"
+
+ 360 "Szimbólum betütipus"
+ 361 "Szimbólum fájl választás"
+ 362 "Szimbólumok engedélyezése"
+ 363 "Szimbólum szöveg színe"
+ 364 "Szimbólum háttér színe"
+
+ 365 "Egyedi görbék"
+ 366 "Egyedi görbék"
+ 367 "Görbe betöltése fájlból..."
+ 368 "Görbe engedélyezése"
+ 369 "Görbe fájl választás"
+
+ 370 "Él (kontúr) kijelzés"
+ 371 "Élkijelzés"
+
+ 372 "Élkijelzés engedélyezése"
+ 373 "Élkijelzés küszöbérték"
+ 374 "Élkijelzés színe"
+
+ 375 "Távvezérlés beállítások"
+ 376 "Távvezérlés beállítások"
+ 377 "Távvez. engedélyezése"
+ 378 "Szinkronizálás engedélyezése"
+ 379 "Szinkr. késleltetés engedélyezése"
+ 380 "Szinkr. késleltetés 0.1ms"
+ 381 "Szinkr. késleltetés 0.1s"
+
+ 382 "AF gomb"
+ 383 "Paraméterek visszaállítása"
+ 384 "Paraméter-készlet"
+
+ 385 "Tiltás Sport módban"
+ 386 "Tiltás Burst módban"
+ 387 "Tiltás expó sorozatnál"
+ 388 "Tiltás idözített felvételnél"
+
+ 389 "Kivételek"
+ 390 "RAW kivételek menü"
+ 391 "Kivételre figyelmeztet"
+ 392 "Mindig az elsö sorra ugrik"
+
+ 393 "Idötúllépés (0.1s)"
+ 394 "Szinkr. távvezérlés"
+ 395 "Felvétel pillanat-állj engedélyezése"
+ 396 "Hömérséklet"
+ 397 "Hömérséklet kijelzés"
+ 398 "Minöség állítás gyorsgombbal"
+ 399 "Távvez. zoom engedélyezés"
+ 400 "Zoom idötúllépés 0.1s"
+ 401 "Indulási hang"
+ 402 "RAW müvelet elötag"
+ 403 "RAW müvelet kiterjesztés"
+ 404 "Bemeneti sötét érték kivonása"
+ 405 "Kimeneti sötét érték kivonása"
+ 406 "kivonása ezekböl:"
+ 407 "(még további %d fájl)"
+ 408 "Kivonás"
+ 409 "Kivonás a jelöltböl"
+ 410 "Beállítások mentése"
+ 411 "Video Ev kijelzö"
+ 412 " Zoom értéke" 
+ 413 "Zoom felülbírálás" 
+ 414 " Törlés induláskor" 
+415 "RAW kiterjesztés hozzáadása"
+416 " Fahrenheitben"
+417 "Elmentett él betöltése fájlból"
+418 "Élkijelzés mentése fájlba"
+419 "Engedélyezés lejátszás módban"
+
+421 "Zoom betöltése majd beállítása"
+422 "Panoráma mód"
+423 "2. redöny vakuszinkron"
+424 "DNG formátum"
+425 "RAW gyorstárazással (cache)"
+426 "CHDK/badpixel.bin nem található!\nHasználd a\n'badpixel.bin elkészítése'\nmenüpontot."
+427 "RAW mentés idejének megjelenítése"
+428 "Connect 4"
+429 "Ellenfél:"
+430 "Te"
+431 "1. játékos nyerte a játékot"
+432 "2. játékos nyerte a játékot"
+433 "Lenyomtalak! :P"
+434 "A játék döntetlennel zárult"
+435 "Tiltás élkijelzés esetén"
+436 "Tiltás AUTO módban"
+437 " Csak videó módban"
+438 "Auto vaku + exp. komp."
+439 "'DNG' fájl kiterjesztés"
+440 "DNG látható USB-n keresztül"
+441 "Mastermind"
+442 "elérhetö színek"
+443 "jó helyen"
+444 "szín a válaszban"
+445 "HELYES :-)"
+446 "Vesztettél"
+447 "[<-][->] oszlop kiválasztása"
+448 "[FEL][LE] szín kiválasztása"
+449 "[SET] következö sor"
+450 "NINCSENEK DUPLA SZÍNEK"
+451 "Betütípus és nyelv visszaállítása"
+452 "Ki- és bekapcsolás után\nfog visszaállni."
+453 "Manuális vaku + erösség"
+454 "JPEG minöség felülbírálása"
+455 "Lua újraindítása hiba esetén"
+456 "Élek szürése"
+457 "Folyamatosan mutat"
+458 " Átfedés (%)"
+459 "badpixel.bin elkészítése"
+460 "Elöbb lépj felvétel módba"
+461 "%s kikapcsolva a build-ben"
+462 "Touchscreen felülbírálások"
+463 "Video AE vezérlök"
+464 "<Alt> gomb"
+465 "USB infó"
+466 "USB infó kijelzése"
+467 "Romlog készítés"
+468 "HIBA: SystemEventInit, System.Create"
+469 "Romlog nem menthetö"
+470 "Romlog mentve: ROMLOG.LOG"
+
+471 "Kapcsoló típusa"
+472 "Vezérlési mód"
+473 "Beállítások"
+
+474 "Szövegdoboz beállítások"
+475 "Szövegdoboz betükészlet"
+476 "Egyebek ->"
+477 "Új könyvtár"
+478 "Átnevezés"
+479 "Könyvtár neve:"
+480 "Új fájlnév:"
+481 "Könyvtár törlése"
+
+482 "Kiválasztott görbe"
+483 "Tetris"
+484 "Partíciószám kijelzése"
+485 "Video idökorlát feloldása"
+486 "A szenzor túlhevülhet hosszú felvételnél!"
+
+//GPS Anfang---------------------------------
+487 "GPS beállítások"
+488 "Navigációt mutat"
+489 "Iránytüt mutat"
+490 "Geo-koordinátákat mutat"
+491 "Magasság kijelzése"
+492 "Út-pont mentése minden JPG-be"
+493 "GPX-Track - idöintervallum          [s]"
+494 "GPX-Track felvétel                Indít"
+495 "GPX-Track felvétel              Leállít"
+496 "Iránytü eltüntetése"
+497 "Navigáció eltüntetése"
+498 "GPS jelre várakozás ideje           [s]"
+499 "Iránytü - mintavétel idöintervallum [s]"
+500 "Navigáció - mintavétel idöinterv.   [s]"
+501 "Lejátszás módba vált                [s]"
+502 "Háttérvilágítás kikapcsolása        [s]"
+503 "Általános beállítások"
+504 "Mintavételi intervallum GPS vételig [s]"
+505 "Iránytü csillapítása             [1-40]"
+506 "Naplózás   - beállítások"
+507 "Tagging    - beállítások"
+508 "Navigáció  - beállítások"
+509 "Kikapcsol akku töltöttségnél    [0-99%]"
+510 "Idözített tag-elés (rövid szöveg)"
+511 "0 - 2D-3D javítás"
+512 "LED villog idözített tag-elés alatt"
+513 "Lejátszás módba vált"
+514 "Háttérvilágítás kikapcsol"
+515 "Lejátszás módba vált"
+516 "Háttérvilágítás kikapcsol"
+517 "Lejátszás módba vált                [s]"
+518 "Háttérvilágítás kikapcsol           [s]"
+519 "GPS állapot kijelzése"
+520 "Riaszt kimerült akku esetén"
+521 "'Otthon' pozíció beállítása" 
+522 "Vezess haza                       Indít"
+523 "Aktuális idözóna beállítása"
+524 "Útvonalrögzítés jelének mutatása"
+525 "Vezess haza                     Leállít"
+526 "Idözónaváltás figyelése"
+527 "Hangos figyelmeztetés           [be/ki]"
+528 "GPS - CHDK                      [be/ki]"
+529 "Nincs GPS!"
+530 "Idözóna megváltozott!"
+531 "Akku töltöttség a megadott érték alatt!"
+532 "A gép %02d másodperc múlva kikapcsol!"
+533 "Automatikus kikapcsolás leállítva!"
+534 "GPS-re várakozás eddig: %01d:%02d"
+535 "Haza-navigálás nem lehetséges!"
+536 "Fotóhoz navigálás nem lehetséges: %s!"
+537 "Távolság:    = %i m"
+538 "Idötartam:   = %i:%i:%i"
+539 "Sebesség:    = %s km/h"
+540 "Irány:       = %i°"
+541 "Cél:         = %i°"
+542 "Fotóhoz navigálás: %s elindult"
+543 "szélesség=%s -  hosszúság=%s "
+544 "irány = %i°"
+545 "Haza-navigálás elindult"
+//GPS Ende-----------------------------------------
+
+546 "Min. záridö rossz esetben"
+547 "Max. ISO rossz esetben"
+548 "Túlexp. kompenzáció"
+549 "Túlexponált terület, %"
+
+550 "Megszakítás [Exp. gomb félig]"
+
+551 "Szkript engedélyezése"
+
+552 "Zoom Assist gomb kikapcsolása"
+
+553 "DNG verzió"
+554 "Menü beállítás"
+555 "<ALT> segítség megjelenítése"
+556 " Segítség késleltetése"
+557 "CHDK beállítások"
+
+// <ALT> mode help screen text
+558 "%-20s %-14s"                           // Header format, adjust if needed; but total len must be 35
+559 "<ALT> gyorsgombok"                     // Len must be <= first string in header format (20)
+560 "Exp. gomb félig +"                     // Len must be <= first string in header format (20)
+561 "MENU=CHDK menü"                        // Len must be <= second string in header format (14)
+562 "MENU=Sajátmenü"                        // Len must be <= second string in header format (14)
+563 "SET=Szkriptmenü, Expó=szkript indít"   // Len must be <= 35
+564 "Fókusz %5s=végt. %5s=hiperfokál"     // Len must be <= 35
+565 "Manuális fókusz"
+566 "CHDK OSD ideiglenes elrejtése"
+567 "  * - nem elérhetö <ALT> módban    "   // Len must be <= 35
+
+568 "'%s'\nhozzáadva a saját menühöz"
+569 "Saját menü megtelt"
+
+570 "SD kártya"
+571 "Nyelv és betükészlet"
+
+572 "Szkript hozzáadása"
+
+573 "Végtelen fókusz"
+574 "Fókusz lépésköz"
+
+575 "ON/OFF gomb <ALT> módban"
+
+576 "Modulok"
+577 "Modul-információ"
+578 "Naplózás engedélyezése"
+579 "Modul-napló törlése"
+
+580 "Féligexpó-gyorsgombok engedélyezve"
+581 "<< Gyorsgombok kikapcsolva  >>"
+
+582 "Konzol"
+583 "Konzol megjelenítve:"
+584 "Elrejt ennyi idö múlva (s)"
+585 "Konzol alaphelyzetbe"
+586 "Legutóbbi konzol megjelenítése"
+587 "Konzol méret és pozíció\nvisszaállítva."
+
+588 "RAM kiírás (dump) beállítások"
+589 "Kezdöcím"
+590 "Méret (0 = teljes RAM)"
+591 "Kiírás késleltetése (s)"
+
+592 "'%s': a modul futtatásához\nnincs elég memória"
+593 "'%s': ez a modul\nnem futtatható önállóan"
+
+594 "Hozzáadod a\nsaját menühöz:\n%s ?"
+595 "Eltávolítod a\nsaját menüböl:\n%s ?"
+596 "Menüpontot hozzáad, eltávolít"
+597 "Modul hozzáadása"
+598 "Menüpont eltávolítása"
+
+599 "EyeFi"
+600 "EyeFi müveletek"
+601 "Elérhetö hálózatok"
+602 "Beállított hálózatok"
+603 "Sikertelen"
+604 "Sikeres"
+605 "Rossz jelszó?"
+606 "Hálózat hozzáadva"
+607 "Hálózat hozzáadása nem sikerült"
+608 "Hálózat hozzáadása"
+609 "Teszteljük a hálózatot?"
+610 "Jelszó"
+611 "EyeFi inicializálás sikertelen"
+612 "Nincs elég memória"
+613 "EyeFi kártya nem található"
+614 "Hálózat nem törölhetö"
+615 "Hálózat törölve"
+616 "Biztos vagy benne?"
+617 "EyeFi WLAN bekapcsolva"
+618 "EyeFi WLAN kikapcsolva"
+619 "EyeFi WLAN bekapcsolás (kényszerít)"
+620 "EyeFi WLAN kikapcsolás (kényszerít)"
+621 "A hálózat nem található"
+622 "Nem található hálózat"

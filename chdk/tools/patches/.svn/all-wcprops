@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/chdk/!svn/ver/515/trunk/tools/patches
+END
+README.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/515/trunk/tools/patches/README.TXT
+END
+libptp2-1.1.0-canon-upload.diff
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/chdk/!svn/ver/511/trunk/tools/patches/libptp2-1.1.0-canon-upload.diff
+END
+gcc-3.4-arm.diff
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/511/trunk/tools/patches/gcc-3.4-arm.diff
+END

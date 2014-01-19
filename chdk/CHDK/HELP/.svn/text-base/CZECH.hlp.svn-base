@@ -1,0 +1,35 @@
+Rychlá pøíruèka pro CHDK.
+
+Pro ukonèení tohoto prùvodce stiknìte [PRINT]
+Pro zobrazení tohoto prùvodce: Rùzné vìci - Zobrazit NÁPOVÌDU
+
+   ===== PØÍRUÈKA pro zelenáèe =====
+Stiknìte [PRINT] nebo [>] pro reim ALT.
+
+V reimu ALT:
+ [Print]/[>] - vypnutí reimu ALT
+ [Spouš] - spuštìní aktuálního skriptu
+ [Menu] - pøejití do menu CHDK
+ [Set] - pøejití do menu skriptu
+
+V menu:
+ [Nahoru, Dolù, JogDial] - navigace
+ [Doleva, Doprava] - pøejití do podmenu/zmìna hodnoty
+ [Disp] - zpìt o jednu úroveò menu
+ [Pøiblíení] - zmìna pøírùstku
+ [Set] - pøepnutí hodnoty/zmìna reimu úprav
+ [Menu] - vypnutí menu CHDK
+
+Pøi editaci poloky menu:
+ [Doleva, Doprava, JogDial] - zmìna hodnoty o 1
+ [Nahoru, Dolù] - zmìna hodnoty o 10
+ [Menu] - zapnutí/vypnutí funkènosti
+ [Set] - potvrzení zmìny
+ [Disp] - zrušení zmìny
+
+Prohlíeè souborù:
+ [Nahoru, Dolù] - navigace
+ [Set] - vıchozí akce/vstup do sloky
+ [Menu] - ukonèit
+ [Doprava] - oznaèit/odznaèit
+ [Doleva] - vyskakovací menu ([Menu] - storno)

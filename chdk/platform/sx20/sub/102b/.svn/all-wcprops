@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3259/trunk/platform/sx20/sub/102b
+END
+capt_seq.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/939/trunk/platform/sx20/sub/102b/capt_seq.c
+END
+stubs_entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/chdk/!svn/ver/3254/trunk/platform/sx20/sub/102b/stubs_entry.S
+END
+others.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/900/trunk/platform/sx20/sub/102b/others.txt
+END
+boot.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/3230/trunk/platform/sx20/sub/102b/boot.c
+END
+makefile.inc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/3259/trunk/platform/sx20/sub/102b/makefile.inc
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/1527/trunk/platform/sx20/sub/102b/lib.c
+END
+stubs_auto.S
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/1991/trunk/platform/sx20/sub/102b/stubs_auto.S
+END
+movie_rec.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/939/trunk/platform/sx20/sub/102b/movie_rec.c
+END
+stubs_entry_ida.S
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/chdk/!svn/ver/939/trunk/platform/sx20/sub/102b/stubs_entry_ida.S
+END
+bin_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/3156/trunk/platform/sx20/sub/102b/bin_compat.h
+END
+funcs_by_name.csv
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/chdk/!svn/ver/3250/trunk/platform/sx20/sub/102b/funcs_by_name.csv
+END
+stubs_entry_2.S
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/chdk/!svn/ver/2319/trunk/platform/sx20/sub/102b/stubs_entry_2.S
+END
+stubs_min.S
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/1641/trunk/platform/sx20/sub/102b/stubs_min.S
+END
+funcs_by_address.csv
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/chdk/!svn/ver/3250/trunk/platform/sx20/sub/102b/funcs_by_address.csv
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/939/trunk/platform/sx20/sub/102b/Makefile
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3259/trunk/platform/a2200
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2181/trunk/platform/a2200/lib.c
+END
+shooting.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/2483/trunk/platform/a2200/shooting.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/2731/trunk/platform/a2200/Makefile
+END
+kbd.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/3148/trunk/platform/a2200/kbd.c
+END
+platform_camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/3148/trunk/platform/a2200/platform_camera.h
+END
+wrappers.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/1933/trunk/platform/a2200/wrappers.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2986/trunk/platform/a2200/main.c
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/3148/trunk/platform/a2200/notes.txt
+END

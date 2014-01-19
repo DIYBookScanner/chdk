@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/3285/trunk/platform/ixus1000_sd4500
+END
+shooting.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/1641/trunk/platform/ixus1000_sd4500/shooting.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/2731/trunk/platform/ixus1000_sd4500/Makefile
+END
+kbd.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/kbd.c
+END
+platform_camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/chdk/!svn/ver/3285/trunk/platform/ixus1000_sd4500/platform_camera.h
+END
+wrappers.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/wrappers.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/2986/trunk/platform/ixus1000_sd4500/main.c
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/3195/trunk/platform/ixus1000_sd4500/notes.txt
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/1642/trunk/platform/ixus1000_sd4500/lib.c
+END

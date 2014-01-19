@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 72
+.dep
+*.a
+*.o
+sig_ref_*bin
+pakwif
+hexdmplt
+gensig
+finsig
+*.exe
+ref_dumps
+
+END

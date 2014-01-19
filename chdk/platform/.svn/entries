@@ -1,0 +1,456 @@
+10
+
+dir
+3319
+https://tools.assembla.com/svn/chdk/trunk/platform
+https://tools.assembla.com/svn/chdk
+
+
+
+2014-01-18T22:54:54.290796Z
+3319
+philmoz
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+6794e30b-3f2a-0410-a806-a2bbca1c07ff
+
+sx160is
+dir
+
+a590
+dir
+
+ixus970_sd890
+dir
+
+s2is
+dir
+
+a1000
+dir
+
+ixus65_sd630
+dir
+
+a1200
+dir
+
+a3100
+dir
+
+d20
+dir
+
+a1400
+dir
+
+a3300
+dir
+
+ixus1000_sd4500
+dir
+
+ixus80_sd1100
+dir
+
+ixus85_sd770
+dir
+
+sx30
+dir
+
+ixus110_sd960
+dir
+
+ixus220_elph300hs
+dir
+
+ixus850_sd800
+dir
+
+fi2.inc.txt
+file
+
+
+
+
+2014-01-06T03:15:01.182725Z
+36f748008987e7717100d14c2f8431de
+2011-07-10T04:45:40.887507Z
+1230
+reyalp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+695
+
+ixus240_elph320hs
+dir
+
+ixus105_sd1300
+dir
+
+a800
+dir
+
+sx110is
+dir
+
+a720
+dir
+
+sx210is
+dir
+
+ixus140_elph130
+dir
+
+a640
+dir
+
+s80
+dir
+
+sx240hs
+dir
+
+a560
+dir
+
+tx1
+dir
+
+sx150is
+dir
+
+a480
+dir
+
+ixus980_sd990
+dir
+
+a2100
+dir
+
+s100
+dir
+
+a4000
+dir
+
+a2300
+dir
+
+g10
+dir
+
+g11
+dir
+
+g12
+dir
+
+sx50hs
+dir
+
+g15
+dir
+
+ixus120_sd940
+dir
+
+ixus95_sd1200
+dir
+
+ixusizoom_sd30
+dir
+
+ixus30_sd200
+dir
+
+ixus310_elph500hs
+dir
+
+ixus125_elph110hs
+dir
+
+a410
+dir
+
+sx100is
+dir
+
+a610
+dir
+
+sx200is
+dir
+
+a530
+dir
+
+ixus950_sd850
+dir
+
+a450
+dir
+
+a810
+dir
+
+sx230hs
+dir
+
+s90
+dir
+
+sx500is
+dir
+
+a650
+dir
+
+generic
+dir
+
+a570
+dir
+
+a490
+dir
+
+g7
+dir
+
+g9
+dir
+
+s95
+dir
+
+s3is
+dir
+
+a1100
+dir
+
+a495
+dir
+
+a3000
+dir
+
+s5is
+dir
+
+a1300
+dir
+
+s110
+dir
+
+a3200
+dir
+
+ixus70_sd1000
+dir
+
+a3400
+dir
+
+sx40hs
+dir
+
+sx10
+dir
+
+makefile_sub.inc
+file
+
+
+
+
+2014-01-19T00:59:53.838726Z
+0f4fe35a5145a4712edd1aa748b61c2c
+2014-01-18T01:57:27.110998Z
+3318
+philmoz
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4187
+
+ixus230_elph310hs
+dir
+
+ixus40_sd300
+dir
+
+ixus300_sd4000
+dir
+
+a420
+dir
+
+a700
+dir
+
+a620
+dir
+
+a540
+dir
+
+sx220hs
+dir
+
+ixus60_sd600
+dir
+
+a460
+dir
+
+sx130is
+dir
+
+ixus960_sd950
+dir
+
+ixus860_sd870
+dir
+
+sx1
+dir
+
+a580
+dir
+
+ixus870_sd880
+dir
+
+sx260hs
+dir
+
+ixus55_sd450
+dir
+
+a2000
+dir
+
+a2200
+dir
+
+d10
+dir
+
+ixus75_sd750
+dir
+
+a2400
+dir
+
+ixus90_sd790
+dir
+
+ixus700_sd500
+dir
+
+ixusw_sd430
+dir
+
+sx20
+dir
+
+ixus800_sd700
+dir
+
+ixus100_sd780
+dir
+
+g1x
+dir
+
+ixus900_sd900
+dir
+
+ixus200_sd980
+dir
+
+ixus115_elph100hs
+dir
+
+ixus750_sd550
+dir
+
+ixus50_sd400
+dir
+
+a430
+dir
+
+ixus130_sd1400
+dir
+
+a710
+dir
+
+sx120is
+dir
+
+a630
+dir
+
+a550
+dir
+
+a470
+dir
+

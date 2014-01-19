@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/3291/trunk/CHDK/SCRIPTS/TEST
+END
+filetest.lua
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/1616/trunk/CHDK/SCRIPTS/TEST/filetest.lua
+END
+MD_Tune.bas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/2576/trunk/CHDK/SCRIPTS/TEST/MD_Tune.bas
+END
+isoovr.lua
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/2964/trunk/CHDK/SCRIPTS/TEST/isoovr.lua
+END
+setmode.bas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/847/trunk/CHDK/SCRIPTS/TEST/setmode.bas
+END
+setrec.lua
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/847/trunk/CHDK/SCRIPTS/TEST/setrec.lua
+END
+uartrtst.lua
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/1001/trunk/CHDK/SCRIPTS/TEST/uartrtst.lua
+END
+isorm.lua
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/2962/trunk/CHDK/SCRIPTS/TEST/isorm.lua
+END
+ubtest.bas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/3291/trunk/CHDK/SCRIPTS/TEST/ubtest.bas
+END
+drawtest.lua
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/1479/trunk/CHDK/SCRIPTS/TEST/drawtest.lua
+END
+twilight_e.lua
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/2515/trunk/CHDK/SCRIPTS/TEST/twilight_e.lua
+END
+romlog.lua
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/997/trunk/CHDK/SCRIPTS/TEST/romlog.lua
+END
+setmode.lua
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/1666/trunk/CHDK/SCRIPTS/TEST/setmode.lua
+END
+imath.lua
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/2673/trunk/CHDK/SCRIPTS/TEST/imath.lua
+END
+setrec.bas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/847/trunk/CHDK/SCRIPTS/TEST/setrec.bas
+END
+tstcallf.lua
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/865/trunk/CHDK/SCRIPTS/TEST/tstcallf.lua
+END
+tboxtest.lua
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/1616/trunk/CHDK/SCRIPTS/TEST/tboxtest.lua
+END
+llibtst.lua
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/2453/trunk/CHDK/SCRIPTS/TEST/llibtst.lua
+END

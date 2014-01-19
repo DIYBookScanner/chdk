@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3259/trunk/platform/sx40hs
+END
+kbd.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2603/trunk/platform/sx40hs/kbd.c
+END
+platform_camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/3002/trunk/platform/sx40hs/platform_camera.h
+END
+wrappers.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/1414/trunk/platform/sx40hs/wrappers.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2453/trunk/platform/sx40hs/main.c
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/1414/trunk/platform/sx40hs/notes.txt
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/3232/trunk/platform/sx40hs/lib.c
+END
+shooting.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/2284/trunk/platform/sx40hs/shooting.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/2731/trunk/platform/sx40hs/Makefile
+END

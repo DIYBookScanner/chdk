@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3290/trunk/platform/ixus870_sd880
+END
+kbd.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/2603/trunk/platform/ixus870_sd880/kbd.c
+END
+platform_camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/chdk/!svn/ver/2927/trunk/platform/ixus870_sd880/platform_camera.h
+END
+wrappers.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/1681/trunk/platform/ixus870_sd880/wrappers.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/2986/trunk/platform/ixus870_sd880/main.c
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/754/trunk/platform/ixus870_sd880/notes.txt
+END
+lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/1642/trunk/platform/ixus870_sd880/lib.c
+END
+shooting.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/1632/trunk/platform/ixus870_sd880/shooting.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/2731/trunk/platform/ixus870_sd880/Makefile
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/chdk/!svn/ver/3291/trunk/CHDK/SCRIPTS
+END
+default.bas
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/670/trunk/CHDK/SCRIPTS/default.bas
+END
+interval.bas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/1485/trunk/CHDK/SCRIPTS/interval.bas
+END
+motion.bas
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/2534/trunk/CHDK/SCRIPTS/motion.bas
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/1485/trunk/CHDK/SCRIPTS/readme.txt
+END
+shoot.lua
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/1485/trunk/CHDK/SCRIPTS/shoot.lua
+END
+hdr.lua
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2414/trunk/CHDK/SCRIPTS/hdr.lua
+END
+shoot.bas
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/1485/trunk/CHDK/SCRIPTS/shoot.bas
+END
+hdr.bas
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2414/trunk/CHDK/SCRIPTS/hdr.bas
+END
+interval.lua
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/1485/trunk/CHDK/SCRIPTS/interval.lua
+END
+motion.lua
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/2534/trunk/CHDK/SCRIPTS/motion.lua
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/2490/trunk/loader/sx110is
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2490/trunk/loader/sx110is/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/749/trunk/loader/sx110is/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2490/trunk/loader/sx110is/main.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/2490/trunk/loader/sx110is/Makefile
+END

@@ -1,0 +1,36 @@
+************************************
+IXUS 95 / SD1200IS Notes
+************************************
+Porting thread: http://chdk.setepontos.com/index.php?topic=4324.msg41060#msg41060
+
+General info:
+Digic IV, dryos, propset 2 (there may be digic IV specific stuff, but nothing found so far)
+10.0MP raw 3720*2772 12 bits/pixel
+Video is h264 NOT mjpeg
+ND filter only, NO iris
+
+Booting:
+Encoded diskboot required, FI2 "firm update" supported.
+With FI2, you must boot in play mode in order to access the firm update menu.
+
+Display:
+//Live view is 360x240
+//Bitmap buffer is 720x240
+//Bitmap color palette is different from other cameras.
+
+Buttons:
+To enter CHDK <ALT> mode use the Playback [>] button.
+Hold it down to access the canon firmware function
+Other keys use the standard mapping for cameras without an erase button.
+
+Features known BROKEN or NOT supported:
+- Microphone mute/unmute not supported - Audio IC: AK4636
+- It is not possible to change to rec mode using chdkptp. It seems to be a bug similar
+  to this: http://chdk.setepontos.com/index.php?topic=10664.msg105042#msg105042
+- Mode  2598 in firmware but not in current modemap
+- Many other things are untested.
+
+Other issues:
+//Pressing the shutter quickly with overrides enabled may result in incorrect white
+//balance. It may also cause issues if the flash is automatically triggered.
+

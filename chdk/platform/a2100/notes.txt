@@ -1,0 +1,20 @@
+****************************************
+Camera depending notes: 
+* DryOS Camera R31
+
+****************************************
+Development notes:
+---
+1) This is an incomplete port. Porting thread was here when this was submitted :
+
+http://chdk.setepontos.com/index.php?topic=7433.msg81924#msg81924
+
+Canon PowerShow A2100IS
+P-ID:31BE PAL-D
+
+Firmware Ver GM1.00A
+NoError
+
+Jan 5 2009 15:59:12
+
+Adj.Ver.005.009

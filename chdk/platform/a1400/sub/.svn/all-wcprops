@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub
+END
+movie_rec_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/movie_rec_hdr.c
+END
+filewrite_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/filewrite_hdr.c
+END
+capt_seq_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/capt_seq_hdr.c
+END
+boot_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/boot_hdr.c
+END
+taskhook.S
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/taskhook.S
+END

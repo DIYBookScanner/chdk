@@ -1,0 +1,87 @@
+****************************************
+
+Camera depending notes: 
+
+- ixus30_sd200 uses Propset 1 of Properties (see http://tinyurl.com/6zbv9b)
+- ixus30_sd200 does NOT have a real IRIS Diaphragm, it only has an ND Filter! 
+
+
+This port is based on fishpepper's ixus 40 port.
+
+Alpha release 1, 2011-10-14
+
+- most parts of the firmware are identical in ixus 30 and 40
+- fun fact: camera recognizes (chdk) raw+jpeg pair (but can't handle it, shows small thumbnail with "raw" written below)
+
+VIDEO
+- video quality override is partly supported, in 15 steps total (not fully tested)
+  at minimum quality the frames are not as compressed as in other cameras (A410... etc)
+- 1G video size limit removed (not tested yet)
+- there's no zoom during video
+- no afscan in video either, but manual focus works during recording
+- no manual exposure control during video
+
+PHOTO
+- raw, dng works (dng color profile is simply a copy, not correct)
+- control of dark frame subtraction is available
+- creation of badpixel.bin doesn't work (the process either fails or creates 0 length file)
+- continuous shooting not tested
+- overrides are only applied on the actual shooting (no effect on half-shoot, this might cause trouble...)
+- iso override seems to work, values under a lower limit (around 50-100 (?)) cause the camera to crash
+  "market" ISO seems to be higher than the "true" value
+- ND-filter control works
+- histogram works
+- zebra display is not correct for playback, but works correctly in shooting mode (may be my fault)
+- flash override not tested
+- shutter speed override works (no extra long exposures yet)
+- bracketing not tested
+- custom auto ISO not tested
+- subject distance override seems to work
+
+GENERAL
+- some buffer addresses are not entirely correct (no fast md possible)
+- the memory dump debug feature only works with uncached addresses (!), chdk code uses cached addresses...
+- the usual romlog stuff doesn't work (some functions are missing)
+- the camera's firmware is almost 8MB, last MB seems to contain a second OS (lots of duplicated functions) for debugging
+  purposes, I guess
+- the firmware only knows ver.req, firmware version lacks the GM prefix
+- serious issue with the time() function of the firmware: it counts at about 1/7 speed in chdk.
+  worked around in code.
+- haven't touched the custom keyboard code of the ixus 40 (aside from porting it)
+- can't test the existence of usb remote functionality because of hardware issues on my part ;)
+- some enhancements over the original ixus 40 port:
+ - (flash) params mystery solved (flash parameters use a slightly different structure)
+ - the first parameter for GetParameterData(), SetParameterData() is _exactly_ the parameter number, no need for adding 0x4000
+ - the location for the raw hook in capt_seq.c had to be changed, without the change one would get either corrupt jpeg or
+   corrupt dng when image size is less than "L" (the condition only affected dng, not raw)
+ - dark frame subtraction control
+ - video support
+  - no zoom during video (missing firmware function)
+  - no af-scan in video (missing firmware function)
+ - 1G video size limit removed (not tested)
+ - simple (and coarse, 15 steps only) quality override support for video (constant quality only)
+
+
+Definitions for RAW:
+
+    #define CAM_RAW_ROWPIX              2144
+    #define CAM_RAW_ROWS                1564
+
+    // pattern
+    #define cam_CFAPattern 0x02010100 // Red  Green  Green  Blue
+
+    // color
+    #define CAM_COLORMATRIX1                                 \
+      652674,  1000000, -172074, 1000000, -107575,  1000000, \
+      -139063, 1000000, 594517,  1000000,  60252,   1000000, \
+      -9088,   1000000, 82013,   1000000,  238080,  1000000
+
+    #define cam_CalibrationIlluminant1 1 // Daylight
+
+    // cropping
+    #define CAM_JPEG_WIDTH  2048
+    #define CAM_JPEG_HEIGHT 1536
+    #define CAM_ACTIVE_AREA_X1 12
+    #define CAM_ACTIVE_AREA_Y1 12
+    #define CAM_ACTIVE_AREA_X2 2100
+    #define CAM_ACTIVE_AREA_Y2 1562

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/587/trunk/loader/ixus60_sd600
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/515/trunk/loader/ixus60_sd600/main.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/515/trunk/loader/ixus60_sd600/Makefile
+END
+blobs.S
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/515/trunk/loader/ixus60_sd600/blobs.S
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/515/trunk/loader/ixus60_sd600/entry.S
+END
