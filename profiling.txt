@@ -4,6 +4,7 @@ Camera Settings, Environment:
 	image size, "L" = 4608x3456
 	image format is jpeg
 	flash is off
+	sounds are enabled
 
 Test:
 	script: profile_shooting.lua @ f90e22c5
@@ -120,3 +121,89 @@ new test
 05:21:52 PM Sun, January 19, 2014
 
 	3+3+3+3+3+3+3+3+3+3+3+3+3+2+3+3+3+3+3 / 19 = 2.9s
+	
+new test
+	script: profile_shooting.lua @ 2215c55
+	parameters: n=20
+Note: this test renabled lcd after first shot
+
+05:27:20 PM Sun, January 19, 2014
+05:27:23 PM Sun, January 19, 2014
+05:27:26 PM Sun, January 19, 2014
+05:27:29 PM Sun, January 19, 2014
+05:27:32 PM Sun, January 19, 2014
+05:27:35 PM Sun, January 19, 2014
+05:27:38 PM Sun, January 19, 2014
+05:27:41 PM Sun, January 19, 2014
+05:27:44 PM Sun, January 19, 2014
+05:27:46 PM Sun, January 19, 2014
+05:27:49 PM Sun, January 19, 2014
+05:27:52 PM Sun, January 19, 2014
+05:27:55 PM Sun, January 19, 2014
+05:27:58 PM Sun, January 19, 2014
+05:28:01 PM Sun, January 19, 2014
+05:28:04 PM Sun, January 19, 2014
+05:28:07 PM Sun, January 19, 2014
+05:28:10 PM Sun, January 19, 2014
+05:28:13 PM Sun, January 19, 2014
+05:28:15 PM Sun, January 19, 2014
+
+	3+3+3+3+3+3+3+3+2+3+3+3+3+3+3+3+3+3+2 / 19 = 2.9s
+
+new test, sounds disabled from canon menu:
+	script: profile_shooting.lua @ 2215c55
+	parameters: n=20
+Note: this test renabled lcd after first shot
+
+05:31:55 PM Sun, January 19, 2014
+05:31:58 PM Sun, January 19, 2014
+05:32:01 PM Sun, January 19, 2014
+05:32:04 PM Sun, January 19, 2014
+05:32:07 PM Sun, January 19, 2014
+05:32:10 PM Sun, January 19, 2014
+05:32:13 PM Sun, January 19, 2014
+05:32:16 PM Sun, January 19, 2014
+05:32:19 PM Sun, January 19, 2014
+05:32:22 PM Sun, January 19, 2014
+05:32:25 PM Sun, January 19, 2014
+05:32:28 PM Sun, January 19, 2014
+05:32:31 PM Sun, January 19, 2014
+05:32:33 PM Sun, January 19, 2014
+05:32:36 PM Sun, January 19, 2014
+05:32:39 PM Sun, January 19, 2014
+05:32:42 PM Sun, January 19, 2014
+05:32:45 PM Sun, January 19, 2014
+05:32:48 PM Sun, January 19, 2014
+05:32:51 PM Sun, January 19, 2014
+
+	3+3+3+3+3+3+3+3+3+3+3+3+2+3+3+3+3+3+3 / 19 = 2.9s
+	
+new test, sounds disabled from canon menu, display off from canon menu:
+	script: profile_shooting.lua @ 2215c55
+	parameters: n=20
+Note: this lcd remained off during shooting, screen flicked on at end
+of script, then went off again. Needed to exit alt mode to hit renable
+display using canon menu
+
+05:36:32 PM Sun, January 19, 2014
+05:36:35 PM Sun, January 19, 2014
+05:36:38 PM Sun, January 19, 2014
+05:36:41 PM Sun, January 19, 2014
+05:36:43 PM Sun, January 19, 2014
+05:36:46 PM Sun, January 19, 2014
+05:36:49 PM Sun, January 19, 2014
+05:36:52 PM Sun, January 19, 2014
+05:36:54 PM Sun, January 19, 2014
+05:36:57 PM Sun, January 19, 2014
+05:37:00 PM Sun, January 19, 2014
+05:37:02 PM Sun, January 19, 2014
+05:37:05 PM Sun, January 19, 2014
+05:37:08 PM Sun, January 19, 2014
+05:37:11 PM Sun, January 19, 2014
+05:37:13 PM Sun, January 19, 2014
+05:37:16 PM Sun, January 19, 2014
+05:37:19 PM Sun, January 19, 2014
+05:37:21 PM Sun, January 19, 2014
+05:37:24 PM Sun, January 19, 2014
+
+	3+3+3+2+3+3+3+2+3+3+2+3+3+3+2+3+3+2+3 / 19 = 2.7s
