@@ -8,6 +8,8 @@ rem http://chdk.wikia.com/wiki/HDR_Fast_Shooter
 @default n 5
 --]]
 
+set_lcd_display(0)
+
 press("shoot_half")
 repeat sleep(10) until get_shooting() == true
 
@@ -29,3 +31,5 @@ repeat
 
 set_aelock(0)
 set_aflock(0)
+
+set_lcd_display(1)
