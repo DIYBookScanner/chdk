@@ -11,13 +11,11 @@ repeat
 	n = n - 1
 	
 	press("shoot_half")
-	repeat sleep(50) until get_shooting() == true
+	repeat sleep(10) until get_shooting() == true
 
-	press("shoot_full")
-	sleep(500)
-	release("shoot_full")
+	click("shoot_full")
 
-	repeat sleep(50) until get_shooting() == false	
+	repeat sleep(10) until get_shooting() == false	
 	release("shoot_half")
 
 	until n < 1
