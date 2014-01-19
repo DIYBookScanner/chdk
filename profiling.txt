@@ -94,3 +94,29 @@ new test
 05:15:25 PM Sun, January 19, 2014
 
 	3+3+4+3+4+3+4+3+4+3+3+4+3+4+3+4+3+3+4 / 19 = 3.4s
+
+new test
+	script: profile_shooting.lua @ 49b06e3
+	parameters: n=20
+05:20:56 PM Sun, January 19, 2014
+05:20:59 PM Sun, January 19, 2014
+05:21:02 PM Sun, January 19, 2014
+05:21:05 PM Sun, January 19, 2014
+05:21:08 PM Sun, January 19, 2014
+05:21:11 PM Sun, January 19, 2014
+05:21:14 PM Sun, January 19, 2014
+05:21:17 PM Sun, January 19, 2014
+05:21:20 PM Sun, January 19, 2014
+05:21:23 PM Sun, January 19, 2014
+05:21:26 PM Sun, January 19, 2014
+05:21:29 PM Sun, January 19, 2014
+05:21:32 PM Sun, January 19, 2014
+05:21:35 PM Sun, January 19, 2014
+05:21:37 PM Sun, January 19, 2014
+05:21:40 PM Sun, January 19, 2014
+05:21:43 PM Sun, January 19, 2014
+05:21:46 PM Sun, January 19, 2014
+05:21:49 PM Sun, January 19, 2014
+05:21:52 PM Sun, January 19, 2014
+
+	3+3+3+3+3+3+3+3+3+3+3+3+3+2+3+3+3+3+3 / 19 = 2.9s
