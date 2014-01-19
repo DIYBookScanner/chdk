@@ -1,3 +1,5 @@
+chdk/CHDK/LUALIB/GEN/*.lua
+chdk/CHDK/MODULES/*.flt
 chdk/tools/*.o
 chdk/tools/elf2flt/*.o
 chdk/modules/*.o
