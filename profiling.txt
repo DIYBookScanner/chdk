@@ -6,7 +6,6 @@ Camera Settings, Environment:
 Test:
 	script: profile_shooting.lua @ f90e22c5
 	parameters: n=10
-	10 images
 03:57:34 PM Sun, January 19, 2014
 03:57:38 PM Sun, January 19, 2014
 03:57:42 PM Sun, January 19, 2014
@@ -18,4 +17,26 @@ Test:
 03:58:05 PM Sun, January 19, 2014
 03:58:08 PM Sun, January 19, 2014
 
-... 4+4+4+3+4+4+4+4+3 / 10 = 3.8s
+	4+4+4+3+4+4+4+4+3 / 9 = 3.7s
+
+new test, image size set to 640 x 480
+	script: profile_shooting.lua @ f90e22c5
+	parameters: n=10
+04:27:41 PM Sun, January 19, 2014
+04:27:45 PM Sun, January 19, 2014
+04:27:48 PM Sun, January 19, 2014
+04:27:52 PM Sun, January 19, 2014
+04:27:55 PM Sun, January 19, 2014
+04:27:59 PM Sun, January 19, 2014
+04:28:03 PM Sun, January 19, 2014
+04:28:06 PM Sun, January 19, 2014
+04:28:10 PM Sun, January 19, 2014
+04:28:13 PM Sun, January 19, 2014
+
+	4+3+4+3+4+4+3+4+3 / 9 = 3.5s
+
+Note: not much of an improvement, seems I/O from sensor -> sd card (and any
+intermediate buffers) is not a problem.
+
+Aside: does battery level effect any of this? Will need to wait for AC adapter
+to come in mail...
