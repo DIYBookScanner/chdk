@@ -8,6 +8,7 @@ rem http://chdk.wikia.com/wiki/HDR_Fast_Shooter
 @default n 5
 --]]
 
+set_console_autoredraw(0)
 set_lcd_display(0)
 
 press("shoot_half")
@@ -26,6 +27,7 @@ repeat
 	press("shoot_full_only")
 	repeat sleep(10) until (get_exp_count()~=ecnt)
 	release("shoot_full_only")
+	set_lcd_display(0)
 	
 	until n < 1
 
@@ -33,3 +35,4 @@ set_aelock(0)
 set_aflock(0)
 
 set_lcd_display(1)
+set_console_autoredraw(1)
