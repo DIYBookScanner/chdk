@@ -366,3 +366,20 @@ new test, disabled lcd from canon menu
 06:47:41 PM Sun, January 19, 2014
 
 	2+4+3+3+2+3+3+2+3+3+3+2+3+3+2+3+3+3+3 / 19 = 2.8s
+
+new test, from a desktop and over a usb 3.0 connection:
+$ chdkptp -c -e'rec' -e"lua n=10;loadfile('A/CHDK/SCRIPTS/profile_shooting.lua')()"
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=10
+07:05:43 PM Sun, January 19, 2014
+07:05:48 PM Sun, January 19, 2014
+07:05:52 PM Sun, January 19, 2014
+07:05:55 PM Sun, January 19, 2014
+07:05:59 PM Sun, January 19, 2014
+07:06:02 PM Sun, January 19, 2014
+07:06:06 PM Sun, January 19, 2014
+07:06:11 PM Sun, January 19, 2014
+07:06:15 PM Sun, January 19, 2014
+07:06:19 PM Sun, January 19, 2014
+
+	5+4+3+4+3+4+5+4+4 / 9 = 4.0s
