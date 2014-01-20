@@ -314,3 +314,33 @@ new test, dng _disabled_ from chdk menu, removed aelock from script
 06:29:50 PM Sun, January 19, 2014
 
 	3+3+3+3+4+3+3+3+3+3+4+3+3+3+3+3+4+3+3 / 19 = 3.1s
+	
+new test, added aelock and removed lcd manipulation from script
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+06:41:02 PM Sun, January 19, 2014
+06:41:04 PM Sun, January 19, 2014
+06:41:07 PM Sun, January 19, 2014
+06:41:10 PM Sun, January 19, 2014
+06:41:13 PM Sun, January 19, 2014
+06:41:16 PM Sun, January 19, 2014
+06:41:19 PM Sun, January 19, 2014
+06:41:22 PM Sun, January 19, 2014
+06:41:25 PM Sun, January 19, 2014
+06:41:28 PM Sun, January 19, 2014
+06:41:31 PM Sun, January 19, 2014
+06:41:34 PM Sun, January 19, 2014
+06:41:37 PM Sun, January 19, 2014
+06:41:40 PM Sun, January 19, 2014
+06:41:43 PM Sun, January 19, 2014
+06:41:46 PM Sun, January 19, 2014
+06:41:49 PM Sun, January 19, 2014
+06:41:52 PM Sun, January 19, 2014
+06:41:55 PM Sun, January 19, 2014
+06:41:58 PM Sun, January 19, 2014
+
+	2+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3 / 19 = 2.9s
+	
+new test, disabled lcd from canon menu
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
