@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/chdkptp/!svn/ver/84/trunk/lfs
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdkptp/!svn/ver/79/trunk/lfs/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdkptp/!svn/ver/79/trunk/lfs/README
+END
+LICENSE.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdkptp/!svn/ver/79/trunk/lfs/LICENSE.TXT
+END
+lfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdkptp/!svn/ver/79/trunk/lfs/lfs.c
+END
+lfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdkptp/!svn/ver/79/trunk/lfs/lfs.h
+END

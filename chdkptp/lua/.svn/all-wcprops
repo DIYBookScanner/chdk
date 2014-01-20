@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/chdkptp/!svn/ver/480/trunk/lua
+END
+multicam.lua
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdkptp/!svn/ver/450/trunk/lua/multicam.lua
+END
+rlibs.lua
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdkptp/!svn/ver/471/trunk/lua/rlibs.lua
+END
+util.lua
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdkptp/!svn/ver/417/trunk/lua/util.lua
+END
+prefs.lua
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdkptp/!svn/ver/314/trunk/lua/prefs.lua
+END
+gui_live_stats.lua
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdkptp/!svn/ver/212/trunk/lua/gui_live_stats.lua
+END
+gui_user.lua
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdkptp/!svn/ver/463/trunk/lua/gui_user.lua
+END
+main.lua
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdkptp/!svn/ver/424/trunk/lua/main.lua
+END
+gui.lua
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdkptp/!svn/ver/456/trunk/lua/gui.lua
+END
+lbufutil.lua
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdkptp/!svn/ver/356/trunk/lua/lbufutil.lua
+END
+gui_icon.lua
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdkptp/!svn/ver/429/trunk/lua/gui_icon.lua
+END
+chdku.lua
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdkptp/!svn/ver/478/trunk/lua/chdku.lua
+END
+dngcli.lua
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdkptp/!svn/ver/477/trunk/lua/dngcli.lua
+END
+tests.lua
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdkptp/!svn/ver/410/trunk/lua/tests.lua
+END
+gui_tree.lua
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdkptp/!svn/ver/438/trunk/lua/gui_tree.lua
+END
+gui_live.lua
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdkptp/!svn/ver/431/trunk/lua/gui_live.lua
+END
+fsutil.lua
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdkptp/!svn/ver/420/trunk/lua/fsutil.lua
+END
+ustime.lua
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdkptp/!svn/ver/251/trunk/lua/ustime.lua
+END
+cli.lua
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdkptp/!svn/ver/478/trunk/lua/cli.lua
+END
+dng.lua
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdkptp/!svn/ver/477/trunk/lua/dng.lua
+END
+exposure.lua
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdkptp/!svn/ver/286/trunk/lua/exposure.lua
+END

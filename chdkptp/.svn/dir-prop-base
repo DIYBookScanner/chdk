@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 25
+*.exe
+*.o
+.dep
+config.mk
+
+K 13
+svn:mergeinfo
+V 38
+/branches/connection_rework_test:68-77
+END

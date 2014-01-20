@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/chdkptp/!svn/ver/480/trunk/lua/extras
+END
+dcimdl.lua
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdkptp/!svn/ver/425/trunk/lua/extras/dcimdl.lua
+END
+vxtcbdump.lua
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdkptp/!svn/ver/425/trunk/lua/extras/vxtcbdump.lua
+END
+vxromlog.lua
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdkptp/!svn/ver/329/trunk/lua/extras/vxromlog.lua
+END
+rsint.lua
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdkptp/!svn/ver/480/trunk/lua/extras/rsint.lua
+END
+hackcfa.lua
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdkptp/!svn/ver/425/trunk/lua/extras/hackcfa.lua
+END
+dbgdump.lua
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdkptp/!svn/ver/348/trunk/lua/extras/dbgdump.lua
+END
+camtests.lua
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdkptp/!svn/ver/475/trunk/lua/extras/camtests.lua
+END
+simplemulticam.lua
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdkptp/!svn/ver/450/trunk/lua/extras/simplemulticam.lua
+END
+msgtest.lua
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdkptp/!svn/ver/472/trunk/lua/extras/msgtest.lua
+END

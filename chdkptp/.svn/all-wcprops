@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/chdkptp/!svn/ver/480/trunk
+END
+bottom.mk
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdkptp/!svn/ver/79/trunk/bottom.mk
+END
+README.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/chdkptp/!svn/ver/427/trunk/README.TXT
+END
+rawimg.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdkptp/!svn/ver/399/trunk/rawimg.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdkptp/!svn/ver/447/trunk/Makefile
+END
+lbuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/chdkptp/!svn/ver/184/trunk/lbuf.h
+END
+myusb.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/chdkptp/!svn/ver/2/trunk/myusb.c
+END
+bin-snapshot.bash
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdkptp/!svn/ver/427/trunk/bin-snapshot.bash
+END
+chdkptp-sample.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdkptp/!svn/ver/150/trunk/chdkptp-sample.sh
+END
+config-sample-win32.mk
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdkptp/!svn/ver/460/trunk/config-sample-win32.mk
+END
+THANKS.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/chdkptp/!svn/ver/204/trunk/THANKS.TXT
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/chdkptp/!svn/ver/2/trunk/COPYING
+END
+ptpcam.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdkptp/!svn/ver/448/trunk/ptpcam.h
+END
+libptp-endian.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdkptp/!svn/ver/427/trunk/libptp-endian.h
+END
+liveimg.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdkptp/!svn/ver/330/trunk/liveimg.c
+END
+ptpip.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/chdkptp/!svn/ver/445/trunk/ptpip.c
+END
+properties.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/chdkptp/!svn/ver/2/trunk/properties.c
+END
+README-RASPI-LIBS.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdkptp/!svn/ver/423/trunk/README-RASPI-LIBS.TXT
+END
+chdkptp.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdkptp/!svn/ver/468/trunk/chdkptp.c
+END
+sockutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/chdkptp/!svn/ver/448/trunk/sockutil.c
+END
+liveimg.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdkptp/!svn/ver/206/trunk/liveimg.h
+END
+USAGE.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdkptp/!svn/ver/477/trunk/USAGE.TXT
+END
+README-OSX.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdkptp/!svn/ver/432/trunk/README-OSX.TXT
+END
+libptp-stdint.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdkptp/!svn/ver/2/trunk/libptp-stdint.h
+END
+sockutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/chdkptp/!svn/ver/443/trunk/sockutil.h
+END
+ptp.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/chdkptp/!svn/ver/468/trunk/ptp.c
+END
+README-RASPI.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdkptp/!svn/ver/426/trunk/README-RASPI.TXT
+END
+config-sample-linux.mk
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdkptp/!svn/ver/443/trunk/config-sample-linux.mk
+END
+ptp.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/chdkptp/!svn/ver/468/trunk/ptp.h
+END
+include.mk
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/chdkptp/!svn/ver/422/trunk/include.mk
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/chdkptp/!svn/ver/2/trunk/config.h
+END
+luautil.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdkptp/!svn/ver/413/trunk/luautil.c
+END
+ptp-pack.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdkptp/!svn/ver/2/trunk/ptp-pack.c
+END
+luautil.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/chdkptp/!svn/ver/413/trunk/luautil.h
+END
+rawimg.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/chdkptp/!svn/ver/415/trunk/rawimg.c
+END
+lbuf.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/chdkptp/!svn/ver/393/trunk/lbuf.c
+END
