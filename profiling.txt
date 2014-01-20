@@ -288,3 +288,29 @@ Note: the script missed a beat and failed to capture!!
 24762624 2014-01-19 17:17:30.000000000 -0600 CRW_0325.DNG
 
 	8+10+8+8+8+8+6+6+8+6+8+6+6+8+6+6+8+6 / 18 = 7.2s
+
+new test, dng _disabled_ from chdk menu, removed aelock from script
+	script: profile_shooting.lua @ bb4bc62
+	parameters: n=20
+06:28:50 PM Sun, January 19, 2014
+06:28:53 PM Sun, January 19, 2014
+06:28:56 PM Sun, January 19, 2014
+06:28:59 PM Sun, January 19, 2014
+06:29:02 PM Sun, January 19, 2014
+06:29:06 PM Sun, January 19, 2014
+06:29:09 PM Sun, January 19, 2014
+06:29:12 PM Sun, January 19, 2014
+06:29:15 PM Sun, January 19, 2014
+06:29:18 PM Sun, January 19, 2014
+06:29:21 PM Sun, January 19, 2014
+06:29:25 PM Sun, January 19, 2014
+06:29:28 PM Sun, January 19, 2014
+06:29:31 PM Sun, January 19, 2014
+06:29:34 PM Sun, January 19, 2014
+06:29:37 PM Sun, January 19, 2014
+06:29:40 PM Sun, January 19, 2014
+06:29:44 PM Sun, January 19, 2014
+06:29:47 PM Sun, January 19, 2014
+06:29:50 PM Sun, January 19, 2014
+
+	3+3+3+3+4+3+3+3+3+3+4+3+3+3+3+3+4+3+3 / 19 = 3.1s
