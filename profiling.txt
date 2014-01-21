@@ -5,6 +5,7 @@ Camera Settings, Environment:
 	image format is jpeg
 	flash is off
 	sounds are enabled
+	mode is "Auto"
 
 Test:
 	script: profile_shooting.lua @ f90e22c5
@@ -383,3 +384,143 @@ $ chdkptp -c -e'rec' -e"lua n=10;loadfile('A/CHDK/SCRIPTS/profile_shooting.lua')
 07:06:19 PM Sun, January 19, 2014
 
 	5+4+3+4+3+4+5+4+4 / 9 = 4.0s
+
+new test, first capture by executing script over usb, then unplug usb 
+and manually trigger
+$ chdkptp -c -e'rec' -e"lua n=20;loadfile('A/CHDK/SCRIPTS/profile_shooting.lua')()"
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+Note: hypothesis: -e'rec' causes some overhead?
+
+06:12:52 PM Mon, January 20, 2014
+06:12:57 PM Mon, January 20, 2014
+06:13:01 PM Mon, January 20, 2014
+06:13:05 PM Mon, January 20, 2014
+06:13:08 PM Mon, January 20, 2014
+06:13:12 PM Mon, January 20, 2014
+06:13:15 PM Mon, January 20, 2014
+06:13:21 PM Mon, January 20, 2014
+06:13:25 PM Mon, January 20, 2014
+06:13:28 PM Mon, January 20, 2014
+06:13:32 PM Mon, January 20, 2014
+06:13:35 PM Mon, January 20, 2014
+06:13:39 PM Mon, January 20, 2014
+06:13:44 PM Mon, January 20, 2014
+06:13:48 PM Mon, January 20, 2014
+06:13:51 PM Mon, January 20, 2014
+06:13:55 PM Mon, January 20, 2014
+06:13:58 PM Mon, January 20, 2014
+06:14:02 PM Mon, January 20, 2014
+06:14:07 PM Mon, January 20, 2014
+	
+	5+4+4+3+4+3+6+4+3+4+3+4+5+3+3+4+3+4+5 / 19 = 3.9s
+
+06:14:22 PM Mon, January 20, 2014
+06:14:26 PM Mon, January 20, 2014
+06:14:30 PM Mon, January 20, 2014
+06:14:34 PM Mon, January 20, 2014
+06:14:37 PM Mon, January 20, 2014
+06:14:41 PM Mon, January 20, 2014
+06:14:44 PM Mon, January 20, 2014
+06:14:48 PM Mon, January 20, 2014
+06:14:52 PM Mon, January 20, 2014
+06:14:55 PM Mon, January 20, 2014
+06:14:59 PM Mon, January 20, 2014
+06:15:02 PM Mon, January 20, 2014
+06:15:06 PM Mon, January 20, 2014
+06:15:10 PM Mon, January 20, 2014
+06:15:13 PM Mon, January 20, 2014
+06:15:17 PM Mon, January 20, 2014
+06:15:21 PM Mon, January 20, 2014
+06:15:24 PM Mon, January 20, 2014
+06:15:27 PM Mon, January 20, 2014
+06:15:30 PM Mon, January 20, 2014
+
+	4+4+4+3+4+3+4+4+3+4+3+4+4+3+4+4+3+3+3 / 19 = 3.6s
+
+new test, see if -e'rec' was causing problems
+$ chdkptp -c -e'rec'; chdkptp -c -e"lua n=20;loadfile('A/CHDK/SCRIPTS/profile_shooting.lua')()"
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+06:22:22 PM Mon, January 20, 2014
+06:22:26 PM Mon, January 20, 2014
+06:22:30 PM Mon, January 20, 2014
+06:22:34 PM Mon, January 20, 2014
+06:22:37 PM Mon, January 20, 2014
+06:22:41 PM Mon, January 20, 2014
+06:22:44 PM Mon, January 20, 2014
+06:22:50 PM Mon, January 20, 2014
+06:22:54 PM Mon, January 20, 2014
+06:22:57 PM Mon, January 20, 2014
+06:23:01 PM Mon, January 20, 2014
+06:23:04 PM Mon, January 20, 2014
+06:23:08 PM Mon, January 20, 2014
+06:23:13 PM Mon, January 20, 2014
+06:23:17 PM Mon, January 20, 2014
+06:23:20 PM Mon, January 20, 2014
+06:23:24 PM Mon, January 20, 2014
+06:23:27 PM Mon, January 20, 2014
+06:23:31 PM Mon, January 20, 2014
+06:23:36 PM Mon, January 20, 2014
+
+	4+4+4+3+4+3+6+4+3+4+3+4+5+4+3+4+3+4+5 / 19 = 3.9s
+
+Aside: it seems their is a hiccup every 6-7 shot, usb upkeep?
+
+new test, check if battery levels might be wierding us, should see 2.9s
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+06:27:17 PM Mon, January 20, 2014
+06:27:20 PM Mon, January 20, 2014
+06:27:23 PM Mon, January 20, 2014
+06:27:26 PM Mon, January 20, 2014
+06:27:29 PM Mon, January 20, 2014
+06:27:32 PM Mon, January 20, 2014
+06:27:35 PM Mon, January 20, 2014
+06:27:38 PM Mon, January 20, 2014
+06:27:40 PM Mon, January 20, 2014
+06:27:43 PM Mon, January 20, 2014
+06:27:46 PM Mon, January 20, 2014
+06:27:49 PM Mon, January 20, 2014
+06:27:52 PM Mon, January 20, 2014
+06:27:55 PM Mon, January 20, 2014
+06:27:58 PM Mon, January 20, 2014
+06:28:01 PM Mon, January 20, 2014
+06:28:04 PM Mon, January 20, 2014
+06:28:07 PM Mon, January 20, 2014
+06:28:10 PM Mon, January 20, 2014
+06:28:13 PM Mon, January 20, 2014
+
+	3+3+3+3+3+3+3+2+3+3+3+3+3+3+3+3+3+3+3 / 19 = 2.9s
+
+Aside: huh, look't that! seems connecting to a usb, even in the past,
+causes lag...?
+
+new test, set to "P" mode, trigger manually
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+Aside: don't remember what mode all the prev-1 tests were in... prev
+was in "Auto".
+
+06:32:38 PM Mon, January 20, 2014
+06:32:41 PM Mon, January 20, 2014
+06:32:44 PM Mon, January 20, 2014
+06:32:47 PM Mon, January 20, 2014
+06:32:50 PM Mon, January 20, 2014
+06:32:52 PM Mon, January 20, 2014
+06:32:55 PM Mon, January 20, 2014
+06:32:58 PM Mon, January 20, 2014
+06:33:01 PM Mon, January 20, 2014
+06:33:04 PM Mon, January 20, 2014
+06:33:07 PM Mon, January 20, 2014
+06:33:10 PM Mon, January 20, 2014
+06:33:12 PM Mon, January 20, 2014
+06:33:15 PM Mon, January 20, 2014
+06:33:18 PM Mon, January 20, 2014
+06:33:21 PM Mon, January 20, 2014
+06:33:24 PM Mon, January 20, 2014
+06:33:27 PM Mon, January 20, 2014
+06:33:29 PM Mon, January 20, 2014
+06:33:32 PM Mon, January 20, 2014
+
+	3+3+3+3+2+3+3+3+3+3+3+2+3+3+3+3+3+2+3 / 19 = 2.8s
