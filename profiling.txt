@@ -524,3 +524,284 @@ was in "Auto".
 06:33:32 PM Mon, January 20, 2014
 
 	3+3+3+3+2+3+3+3+3+3+3+2+3+3+3+3+3+2+3 / 19 = 2.8s
+
+new test, set to "P", trigger manually, insert usb, remove usb, 
+wait ~10s, trigger manually again
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+07:00:12 PM Tue, January 21, 2014
+07:00:15 PM Tue, January 21, 2014
+07:00:18 PM Tue, January 21, 2014
+07:00:21 PM Tue, January 21, 2014
+07:00:23 PM Tue, January 21, 2014
+07:00:26 PM Tue, January 21, 2014
+07:00:29 PM Tue, January 21, 2014
+07:00:32 PM Tue, January 21, 2014
+07:00:35 PM Tue, January 21, 2014
+07:00:38 PM Tue, January 21, 2014
+07:00:41 PM Tue, January 21, 2014
+07:00:43 PM Tue, January 21, 2014
+07:00:46 PM Tue, January 21, 2014
+07:00:49 PM Tue, January 21, 2014
+07:00:52 PM Tue, January 21, 2014
+07:00:55 PM Tue, January 21, 2014
+07:00:58 PM Tue, January 21, 2014
+07:01:01 PM Tue, January 21, 2014
+07:01:03 PM Tue, January 21, 2014
+07:01:06 PM Tue, January 21, 2014
+
+	3+3+3+2+3+3+3+3+3+3+2+3+3+3+3+3+3+2+3 / 19 = 2.8s
+
+07:01:28 PM Tue, January 21, 2014
+07:01:31 PM Tue, January 21, 2014
+07:01:34 PM Tue, January 21, 2014
+07:01:37 PM Tue, January 21, 2014
+07:01:40 PM Tue, January 21, 2014
+07:01:43 PM Tue, January 21, 2014
+07:01:45 PM Tue, January 21, 2014
+07:01:48 PM Tue, January 21, 2014
+07:01:51 PM Tue, January 21, 2014
+07:01:54 PM Tue, January 21, 2014
+07:01:57 PM Tue, January 21, 2014
+07:02:00 PM Tue, January 21, 2014
+07:02:03 PM Tue, January 21, 2014
+07:02:05 PM Tue, January 21, 2014
+07:02:08 PM Tue, January 21, 2014
+07:02:11 PM Tue, January 21, 2014
+07:02:14 PM Tue, January 21, 2014
+07:02:17 PM Tue, January 21, 2014
+07:02:20 PM Tue, January 21, 2014
+07:02:23 PM Tue, January 21, 2014
+
+	3+3+3+3+3+2+3+3+3+3+3+3+2+3+3+3+3+3+3 / 19 = 2.9s
+
+new test, set to "Auto", trigger manually, insert usb, remove usb, 
+no wait, trigger manually again
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+07:07:09 PM Tue, January 21, 2014
+07:07:12 PM Tue, January 21, 2014
+07:07:15 PM Tue, January 21, 2014
+07:07:18 PM Tue, January 21, 2014
+07:07:21 PM Tue, January 21, 2014
+07:07:24 PM Tue, January 21, 2014
+07:07:27 PM Tue, January 21, 2014
+07:07:30 PM Tue, January 21, 2014
+07:07:33 PM Tue, January 21, 2014
+07:07:35 PM Tue, January 21, 2014
+07:07:38 PM Tue, January 21, 2014
+07:07:41 PM Tue, January 21, 2014
+07:07:44 PM Tue, January 21, 2014
+07:07:47 PM Tue, January 21, 2014
+07:07:50 PM Tue, January 21, 2014
+07:07:53 PM Tue, January 21, 2014
+07:07:56 PM Tue, January 21, 2014
+07:07:59 PM Tue, January 21, 2014
+07:08:02 PM Tue, January 21, 2014
+07:08:05 PM Tue, January 21, 2014
+
+	3+3+3+3+3+3+3+3+2+3+3+3+3+3+3+3+3+3+3 / 19 = 2.9s
+
+07:08:18 PM Tue, January 21, 2014
+07:08:21 PM Tue, January 21, 2014
+07:08:23 PM Tue, January 21, 2014
+07:08:26 PM Tue, January 21, 2014
+07:08:29 PM Tue, January 21, 2014
+07:08:32 PM Tue, January 21, 2014
+07:08:35 PM Tue, January 21, 2014
+07:08:38 PM Tue, January 21, 2014
+07:08:41 PM Tue, January 21, 2014
+07:08:44 PM Tue, January 21, 2014
+07:08:47 PM Tue, January 21, 2014
+07:08:50 PM Tue, January 21, 2014
+07:08:53 PM Tue, January 21, 2014
+07:08:56 PM Tue, January 21, 2014
+07:08:59 PM Tue, January 21, 2014
+07:09:02 PM Tue, January 21, 2014
+07:09:05 PM Tue, January 21, 2014
+07:09:08 PM Tue, January 21, 2014
+07:09:11 PM Tue, January 21, 2014
+07:09:14 PM Tue, January 21, 2014
+
+	3+2+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3 / 19 = 2.9s
+	
+new test, trigger manually, insert usb, execute $ chdkptp -c -e'dis',
+remove usb, no wait, trigger manually again
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+07:13:56 PM Tue, January 21, 2014
+07:13:58 PM Tue, January 21, 2014
+07:14:01 PM Tue, January 21, 2014
+07:14:04 PM Tue, January 21, 2014
+07:14:07 PM Tue, January 21, 2014
+07:14:10 PM Tue, January 21, 2014
+07:14:13 PM Tue, January 21, 2014
+07:14:16 PM Tue, January 21, 2014
+07:14:19 PM Tue, January 21, 2014
+07:14:22 PM Tue, January 21, 2014
+07:14:25 PM Tue, January 21, 2014
+07:14:28 PM Tue, January 21, 2014
+07:14:31 PM Tue, January 21, 2014
+07:14:34 PM Tue, January 21, 2014
+07:14:37 PM Tue, January 21, 2014
+07:14:40 PM Tue, January 21, 2014
+07:14:43 PM Tue, January 21, 2014
+07:14:46 PM Tue, January 21, 2014
+07:14:49 PM Tue, January 21, 2014
+07:14:52 PM Tue, January 21, 2014
+
+	2+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3 / 19 = 2.9s
+
+07:15:08 PM Tue, January 21, 2014
+07:15:11 PM Tue, January 21, 2014
+07:15:14 PM Tue, January 21, 2014
+07:15:17 PM Tue, January 21, 2014
+07:15:20 PM Tue, January 21, 2014
+07:15:23 PM Tue, January 21, 2014
+07:15:26 PM Tue, January 21, 2014
+07:15:29 PM Tue, January 21, 2014
+07:15:32 PM Tue, January 21, 2014
+07:15:35 PM Tue, January 21, 2014
+07:15:38 PM Tue, January 21, 2014
+07:15:41 PM Tue, January 21, 2014
+07:15:44 PM Tue, January 21, 2014
+07:15:47 PM Tue, January 21, 2014
+07:15:50 PM Tue, January 21, 2014
+07:15:53 PM Tue, January 21, 2014
+07:15:56 PM Tue, January 21, 2014
+07:15:59 PM Tue, January 21, 2014
+07:16:01 PM Tue, January 21, 2014
+07:16:04 PM Tue, January 21, 2014
+
+	3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+3+2+3 / 19 = 2.9s
+	
+new test, trigger manually, insert usb, execute $ chdkptp -c ,
+remove usb, no wait, trigger manually again
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+07:20:53 PM Tue, January 21, 2014
+07:20:56 PM Tue, January 21, 2014
+07:20:59 PM Tue, January 21, 2014
+07:21:02 PM Tue, January 21, 2014
+07:21:05 PM Tue, January 21, 2014
+07:21:08 PM Tue, January 21, 2014
+07:21:11 PM Tue, January 21, 2014
+07:21:14 PM Tue, January 21, 2014
+07:21:17 PM Tue, January 21, 2014
+07:21:20 PM Tue, January 21, 2014
+07:21:23 PM Tue, January 21, 2014
+07:21:26 PM Tue, January 21, 2014
+07:21:28 PM Tue, January 21, 2014
+07:21:31 PM Tue, January 21, 2014
+07:21:34 PM Tue, January 21, 2014
+07:21:37 PM Tue, January 21, 2014
+07:21:40 PM Tue, January 21, 2014
+07:21:43 PM Tue, January 21, 2014
+07:21:46 PM Tue, January 21, 2014
+07:21:49 PM Tue, January 21, 2014
+
+	3+3+3+3+3+3+3+3+3+3+3+2+3+3+3+3+3+3+3 / 19 = 2.9s
+
+07:22:04 PM Tue, January 21, 2014
+07:22:07 PM Tue, January 21, 2014
+07:22:10 PM Tue, January 21, 2014
+07:22:13 PM Tue, January 21, 2014
+07:22:16 PM Tue, January 21, 2014
+07:22:18 PM Tue, January 21, 2014
+07:22:21 PM Tue, January 21, 2014
+07:22:24 PM Tue, January 21, 2014
+07:22:27 PM Tue, January 21, 2014
+07:22:30 PM Tue, January 21, 2014
+07:22:33 PM Tue, January 21, 2014
+07:22:36 PM Tue, January 21, 2014
+07:22:39 PM Tue, January 21, 2014
+07:22:42 PM Tue, January 21, 2014
+07:22:45 PM Tue, January 21, 2014
+07:22:48 PM Tue, January 21, 2014
+07:22:51 PM Tue, January 21, 2014
+07:22:54 PM Tue, January 21, 2014
+07:22:57 PM Tue, January 21, 2014
+07:23:00 PM Tue, January 21, 2014
+
+	3+3+3+3+2+3+3+3+3+3+3+3+3+3+3+3+3+3+3 / 19 = 2.9s
+
+new test, try usb trigger again
+$ chdkptp -c -e'rec' -e"lua n=20;loadfile('A/CHDK/SCRIPTS/profile_shooting.lua')()"
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+07:32:04 PM Tue, January 21, 2014
+07:32:09 PM Tue, January 21, 2014
+07:32:13 PM Tue, January 21, 2014
+07:32:17 PM Tue, January 21, 2014
+07:32:20 PM Tue, January 21, 2014
+07:32:24 PM Tue, January 21, 2014
+07:32:27 PM Tue, January 21, 2014
+07:32:31 PM Tue, January 21, 2014
+07:32:35 PM Tue, January 21, 2014
+07:32:39 PM Tue, January 21, 2014
+07:32:42 PM Tue, January 21, 2014
+07:32:46 PM Tue, January 21, 2014
+07:32:49 PM Tue, January 21, 2014
+07:32:53 PM Tue, January 21, 2014
+07:32:58 PM Tue, January 21, 2014
+07:33:02 PM Tue, January 21, 2014
+07:33:05 PM Tue, January 21, 2014
+07:33:09 PM Tue, January 21, 2014
+07:33:13 PM Tue, January 21, 2014
+07:33:16 PM Tue, January 21, 2014
+
+	5+4+4+3+4+3+4+4+4+3+4+3+4+5+4+3+4+4+3 / 19 = 3.8s
+	
+new test, try -e'dis'
+$ chdkptp -c -e'rec' -e"lua n=20;loadfile('A/CHDK/SCRIPTS/profile_shooting.lua')()" -e'dis'
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+07:36:37 PM Tue, January 21, 2014
+07:36:42 PM Tue, January 21, 2014
+07:36:46 PM Tue, January 21, 2014
+07:36:50 PM Tue, January 21, 2014
+07:36:54 PM Tue, January 21, 2014
+07:36:57 PM Tue, January 21, 2014
+07:37:01 PM Tue, January 21, 2014
+07:37:06 PM Tue, January 21, 2014
+07:37:11 PM Tue, January 21, 2014
+07:37:14 PM Tue, January 21, 2014
+07:37:18 PM Tue, January 21, 2014
+07:37:21 PM Tue, January 21, 2014
+07:37:25 PM Tue, January 21, 2014
+07:37:30 PM Tue, January 21, 2014
+07:37:34 PM Tue, January 21, 2014
+07:37:37 PM Tue, January 21, 2014
+07:37:41 PM Tue, January 21, 2014
+07:37:44 PM Tue, January 21, 2014
+07:37:48 PM Tue, January 21, 2014
+07:37:53 PM Tue, January 21, 2014
+
+	5+4+4+4+3+4+5+5+3+4+3+4+5+4+3+4+3+4+5 / 19 = 4.0s
+
+new test, try -i
+$ chdkptp -c -e'rec' -e"lua n=20;loadfile('A/CHDK/SCRIPTS/profile_shooting.lua')()" -i
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+07:41:00 PM Tue, January 21, 2014
+07:41:05 PM Tue, January 21, 2014
+07:41:10 PM Tue, January 21, 2014
+07:41:13 PM Tue, January 21, 2014
+07:41:17 PM Tue, January 21, 2014
+07:41:20 PM Tue, January 21, 2014
+07:41:24 PM Tue, January 21, 2014
+07:41:29 PM Tue, January 21, 2014
+07:41:33 PM Tue, January 21, 2014
+07:41:37 PM Tue, January 21, 2014
+07:41:40 PM Tue, January 21, 2014
+07:41:44 PM Tue, January 21, 2014
+07:41:47 PM Tue, January 21, 2014
+07:41:52 PM Tue, January 21, 2014
+07:41:56 PM Tue, January 21, 2014
+07:42:00 PM Tue, January 21, 2014
+07:42:03 PM Tue, January 21, 2014
+07:42:07 PM Tue, January 21, 2014
+07:42:10 PM Tue, January 21, 2014
+07:42:15 PM Tue, January 21, 2014
+
+	5+5+3+4+3+4+5+4+4+3+4+3+5+4+4+3+4+3+5 / 19 = 3.9s
