@@ -805,3 +805,88 @@ $ chdkptp -c -e'rec' -e"lua n=20;loadfile('A/CHDK/SCRIPTS/profile_shooting.lua')
 07:42:15 PM Tue, January 21, 2014
 
 	5+5+3+4+3+4+5+4+4+3+4+3+5+4+4+3+4+3+5 / 19 = 3.9s
+
+new test, no chdk, mode 'Auto', custom timer of 0sec, 10 shots
+
+08:42:06 PM Tue, January 21, 2014
+08:42:08 PM Tue, January 21, 2014
+08:42:11 PM Tue, January 21, 2014
+08:42:14 PM Tue, January 21, 2014
+08:42:16 PM Tue, January 21, 2014
+08:42:19 PM Tue, January 21, 2014
+08:42:21 PM Tue, January 21, 2014
+08:42:24 PM Tue, January 21, 2014
+08:42:26 PM Tue, January 21, 2014
+08:42:29 PM Tue, January 21, 2014
+
+	2+3+3+2+3+2+3+2+3 / 9 = 2.5s
+	
+new test, no chdk, continuous mode, held shutter for 10 shots
+
+08:46:54 PM Tue, January 21, 2014
+08:46:57 PM Tue, January 21, 2014
+08:46:59 PM Tue, January 21, 2014
+08:47:01 PM Tue, January 21, 2014
+08:47:03 PM Tue, January 21, 2014
+08:47:05 PM Tue, January 21, 2014
+08:47:07 PM Tue, January 21, 2014
+08:47:09 PM Tue, January 21, 2014
+08:47:11 PM Tue, January 21, 2014
+08:47:14 PM Tue, January 21, 2014
+
+	3+2+2+2+2+2+2+2+3 / 9 = 2.2s
+	
+new test, chdk, continuous mode
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+08:49:59 PM Tue, January 21, 2014
+08:50:01 PM Tue, January 21, 2014
+08:50:03 PM Tue, January 21, 2014
+08:50:06 PM Tue, January 21, 2014
+08:50:08 PM Tue, January 21, 2014
+08:50:10 PM Tue, January 21, 2014
+08:50:13 PM Tue, January 21, 2014
+08:50:15 PM Tue, January 21, 2014
+08:50:17 PM Tue, January 21, 2014
+08:50:20 PM Tue, January 21, 2014
+08:50:22 PM Tue, January 21, 2014
+08:50:24 PM Tue, January 21, 2014
+08:50:27 PM Tue, January 21, 2014
+08:50:29 PM Tue, January 21, 2014
+08:50:31 PM Tue, January 21, 2014
+08:50:34 PM Tue, January 21, 2014
+08:50:36 PM Tue, January 21, 2014
+08:50:38 PM Tue, January 21, 2014
+08:50:41 PM Tue, January 21, 2014
+08:50:43 PM Tue, January 21, 2014
+
+	2+2+3+2+2+3+2+2+3+2+2+3+2+2+3+3+2+3+2 / 19 = 2.4s
+
+new test, chdk, continuous mode, disable lcd from canon menu
+	script: profile_shooting.lua @ e34cd98
+	parameters: n=20
+Note: lcd flickers on after every shot, may need to disable lcd in the 
+script too (like @ f8937b1)
+
+08:55:25 PM Tue, January 21, 2014
+08:55:27 PM Tue, January 21, 2014
+08:55:29 PM Tue, January 21, 2014
+08:55:31 PM Tue, January 21, 2014
+08:55:34 PM Tue, January 21, 2014
+08:55:36 PM Tue, January 21, 2014
+08:55:38 PM Tue, January 21, 2014
+08:55:41 PM Tue, January 21, 2014
+08:55:43 PM Tue, January 21, 2014
+08:55:45 PM Tue, January 21, 2014
+08:55:47 PM Tue, January 21, 2014
+08:55:50 PM Tue, January 21, 2014
+08:55:52 PM Tue, January 21, 2014
+08:55:54 PM Tue, January 21, 2014
+08:55:56 PM Tue, January 21, 2014
+08:55:59 PM Tue, January 21, 2014
+08:56:01 PM Tue, January 21, 2014
+08:56:03 PM Tue, January 21, 2014
+08:56:05 PM Tue, January 21, 2014
+08:56:08 PM Tue, January 21, 2014
+
+	2+2+2+3+2+2+3+2+2+2+3+2+2+2+3+2+2+2+3 / 19 = 2.3s
