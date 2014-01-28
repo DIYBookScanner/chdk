@@ -1,0 +1,43 @@
+$ cat $(which ourchdkptp )
+#!/bin/sh
+# adjust the following to your configuration
+CHDKPTP_DIR=/mnt/bulk/spreads/chdkptp-lib
+# only need if you have compiled IUP support and have NOT installed the libraries to system directories 
+export LD_LIBRARY_PATH=$CHDKPTP_DIR/iup:$CHDKPTP_DIR/cd
+export LUA_PATH="/mnt/bulk/repo/chdk/chdkptp/lua/?.lua"
+"$CHDKPTP_DIR/chdkptp" "$@"
+$ ourchdkptp -c -i
+connected: Canon PowerShot A1400, max packet size 512
+con> set cli_time=true
+time 0.0000
+con> rs
+time 3.7477
+con 28> rs
+time 3.9435
+con 31> rs
+time 3.9389
+con 34> rs
+time 3.9234
+con 37> rs -readyrs
+time 0.1260
+ready
+con 39> rs -firers
+time 2.6243
+con 40> rs -readyrs
+time 0.1653
+ready
+con 42> rs -firers
+time 2.8328
+con 43> rs -readyrs
+time 0.1167
+ready
+con 45> rs -firers
+time 2.4341
+con 46> rs -readyrs
+time 0.1900
+ready
+con 48> rs -firers
+time 3.1624
+con 49> q
+time 0.0000
+bye
