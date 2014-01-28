@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/chdkptp/!svn/ver/480/trunk/lua/extras
+/svn/chdkptp/!svn/ver/482/trunk/lua/extras
 END
 dcimdl.lua
 K 25
@@ -25,7 +25,7 @@ rsint.lua
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/chdkptp/!svn/ver/480/trunk/lua/extras/rsint.lua
+/svn/chdkptp/!svn/ver/482/trunk/lua/extras/rsint.lua
 END
 hackcfa.lua
 K 25

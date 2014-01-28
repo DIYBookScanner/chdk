@@ -18,6 +18,10 @@ $ LD_LIBRARY_PATH=/path/to/iup LUA_PATH="/path/to/chdkptp/lua/?.lua" /path/to/ch
 It is suggested that you put all this in a shell script, see chdkptp-sample.sh
 for an example.
 
+You may need to make permission changes to allow users other than root to open
+the USB device. Some notes can be found in this forum post:
+http://chdk.setepontos.com/index.php?topic=6231.msg89252#msg89252
+
 ==Command line==
 Usage: chdkptp [options]
 Options:
