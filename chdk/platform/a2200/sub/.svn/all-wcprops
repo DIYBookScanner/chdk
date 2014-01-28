@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/chdk/!svn/ver/3259/trunk/platform/a2200/sub
+/svn/chdk/!svn/ver/3340/trunk/platform/a2200/sub
+END
+boot_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/3148/trunk/platform/a2200/sub/boot_hdr.c
 END
 movie_rec_hdr.c
 K 25
@@ -20,10 +26,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 63
 /svn/chdk/!svn/ver/3148/trunk/platform/a2200/sub/capt_seq_hdr.c
-END
-boot_hdr.c
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/chdk/!svn/ver/3148/trunk/platform/a2200/sub/boot_hdr.c
 END

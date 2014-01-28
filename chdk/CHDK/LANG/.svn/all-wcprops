@@ -3,42 +3,6 @@ svn:wc:ra_dav:version-url
 V 39
 /svn/chdk/!svn/ver/3219/trunk/CHDK/LANG
 END
-czech.lng
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/czech.lng
-END
-greek.lng
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/greek.lng
-END
-polish.lng
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/polish.lng
-END
-finnish.lng
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/finnish.lng
-END
-slovak.lng
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/slovak.lng
-END
-croatian.lng
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/croatian.lng
-END
 portuguese.lng
 K 25
 svn:wc:ra_dav:version-url
@@ -116,4 +80,40 @@ K 25
 svn:wc:ra_dav:version-url
 V 51
 /svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/turkish.lng
+END
+czech.lng
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/czech.lng
+END
+greek.lng
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/greek.lng
+END
+polish.lng
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/polish.lng
+END
+finnish.lng
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/finnish.lng
+END
+slovak.lng
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/slovak.lng
+END
+croatian.lng
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3032/trunk/CHDK/LANG/croatian.lng
 END

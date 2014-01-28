@@ -3,6 +3,30 @@ svn:wc:ra_dav:version-url
 V 40
 /svn/chdk/!svn/ver/1317/trunk/CHDK/GRIDS
 END
+third_v.grd
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/1317/trunk/CHDK/GRIDS/third_v.grd
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/1317/trunk/CHDK/GRIDS/readme.txt
+END
+rulecross.grd
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/1317/trunk/CHDK/GRIDS/rulecross.grd
+END
+third_h.grd
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/1317/trunk/CHDK/GRIDS/third_h.grd
+END
 3to8grid.grd
 K 25
 svn:wc:ra_dav:version-url
@@ -50,28 +74,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 53
 /svn/chdk/!svn/ver/1317/trunk/CHDK/GRIDS/3to2grid.grd
-END
-third_v.grd
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/1317/trunk/CHDK/GRIDS/third_v.grd
-END
-readme.txt
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/1317/trunk/CHDK/GRIDS/readme.txt
-END
-rulecross.grd
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/chdk/!svn/ver/1317/trunk/CHDK/GRIDS/rulecross.grd
-END
-third_h.grd
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/1317/trunk/CHDK/GRIDS/third_h.grd
 END

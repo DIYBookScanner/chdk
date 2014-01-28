@@ -3,6 +3,24 @@ svn:wc:ra_dav:version-url
 V 47
 /svn/chdk/!svn/ver/3291/trunk/CHDK/SCRIPTS/TEST
 END
+tstcallf.lua
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/865/trunk/CHDK/SCRIPTS/TEST/tstcallf.lua
+END
+tboxtest.lua
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/1616/trunk/CHDK/SCRIPTS/TEST/tboxtest.lua
+END
+llibtst.lua
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/2453/trunk/CHDK/SCRIPTS/TEST/llibtst.lua
+END
 filetest.lua
 K 25
 svn:wc:ra_dav:version-url
@@ -86,22 +104,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 57
 /svn/chdk/!svn/ver/847/trunk/CHDK/SCRIPTS/TEST/setrec.bas
-END
-tstcallf.lua
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/chdk/!svn/ver/865/trunk/CHDK/SCRIPTS/TEST/tstcallf.lua
-END
-tboxtest.lua
-K 25
-svn:wc:ra_dav:version-url
-V 60
-/svn/chdk/!svn/ver/1616/trunk/CHDK/SCRIPTS/TEST/tboxtest.lua
-END
-llibtst.lua
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/chdk/!svn/ver/2453/trunk/CHDK/SCRIPTS/TEST/llibtst.lua
 END

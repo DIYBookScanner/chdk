@@ -3,12 +3,6 @@ svn:wc:ra_dav:version-url
 V 39
 /svn/chdk/!svn/ver/2125/trunk/CHDK/HELP
 END
-CZECH.hlp
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/2125/trunk/CHDK/HELP/CZECH.hlp
-END
 russian.hlp
 K 25
 svn:wc:ra_dav:version-url
@@ -26,4 +20,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 50
 /svn/chdk/!svn/ver/2066/trunk/CHDK/HELP/german.HLP
+END
+CZECH.hlp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2125/trunk/CHDK/HELP/CZECH.hlp
 END

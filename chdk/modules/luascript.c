@@ -2574,7 +2574,7 @@ note: counts regardless of whether hook is enabled
 static int luaCB_shoot_hook_count( lua_State* L )
 {
     int hook = lua_tonumber( L, lua_upvalueindex(1) );
-    lua_pushnumber(L,script_shoot_hook_ready(hook));
+    lua_pushnumber(L,script_shoot_hook_count(hook));
     return 1;
 }
 

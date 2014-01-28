@@ -3,18 +3,6 @@ svn:wc:ra_dav:version-url
 V 41
 /svn/chdk/!svn/ver/3257/trunk/CHDK/LUALIB
 END
-capmode.lua
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/847/trunk/CHDK/LUALIB/capmode.lua
-END
-readme.txt
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/519/trunk/CHDK/LUALIB/readme.txt
-END
 propcase.lua
 K 25
 svn:wc:ra_dav:version-url
@@ -38,4 +26,16 @@ K 25
 svn:wc:ra_dav:version-url
 V 52
 /svn/chdk/!svn/ver/1306/trunk/CHDK/LUALIB/binstr.lua
+END
+capmode.lua
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/847/trunk/CHDK/LUALIB/capmode.lua
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/519/trunk/CHDK/LUALIB/readme.txt
 END

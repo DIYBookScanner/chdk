@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 38
-/svn/chdk/!svn/ver/3319/trunk/platform
+/svn/chdk/!svn/ver/3343/trunk/platform
 END
 makefile_sub.inc
 K 25
 svn:wc:ra_dav:version-url
 V 55
-/svn/chdk/!svn/ver/3318/trunk/platform/makefile_sub.inc
+/svn/chdk/!svn/ver/3325/trunk/platform/makefile_sub.inc
 END
 fi2.inc.txt
 K 25

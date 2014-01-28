@@ -58,7 +58,7 @@ ifdef OPT_GEN_STUBS
 	fi ; \
 	if [ "X`grep 'ERROR' stubs_entry.S`" != "X" ] ; then \
 	  grep "ERROR" stubs_entry.S | $(ESED) "s/\/\/ ERROR: ([^ ]+) is not found.*/\1/" | $(SORT) | uniq > stubs_nf.names ; \
-	  grep -E "NH?STUB" stubs_entry_2.S | $(ESED) "s/ *NH?STUB\( *([^ ,]+).*/\1/" | $(SORT) | uniq > stubs_mn.names ; \
+	  grep -E "NH?STUB|IGNORE" stubs_entry_2.S | $(ESED) "s/ *(NH?STUB|IGNORE)\( *([^ ,)]+).*/\2/" | $(SORT) | uniq > stubs_mn.names ; \
 	  comm -23 stubs_nf.names stubs_mn.names > stubs_not_found_names.err ; \
 	  rm -f stubs_nf.names stubs_mn.names ; \
 	  if [ -s stubs_not_found_names.err ] ; then \

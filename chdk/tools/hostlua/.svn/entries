@@ -1,7 +1,7 @@
 10
 
 dir
-3319
+3343
 https://tools.assembla.com/svn/chdk/trunk/tools/hostlua
 https://tools.assembla.com/svn/chdk
 
@@ -26,13 +26,19 @@ has-props
 
 6794e30b-3f2a-0410-a806-a2bbca1c07ff
 
+include
+dir
+
+emu
+dir
+
 Makefile
 file
 
 
 
 
-2014-01-06T03:15:05.778726Z
+2014-01-28T01:23:01.502726Z
 01d35afd97443798827da9c01fd035ac
 2013-04-21T07:23:15.256559Z
 2716
@@ -59,10 +65,4 @@ has-props
 
 
 1712
-
-include
-dir
-
-emu
-dir
 

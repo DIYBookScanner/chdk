@@ -1,19 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/svn/chdk/!svn/ver/3300/trunk/platform/generic
-END
-filewrite.c
-K 25
-svn:wc:ra_dav:version-url
-V 58
-/svn/chdk/!svn/ver/3026/trunk/platform/generic/filewrite.c
-END
-shooting.c
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/chdk/!svn/ver/3069/trunk/platform/generic/shooting.c
+/svn/chdk/!svn/ver/3325/trunk/platform/generic
 END
 capt_seq.c
 K 25
@@ -31,7 +19,7 @@ wrappers.c
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/chdk/!svn/ver/3283/trunk/platform/generic/wrappers.c
+/svn/chdk/!svn/ver/3325/trunk/platform/generic/wrappers.c
 END
 main.c
 K 25
@@ -44,4 +32,16 @@ K 25
 svn:wc:ra_dav:version-url
 V 52
 /svn/chdk/!svn/ver/1663/trunk/platform/generic/lib.c
+END
+filewrite.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/3026/trunk/platform/generic/filewrite.c
+END
+shooting.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/3069/trunk/platform/generic/shooting.c
 END

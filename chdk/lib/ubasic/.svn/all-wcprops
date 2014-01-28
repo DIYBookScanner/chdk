@@ -3,6 +3,18 @@ svn:wc:ra_dav:version-url
 V 40
 /svn/chdk/!svn/ver/3250/trunk/lib/ubasic
 END
+camera_functions.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/3160/trunk/lib/ubasic/camera_functions.c
+END
+camera_functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/2605/trunk/lib/ubasic/camera_functions.h
+END
 ubasic.c
 K 25
 svn:wc:ra_dav:version-url
@@ -38,16 +50,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 52
 /svn/chdk/!svn/ver/3250/trunk/lib/ubasic/tokenizer.h
-END
-camera_functions.c
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/chdk/!svn/ver/3160/trunk/lib/ubasic/camera_functions.c
-END
-camera_functions.h
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/chdk/!svn/ver/2605/trunk/lib/ubasic/camera_functions.h
 END

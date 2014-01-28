@@ -3,6 +3,24 @@ svn:wc:ra_dav:version-url
 V 47
 /svn/chdk/!svn/ver/3068/trunk/CHDK/SCRIPTS/EXAM
 END
+metronome.lua
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/919/trunk/CHDK/SCRIPTS/EXAM/metronome.lua
+END
+eggtimer.bas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/919/trunk/CHDK/SCRIPTS/EXAM/eggtimer.bas
+END
+tv_uni_e.lua
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/919/trunk/CHDK/SCRIPTS/EXAM/tv_uni_e.lua
+END
 stopwatch.lua
 K 25
 svn:wc:ra_dav:version-url
@@ -38,22 +56,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 60
 /svn/chdk/!svn/ver/3068/trunk/CHDK/SCRIPTS/EXAM/paramdmp.lua
-END
-metronome.lua
-K 25
-svn:wc:ra_dav:version-url
-V 60
-/svn/chdk/!svn/ver/919/trunk/CHDK/SCRIPTS/EXAM/metronome.lua
-END
-eggtimer.bas
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/chdk/!svn/ver/919/trunk/CHDK/SCRIPTS/EXAM/eggtimer.bas
-END
-tv_uni_e.lua
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/chdk/!svn/ver/919/trunk/CHDK/SCRIPTS/EXAM/tv_uni_e.lua
 END

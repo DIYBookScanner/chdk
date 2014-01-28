@@ -3,36 +3,6 @@ svn:wc:ra_dav:version-url
 V 43
 /svn/chdk/!svn/ver/3056/trunk/tools/packfi2
 END
-trees.h
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/699/trunk/tools/packfi2/trees.h
-END
-compress.c
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/chdk/!svn/ver/699/trunk/tools/packfi2/compress.c
-END
-adler32.c
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/699/trunk/tools/packfi2/adler32.c
-END
-Makefile
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/2453/trunk/tools/packfi2/Makefile
-END
-aes128.c
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/768/trunk/tools/packfi2/aes128.c
-END
 deflate.c
 K 25
 svn:wc:ra_dav:version-url
@@ -98,4 +68,34 @@ K 25
 svn:wc:ra_dav:version-url
 V 50
 /svn/chdk/!svn/ver/699/trunk/tools/packfi2/zconf.h
+END
+trees.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/trees.h
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/compress.c
+END
+adler32.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/699/trunk/tools/packfi2/adler32.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2453/trunk/tools/packfi2/Makefile
+END
+aes128.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/768/trunk/tools/packfi2/aes128.c
 END

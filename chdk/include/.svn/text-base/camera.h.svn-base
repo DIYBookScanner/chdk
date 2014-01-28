@@ -176,6 +176,8 @@
     #undef  PARAM_COPYRIGHT                     // parameter number for GetParameterData to get copyright
     #undef  PARAM_DISPLAY_MODE1                 // param number for LCD display mode when camera in playback
     #undef  PARAM_DISPLAY_MODE2                 // param number for LCD display mode when camera in record view hold mode
+    #define PARAMETER_DATA_FLAG     0x4000      // Added to 'id' value in calls to _GetParameterData & _SetParameterData
+                                                // Override if not needed or different value needed
 
     #undef  CAM_NO_MEMPARTINFO                  // VXWORKS camera does not have memPartInfoGet, fall back to memPartFindMax
 

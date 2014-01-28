@@ -1,7 +1,31 @@
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/chdk/!svn/ver/3291/trunk/CHDK/SCRIPTS
+/svn/chdk/!svn/ver/3328/trunk/CHDK/SCRIPTS
+END
+shoot.bas
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/1485/trunk/CHDK/SCRIPTS/shoot.bas
+END
+hdr.bas
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2414/trunk/CHDK/SCRIPTS/hdr.bas
+END
+interval.lua
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/1485/trunk/CHDK/SCRIPTS/interval.lua
+END
+motion.lua
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/2534/trunk/CHDK/SCRIPTS/motion.lua
 END
 default.bas
 K 25
@@ -37,29 +61,5 @@ hdr.lua
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/chdk/!svn/ver/2414/trunk/CHDK/SCRIPTS/hdr.lua
-END
-shoot.bas
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/1485/trunk/CHDK/SCRIPTS/shoot.bas
-END
-hdr.bas
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/2414/trunk/CHDK/SCRIPTS/hdr.bas
-END
-interval.lua
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/chdk/!svn/ver/1485/trunk/CHDK/SCRIPTS/interval.lua
-END
-motion.lua
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/chdk/!svn/ver/2534/trunk/CHDK/SCRIPTS/motion.lua
+/svn/chdk/!svn/ver/3328/trunk/CHDK/SCRIPTS/hdr.lua
 END

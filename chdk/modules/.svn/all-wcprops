@@ -1,157 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 37
-/svn/chdk/!svn/ver/3315/trunk/modules
-END
-zebra.c
-K 25
-svn:wc:ra_dav:version-url
-V 45
-/svn/chdk/!svn/ver/3242/trunk/modules/zebra.c
-END
-curves.c
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdk/!svn/ver/2677/trunk/modules/curves.c
-END
-zebra.h
-K 25
-svn:wc:ra_dav:version-url
-V 45
-/svn/chdk/!svn/ver/2677/trunk/modules/zebra.h
-END
-raw_merge.c
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/2789/trunk/modules/raw_merge.c
-END
-curves.h
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdk/!svn/ver/2677/trunk/modules/curves.h
-END
-nothumb.c
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/chdk/!svn/ver/2453/trunk/modules/nothumb.c
-END
-raw_merge.h
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/2789/trunk/modules/raw_merge.h
-END
-gui_calendar.c
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/2677/trunk/modules/gui_calendar.c
-END
-gui_mpopup.c
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/2782/trunk/modules/gui_mpopup.c
-END
-gui_mpopup.h
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/2777/trunk/modules/gui_mpopup.h
-END
-gui_fselect.c
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/3232/trunk/modules/gui_fselect.c
-END
-simple_module.c
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/chdk/!svn/ver/2677/trunk/modules/simple_module.c
-END
-gui_fselect.h
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/2677/trunk/modules/gui_fselect.h
-END
-script_shoot_hook.c
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/chdk/!svn/ver/3301/trunk/modules/script_shoot_hook.c
-END
-script_api.h
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/3301/trunk/modules/script_api.h
-END
-reversebytes.S
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/2453/trunk/modules/reversebytes.S
-END
-simple_module.h
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/chdk/!svn/ver/2769/trunk/modules/simple_module.h
-END
-script_shoot_hook.h
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/chdk/!svn/ver/3301/trunk/modules/script_shoot_hook.h
-END
-script_key_funcs.c
-K 25
-svn:wc:ra_dav:version-url
-V 56
-/svn/chdk/!svn/ver/3061/trunk/modules/script_key_funcs.c
-END
-cordic_math.c
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/2673/trunk/modules/cordic_math.c
-END
-script_key_funcs.h
-K 25
-svn:wc:ra_dav:version-url
-V 56
-/svn/chdk/!svn/ver/2453/trunk/modules/script_key_funcs.h
-END
-cordic_math.h
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/2698/trunk/modules/cordic_math.h
-END
-gui_bench.c
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/3242/trunk/modules/gui_bench.c
+/svn/chdk/!svn/ver/3342/trunk/modules
 END
 gui_debug.c
 K 25
 svn:wc:ra_dav:version-url
 V 49
 /svn/chdk/!svn/ver/2677/trunk/modules/gui_debug.c
-END
-gui_hexbox.c
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/2711/trunk/modules/gui_hexbox.c
 END
 eyefi.c
 K 25
@@ -165,17 +21,11 @@ svn:wc:ra_dav:version-url
 V 49
 /svn/chdk/!svn/ver/2453/trunk/modules/bitvector.c
 END
-gui_hexbox.h
+reversebytes.S
 K 25
 svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/2711/trunk/modules/gui_hexbox.h
-END
-ubasic.c
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdk/!svn/ver/3301/trunk/modules/ubasic.c
+V 52
+/svn/chdk/!svn/ver/2453/trunk/modules/reversebytes.S
 END
 eyefi.h
 K 25
@@ -189,114 +39,6 @@ svn:wc:ra_dav:version-url
 V 49
 /svn/chdk/!svn/ver/2453/trunk/modules/bitvector.h
 END
-dng.c
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/chdk/!svn/ver/3232/trunk/modules/dng.c
-END
-ubasic.h
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdk/!svn/ver/2453/trunk/modules/ubasic.h
-END
-dng.h
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/chdk/!svn/ver/2927/trunk/modules/dng.h
-END
-gui_read.c
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/2677/trunk/modules/gui_read.c
-END
-module_load.c
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/3241/trunk/modules/module_load.c
-END
-gui_read.h
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/2677/trunk/modules/gui_read.h
-END
-md5.c
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/chdk/!svn/ver/3140/trunk/modules/md5.c
-END
-module_load.h
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/2778/trunk/modules/module_load.h
-END
-flt.h
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/chdk/!svn/ver/2696/trunk/modules/flt.h
-END
-sha1.c
-K 25
-svn:wc:ra_dav:version-url
-V 44
-/svn/chdk/!svn/ver/3140/trunk/modules/sha1.c
-END
-motion_detector.c
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/chdk/!svn/ver/3242/trunk/modules/motion_detector.c
-END
-gui_palette.c
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/2677/trunk/modules/gui_palette.c
-END
-cpuinfo_arm.c
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/2772/trunk/modules/cpuinfo_arm.c
-END
-cpuinfo.c
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/chdk/!svn/ver/2772/trunk/modules/cpuinfo.c
-END
-motion_detector.h
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/chdk/!svn/ver/2677/trunk/modules/motion_detector.h
-END
-edgeoverlay.c
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/3242/trunk/modules/edgeoverlay.c
-END
-luascript.c
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/3303/trunk/modules/luascript.c
-END
-gui_palette.h
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/2677/trunk/modules/gui_palette.h
-END
 user_menu_edit.c
 K 25
 svn:wc:ra_dav:version-url
@@ -309,11 +51,53 @@ svn:wc:ra_dav:version-url
 V 50
 /svn/chdk/!svn/ver/2677/trunk/modules/module_def.h
 END
-module_inspector.c
+script_key_funcs.c
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/chdk/!svn/ver/3230/trunk/modules/module_inspector.c
+/svn/chdk/!svn/ver/3061/trunk/modules/script_key_funcs.c
+END
+nothumb.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2453/trunk/modules/nothumb.c
+END
+script_key_funcs.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/2453/trunk/modules/script_key_funcs.h
+END
+gui_fselect.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/3232/trunk/modules/gui_fselect.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/3315/trunk/modules/Makefile
+END
+gui_fselect.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2677/trunk/modules/gui_fselect.h
+END
+luascript.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3342/trunk/modules/luascript.c
+END
+curves.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2677/trunk/modules/curves.c
 END
 luascript.h
 K 25
@@ -321,11 +105,119 @@ svn:wc:ra_dav:version-url
 V 49
 /svn/chdk/!svn/ver/2453/trunk/modules/luascript.h
 END
-edgeoverlay.h
+cordic_math.c
 K 25
 svn:wc:ra_dav:version-url
 V 51
-/svn/chdk/!svn/ver/2677/trunk/modules/edgeoverlay.h
+/svn/chdk/!svn/ver/2673/trunk/modules/cordic_math.c
+END
+curves.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2677/trunk/modules/curves.h
+END
+gui_read.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2677/trunk/modules/gui_read.c
+END
+cordic_math.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2698/trunk/modules/cordic_math.h
+END
+module_exportlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/3303/trunk/modules/module_exportlist.c
+END
+gui_read.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2677/trunk/modules/gui_read.h
+END
+gui_mpopup.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2782/trunk/modules/gui_mpopup.c
+END
+gui_mpopup.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2777/trunk/modules/gui_mpopup.h
+END
+sha1.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3140/trunk/modules/sha1.c
+END
+histogram.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3326/trunk/modules/histogram.c
+END
+script_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/3301/trunk/modules/script_api.h
+END
+histogram.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3326/trunk/modules/histogram.h
+END
+zebra.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/3242/trunk/modules/zebra.c
+END
+raw_merge.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2789/trunk/modules/raw_merge.c
+END
+dng.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/3232/trunk/modules/dng.c
+END
+zebra.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2677/trunk/modules/zebra.h
+END
+module_inspector.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/3230/trunk/modules/module_inspector.c
+END
+raw_merge.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2789/trunk/modules/raw_merge.h
+END
+dng.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/2927/trunk/modules/dng.h
 END
 gui_tbox.c
 K 25
@@ -339,11 +231,11 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/chdk/!svn/ver/2830/trunk/modules/dbg_dump.c
 END
-module_exportlist.c
+module_load.c
 K 25
 svn:wc:ra_dav:version-url
-V 57
-/svn/chdk/!svn/ver/3303/trunk/modules/module_exportlist.c
+V 51
+/svn/chdk/!svn/ver/3241/trunk/modules/module_load.c
 END
 gui_tbox.h
 K 25
@@ -351,29 +243,29 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/chdk/!svn/ver/2677/trunk/modules/gui_tbox.h
 END
+md5.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/3140/trunk/modules/md5.c
+END
 gui_grid.c
 K 25
 svn:wc:ra_dav:version-url
 V 48
 /svn/chdk/!svn/ver/3232/trunk/modules/gui_grid.c
 END
-Makefile
+module_load.h
 K 25
 svn:wc:ra_dav:version-url
-V 46
-/svn/chdk/!svn/ver/3315/trunk/modules/Makefile
+V 51
+/svn/chdk/!svn/ver/2778/trunk/modules/module_load.h
 END
-histogram.c
+flt.h
 K 25
 svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/3242/trunk/modules/histogram.c
-END
-gui_osd_edit.c
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/3241/trunk/modules/gui_osd_edit.c
+V 43
+/svn/chdk/!svn/ver/2696/trunk/modules/flt.h
 END
 gui_grid.h
 K 25
@@ -381,9 +273,117 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/chdk/!svn/ver/2677/trunk/modules/gui_grid.h
 END
-histogram.h
+gui_osd_edit.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3241/trunk/modules/gui_osd_edit.c
+END
+simple_module.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/2677/trunk/modules/simple_module.c
+END
+motion_detector.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/3242/trunk/modules/motion_detector.c
+END
+script_shoot_hook.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/3301/trunk/modules/script_shoot_hook.c
+END
+gui_hexbox.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2711/trunk/modules/gui_hexbox.c
+END
+cpuinfo_arm.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2772/trunk/modules/cpuinfo_arm.c
+END
+gui_palette.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2677/trunk/modules/gui_palette.c
+END
+simple_module.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/2769/trunk/modules/simple_module.h
+END
+motion_detector.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/2677/trunk/modules/motion_detector.h
+END
+cpuinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2772/trunk/modules/cpuinfo.c
+END
+script_shoot_hook.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/3301/trunk/modules/script_shoot_hook.h
+END
+ubasic.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/3301/trunk/modules/ubasic.c
+END
+gui_hexbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/2711/trunk/modules/gui_hexbox.h
+END
+edgeoverlay.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/3242/trunk/modules/edgeoverlay.c
+END
+gui_palette.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2677/trunk/modules/gui_palette.h
+END
+ubasic.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2453/trunk/modules/ubasic.h
+END
+edgeoverlay.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2677/trunk/modules/edgeoverlay.h
+END
+gui_calendar.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2677/trunk/modules/gui_calendar.c
+END
+gui_bench.c
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/chdk/!svn/ver/3241/trunk/modules/histogram.h
+/svn/chdk/!svn/ver/3242/trunk/modules/gui_bench.c
 END

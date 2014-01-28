@@ -80,6 +80,7 @@ extern int menu_get_increment_factor();
 extern void menu_set_increment_factor(int n);
 extern char *menu_increment_factor_string();
 extern int menu_calc_max_increment_factor(int max_value);
+extern CMenu* get_curr_menu();
 //-------------------------------------------------------------------
 
 extern gui_handler menuGuiHandler;

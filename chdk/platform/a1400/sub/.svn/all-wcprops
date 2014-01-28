@@ -1,19 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub
-END
-movie_rec_hdr.c
-K 25
-svn:wc:ra_dav:version-url
-V 64
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/movie_rec_hdr.c
-END
-filewrite_hdr.c
-K 25
-svn:wc:ra_dav:version-url
-V 64
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/filewrite_hdr.c
+/svn/chdk/!svn/ver/3340/trunk/platform/a1400/sub
 END
 capt_seq_hdr.c
 K 25
@@ -32,4 +20,16 @@ K 25
 svn:wc:ra_dav:version-url
 V 59
 /svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/taskhook.S
+END
+movie_rec_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/movie_rec_hdr.c
+END
+filewrite_hdr.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/filewrite_hdr.c
 END

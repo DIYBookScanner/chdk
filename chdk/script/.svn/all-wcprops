@@ -3,12 +3,6 @@ svn:wc:ra_dav:version-url
 V 35
 /svn/chdk/!svn/ver/985/trunk/script
 END
-set_tv96_tst1.bas
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/chdk/!svn/ver/985/trunk/script/set_tv96_tst1.bas
-END
 script.bas
 K 25
 svn:wc:ra_dav:version-url
@@ -200,4 +194,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 49
 /svn/chdk/!svn/ver/515/trunk/script/test_leds.bas
+END
+set_tv96_tst1.bas
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/985/trunk/script/set_tv96_tst1.bas
 END

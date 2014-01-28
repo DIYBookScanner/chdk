@@ -1,199 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 35
-/svn/chdk/!svn/ver/3319/trunk/tools
-END
-dancingbits.c
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/1391/trunk/tools/dancingbits.c
-END
-font_8x16_pack.c
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/1610/trunk/tools/font_8x16_pack.c
-END
-gensigs_vxworks.sh
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/chdk/!svn/ver/3256/trunk/tools/gensigs_vxworks.sh
-END
-dancingbits.h
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/2640/trunk/tools/dancingbits.h
-END
-auto_build_parallel.sh
-K 25
-svn:wc:ra_dav:version-url
-V 58
-/svn/chdk/!svn/ver/3256/trunk/tools/auto_build_parallel.sh
-END
-dumpchk.c
-K 25
-svn:wc:ra_dav:version-url
-V 44
-/svn/chdk/!svn/ver/518/trunk/tools/dumpchk.c
-END
-sig_ref_vxworks_1.txt
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/chdk/!svn/ver/3258/trunk/tools/sig_ref_vxworks_1.txt
-END
-stubs_load.c
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/3319/trunk/tools/stubs_load.c
-END
-finsig_dryos.c
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/3319/trunk/tools/finsig_dryos.c
-END
-sig_ref_vxworks_2.txt
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/chdk/!svn/ver/3258/trunk/tools/sig_ref_vxworks_2.txt
-END
-sig_ref_vxworks_3.txt
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/chdk/!svn/ver/3179/trunk/tools/sig_ref_vxworks_3.txt
-END
-gen_modelist_lua.sed
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/chdk/!svn/ver/847/trunk/tools/gen_modelist_lua.sed
-END
-stubs_load.h
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/3319/trunk/tools/stubs_load.h
-END
-readme_gensig_dryos.txt
-K 25
-svn:wc:ra_dav:version-url
-V 59
-/svn/chdk/!svn/ver/3119/trunk/tools/readme_gensig_dryos.txt
-END
-gensigs_dryos.sh
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/3256/trunk/tools/gensigs_dryos.sh
-END
-signatures_dryos.h
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/chdk/!svn/ver/3256/trunk/tools/signatures_dryos.h
-END
-link-boot.ld
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/chdk/!svn/ver/521/trunk/tools/link-boot.ld
-END
-chdk_dasm.c
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/chdk/!svn/ver/3191/trunk/tools/chdk_dasm.c
-END
-makelang.c
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdk/!svn/ver/2453/trunk/tools/makelang.c
-END
-gen_propset_lua.sed
-K 25
-svn:wc:ra_dav:version-url
-V 54
-/svn/chdk/!svn/ver/541/trunk/tools/gen_propset_lua.sed
-END
-auto_build.sh
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/3256/trunk/tools/auto_build.sh
-END
-pakwif.c
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/chdk/!svn/ver/515/trunk/tools/pakwif.c
-END
-finsig_vxworks.c
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/3319/trunk/tools/finsig_vxworks.c
-END
-chdk_dasm.h
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/chdk/!svn/ver/2919/trunk/tools/chdk_dasm.h
-END
-vers.req
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/chdk/!svn/ver/511/trunk/tools/vers.req
-END
-checkbinsize.sh
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/3230/trunk/tools/checkbinsize.sh
-END
-readme_gensig_vxworks.txt
-K 25
-svn:wc:ra_dav:version-url
-V 61
-/svn/chdk/!svn/ver/1379/trunk/tools/readme_gensig_vxworks.txt
-END
-rawconvert.c
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/2574/trunk/tools/rawconvert.c
-END
-gensig_dryos.c
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/chdk/!svn/ver/1864/trunk/tools/gensig_dryos.c
-END
-Makefile
-K 25
-svn:wc:ra_dav:version-url
-V 44
-/svn/chdk/!svn/ver/3133/trunk/tools/Makefile
-END
-signatures_vxworks.h
-K 25
-svn:wc:ra_dav:version-url
-V 56
-/svn/chdk/!svn/ver/3258/trunk/tools/signatures_vxworks.h
-END
-find_levent.c
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/826/trunk/tools/find_levent.c
+/svn/chdk/!svn/ver/3340/trunk/tools
 END
 dumputil.c
 K 25
@@ -308,4 +116,196 @@ K 25
 svn:wc:ra_dav:version-url
 V 47
 /svn/chdk/!svn/ver/909/trunk/tools/yuvconvert.c
+END
+dancingbits.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/1391/trunk/tools/dancingbits.c
+END
+dancingbits.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2640/trunk/tools/dancingbits.h
+END
+gensigs_vxworks.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/3256/trunk/tools/gensigs_vxworks.sh
+END
+font_8x16_pack.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/1610/trunk/tools/font_8x16_pack.c
+END
+dumpchk.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/518/trunk/tools/dumpchk.c
+END
+auto_build_parallel.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/chdk/!svn/ver/3256/trunk/tools/auto_build_parallel.sh
+END
+sig_ref_vxworks_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/3258/trunk/tools/sig_ref_vxworks_1.txt
+END
+sig_ref_vxworks_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/3258/trunk/tools/sig_ref_vxworks_2.txt
+END
+finsig_dryos.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/3340/trunk/tools/finsig_dryos.c
+END
+stubs_load.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3319/trunk/tools/stubs_load.c
+END
+sig_ref_vxworks_3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/3179/trunk/tools/sig_ref_vxworks_3.txt
+END
+gen_modelist_lua.sed
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/847/trunk/tools/gen_modelist_lua.sed
+END
+stubs_load.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3319/trunk/tools/stubs_load.h
+END
+readme_gensig_dryos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/chdk/!svn/ver/3119/trunk/tools/readme_gensig_dryos.txt
+END
+gensigs_dryos.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3256/trunk/tools/gensigs_dryos.sh
+END
+signatures_dryos.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/3256/trunk/tools/signatures_dryos.h
+END
+link-boot.ld
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/521/trunk/tools/link-boot.ld
+END
+chdk_dasm.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/3191/trunk/tools/chdk_dasm.c
+END
+makelang.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2453/trunk/tools/makelang.c
+END
+gen_propset_lua.sed
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/chdk/!svn/ver/541/trunk/tools/gen_propset_lua.sed
+END
+auto_build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3256/trunk/tools/auto_build.sh
+END
+pakwif.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/515/trunk/tools/pakwif.c
+END
+finsig_vxworks.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/3325/trunk/tools/finsig_vxworks.c
+END
+chdk_dasm.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2919/trunk/tools/chdk_dasm.h
+END
+vers.req
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/511/trunk/tools/vers.req
+END
+checkbinsize.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/3230/trunk/tools/checkbinsize.sh
+END
+readme_gensig_vxworks.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/chdk/!svn/ver/1379/trunk/tools/readme_gensig_vxworks.txt
+END
+rawconvert.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2574/trunk/tools/rawconvert.c
+END
+gensig_dryos.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/chdk/!svn/ver/1864/trunk/tools/gensig_dryos.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/chdk/!svn/ver/3133/trunk/tools/Makefile
+END
+signatures_vxworks.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/3258/trunk/tools/signatures_vxworks.h
+END
+find_levent.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/826/trunk/tools/find_levent.c
 END

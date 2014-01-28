@@ -3,6 +3,12 @@ svn:wc:ra_dav:version-url
 V 39
 /svn/chdk/!svn/ver/2515/trunk/CHDK/DATA
 END
+GPS_Track_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/chdk/!svn/ver/1784/trunk/CHDK/DATA/GPS_Track_1.txt
+END
 GPS_Track_2.txt
 K 25
 svn:wc:ra_dav:version-url
@@ -38,10 +44,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 53
 /svn/chdk/!svn/ver/1784/trunk/CHDK/DATA/GPS_Pfeil.txt
-END
-GPS_Track_1.txt
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/svn/chdk/!svn/ver/1784/trunk/CHDK/DATA/GPS_Track_1.txt
 END

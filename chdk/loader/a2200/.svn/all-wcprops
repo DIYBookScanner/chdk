@@ -3,6 +3,12 @@ svn:wc:ra_dav:version-url
 V 42
 /svn/chdk/!svn/ver/3152/trunk/loader/a2200
 END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3148/trunk/loader/a2200/main.c
+END
 Makefile
 K 25
 svn:wc:ra_dav:version-url
@@ -20,10 +26,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 50
 /svn/chdk/!svn/ver/1933/trunk/loader/a2200/entry.S
-END
-main.c
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/3148/trunk/loader/a2200/main.c
 END

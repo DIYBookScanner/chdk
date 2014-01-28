@@ -3,18 +3,6 @@ svn:wc:ra_dav:version-url
 V 50
 /svn/chdk/!svn/ver/654/trunk/tools/hostlua/include
 END
-lauxlib.h
-K 25
-svn:wc:ra_dav:version-url
-V 60
-/svn/chdk/!svn/ver/654/trunk/tools/hostlua/include/lauxlib.h
-END
-lua.h
-K 25
-svn:wc:ra_dav:version-url
-V 56
-/svn/chdk/!svn/ver/654/trunk/tools/hostlua/include/lua.h
-END
 readme.txt
 K 25
 svn:wc:ra_dav:version-url
@@ -32,4 +20,16 @@ K 25
 svn:wc:ra_dav:version-url
 V 59
 /svn/chdk/!svn/ver/654/trunk/tools/hostlua/include/lualib.h
+END
+lauxlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/chdk/!svn/ver/654/trunk/tools/hostlua/include/lauxlib.h
+END
+lua.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/chdk/!svn/ver/654/trunk/tools/hostlua/include/lua.h
 END

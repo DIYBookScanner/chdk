@@ -1243,6 +1243,7 @@ string_sig string_sigs[] =
     //                                                                           Vx
     { 15, "SetHPTimerAfterTimeout", "FrameRateGenerator.c", 0x01000001,          0x0008 },
     { 15, "wrapped_malloc", "\n malloc error \n", 0x01000001,                    0x0010 },
+    { 15, "IsStrobeChargeCompleted", "\r\nCaptSeq::ChargeNotCompleted!!", 0x01000001 }, // ixus30, 40
 
     { 16, "DeleteDirectory_Fut", (char*)DeleteDirectory_Fut_test, 0x01000001 },
     { 16, "MakeDirectory_Fut", (char*)MakeDirectory_Fut_test, 0x01000001 },

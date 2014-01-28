@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 44
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400
+/svn/chdk/!svn/ver/3340/trunk/platform/a1400
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/chdk/!svn/ver/3314/trunk/platform/a1400/Makefile
 END
 kbd.c
 K 25
@@ -44,10 +50,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 55
 /svn/chdk/!svn/ver/3314/trunk/platform/a1400/shooting.c
-END
-Makefile
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400/Makefile
 END
