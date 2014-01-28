@@ -417,6 +417,16 @@ function cli:get_shoot_common_opts(args)
 	if  opts.tv == 0 and not con:is_ver_compatible(2,5) then
 		opts.tv = 1
 	end
+	
+	-- addition for delayed rs_shoot
+	if args.readyrs then
+		opts.readyrs = true
+	end
+	if args.firers then
+		opts.readyrs = false
+		opts.firers = true
+	end
+	
 	return opts
 end
 
@@ -1522,6 +1532,8 @@ cli:add_commands{
 			c=false,
 			cont=false,
 			badpix=false,
+			readyrs=false,
+			firers=false,
 		},
 		help_detail=[[
  [local]       local destination directory or filename (w/o extension!)
@@ -1543,6 +1555,8 @@ cli:add_commands{
    -c=<count>   number of lines for subimage
    -cont=<num>  shoot num shots in continuous mode
    -badpix[=n]  interpolate over pixels with value <= n, default 0, (dng only)
+   -readyrs     have camera focus, then wait for firers
+   -firers      if camera was waiting to shoot (readyrs), shoot now
 ]],
 		func=function(self,args)
 			local dst = args[1]
@@ -1616,23 +1630,32 @@ cli:add_commands{
 				opts.cont = tonumber(args.cont)
 			end
 			local opts_s = serialize(opts)
-			cli.dbgmsg('rs_init\n')
-			local status,rstatus,rerr = con:execwait('return rs_init('..opts_s..')',{libs={'rs_shoot_init'}})
-			if not status then
-				return false,rstatus
-			end
-			if not rstatus then
-				return false,rerr
+			
+			if opts.firers then
+				con:write_msg({'shoot'})
+			else
+				cli.dbgmsg('rs_init\n')
+				local status,rstatus,rerr = con:execwait('return rs_init('..opts_s..')',{libs={'rs_shoot_init'}})
+				if not status then
+					return false,rstatus
+				end
+				if not rstatus then
+					return false,rerr
+				end
+
+				cli.dbgmsg('rs_shoot\n')
+				-- TODO script errors will not get picked up here
+				local status,err = con:exec('rs_shoot('..opts_s..')',{libs={'rs_shoot'}})
+				-- rs_shoot should not initialize remotecap if there's an error, so no need to uninit
+				if not status then
+					return false,err
+				end
 			end
 
-			cli.dbgmsg('rs_shoot\n')
-			-- TODO script errors will not get picked up here
-			local status,err = con:exec('rs_shoot('..opts_s..')',{libs={'rs_shoot'}})
-			-- rs_shoot should not initialize remotecap if there's an error, so no need to uninit
-			if not status then
+			if opts.readyrs then
 				return false,err
 			end
-
+			
 			local rcopts={}
 			if args.jpg then
 				rcopts.jpg=chdku.rc_handler_file(dst_dir,dst)
@@ -1705,6 +1728,7 @@ cli:add_commands{
 				end
 			end
 			return status, err
+			
 		end,
 	},
 	{

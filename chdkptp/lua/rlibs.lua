@@ -1069,6 +1069,40 @@ end
 function rs_shoot_single()
 	shoot()
 end
+function rs_wait_shoot()
+	press('shoot_half')
+	repeat sleep(10) until get_shooting() == true
+
+	release('shoot_half')
+	repeat sleep(10) until get_shooting() == false
+
+	set_aflock(1)
+	set_aelock(1)
+
+	local done = false
+	local msg
+	repeat 
+		repeat sleep(10) until write_usb_msg('ready')
+		
+		repeat sleep(10); msg = read_usb_msg() until msg~=nil
+		
+		if msg == 'shoot' then
+			ecnt=get_exp_count()	
+			press('shoot_full_only')
+			repeat sleep(10) until (get_exp_count()~=ecnt)
+			release('shoot_full_only')
+			done = true
+		elseif msg == 'ping' then
+			repeat sleep(10) until write_usb_msg('pong')
+		elseif msg == 'exit' then
+			done = true
+		end
+		
+		until done
+
+	set_aelock(0)
+	set_aflock(0)
+end
 function rs_shoot_cont(opts)
 	local last = get_exp_count() + opts.cont
 	press('shoot_half')
@@ -1088,10 +1122,18 @@ function rs_shoot_cont(opts)
 end
 function rs_shoot(opts)
 	rlib_shoot_init_exp(opts)
-	if opts.cont then
-		rs_shoot_cont(opts)
+	if opts.readyrs then
+		if opts.cont then
+			rs_wait_shoot() -- TODO: accept msg for number of continuous shots
+		else
+			rs_wait_shoot()
+		end
 	else
-		rs_shoot_single()
+		if opts.cont then
+			rs_shoot_cont(opts)
+		else
+			rs_shoot_single()
+		end
 	end
 end
 ]],
