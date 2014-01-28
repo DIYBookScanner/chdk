@@ -5,11 +5,11 @@
 press('shoot_half')
 repeat sleep(10) until get_shooting() == true
 
-release('shoot_half')
-repeat sleep(10) until get_shooting() == false
-
 set_aflock(1)
 set_aelock(1)
+
+release('shoot_half')
+repeat sleep(10) until get_shooting() == false
 
 local done = false
 local msg

@@ -588,7 +588,7 @@ cli:add_commands{
 		names={'putm'},
 		help='send message',
 		arghelp='<msg string>',
-		func=function(self,args) 
+		func=function(self,args)
 			return con:write_msg(args)
 		end,
 	},
@@ -1511,6 +1511,23 @@ cli:add_commands{
 			return true
 		end,
 	},
+	{
+		names={'focuslock', 'fl'},
+		help='presses half shutter, then sets aflock and aelock',
+		arghelp='[-unlock] [-focus=<v>]',
+		args=argparser.create{
+			unlock=false,
+			focus=false,
+		},
+		func=function(self,args)
+			local status,err = con:exec('focuslock('..serialize(args)..')',{libs={'focuslock'}})
+			if not status then
+				return false,err
+			end
+			
+			return status,err
+		end,
+	},
 	-- TODO this should be combined with the shoot command,
 	-- or at least make the syntax / options consistent
 	{
@@ -1632,7 +1649,7 @@ cli:add_commands{
 			local opts_s = serialize(opts)
 			
 			if opts.firers then
-				con:write_msg({'shoot'})
+				con:write_msg('shoot')
 			else
 				cli.dbgmsg('rs_init\n')
 				local status,rstatus,rerr = con:execwait('return rs_init('..opts_s..')',{libs={'rs_shoot_init'}})
@@ -1653,7 +1670,7 @@ cli:add_commands{
 			end
 
 			if opts.readyrs then
-				return false,err
+				return true,'ready'
 			end
 			
 			local rcopts={}

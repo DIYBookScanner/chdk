@@ -11,11 +11,11 @@ rem http://chdk.wikia.com/wiki/HDR_Fast_Shooter
 press("shoot_half")
 repeat sleep(10) until get_shooting() == true
 
-release("shoot_half")
-repeat sleep(10) until get_shooting() == false
-
 set_aflock(1)
 set_aelock(1)
+
+release("shoot_half")
+repeat sleep(10) until get_shooting() == false
 
 press("shoot_full_only")
 repeat 

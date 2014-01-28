@@ -1062,6 +1062,30 @@ end
 ]],
 },
 {
+	name='focuslock',
+	code=[[
+function focuslock(opts)
+	if opts.unlock then
+		set_aelock(0)
+		set_aflock(0)
+	else
+		press('shoot_half')
+		repeat sleep(10) until get_shooting() == true
+		
+		set_aflock(1)
+		set_aelock(1)
+		
+		if opts.focus then
+			set_focus(opts.focus)
+		end
+		
+		release('shoot_half')
+		repeat sleep(10) until get_shooting() == false
+	end
+end
+]],
+},
+{
 	name='rs_shoot',
 	depend={'rlib_shoot_common'},
 	-- TODO cont doesn't handle exposure counter wrap!
@@ -1070,19 +1094,9 @@ function rs_shoot_single()
 	shoot()
 end
 function rs_wait_shoot()
-	press('shoot_half')
-	repeat sleep(10) until get_shooting() == true
-
-	release('shoot_half')
-	repeat sleep(10) until get_shooting() == false
-
-	set_aflock(1)
-	set_aelock(1)
-
 	local done = false
 	local msg
 	repeat 
-		repeat sleep(10) until write_usb_msg('ready')
 		
 		repeat sleep(10); msg = read_usb_msg() until msg~=nil
 		
@@ -1092,16 +1106,11 @@ function rs_wait_shoot()
 			repeat sleep(10) until (get_exp_count()~=ecnt)
 			release('shoot_full_only')
 			done = true
-		elseif msg == 'ping' then
-			repeat sleep(10) until write_usb_msg('pong')
 		elseif msg == 'exit' then
 			done = true
 		end
 		
 		until done
-
-	set_aelock(0)
-	set_aflock(0)
 end
 function rs_shoot_cont(opts)
 	local last = get_exp_count() + opts.cont
