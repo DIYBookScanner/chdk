@@ -1,7 +1,7 @@
 10
 
 dir
-3319
+3343
 https://tools.assembla.com/svn/chdk/trunk/lib
 https://tools.assembla.com/svn/chdk
 
@@ -26,6 +26,9 @@ philmoz
 
 6794e30b-3f2a-0410-a806-a2bbca1c07ff
 
+armutil
+dir
+
 lang
 dir
 
@@ -45,8 +48,5 @@ libc
 dir
 
 math
-dir
-
-armutil
 dir
 

@@ -1,61 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 37
-/svn/chdk/!svn/ver/3319/trunk/include
-END
-modes.h
-K 25
-svn:wc:ra_dav:version-url
-V 45
-/svn/chdk/!svn/ver/2462/trunk/include/modes.h
-END
-versions.h
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/3301/trunk/include/versions.h
-END
-battery.h
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/chdk/!svn/ver/2453/trunk/include/battery.h
-END
-shutdown.h
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/2453/trunk/include/shutdown.h
-END
-fileutil.h
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/2912/trunk/include/fileutil.h
-END
-file_counter.h
-K 25
-svn:wc:ra_dav:version-url
-V 52
-/svn/chdk/!svn/ver/2453/trunk/include/file_counter.h
-END
-modelist.h
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/3232/trunk/include/modelist.h
-END
-touchscreen.h
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/chdk/!svn/ver/2453/trunk/include/touchscreen.h
-END
-gui.h
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/chdk/!svn/ver/3247/trunk/include/gui.h
+/svn/chdk/!svn/ver/3325/trunk/include
 END
 callfunc.h
 K 25
@@ -67,7 +13,7 @@ camera.h
 K 25
 svn:wc:ra_dav:version-url
 V 46
-/svn/chdk/!svn/ver/3302/trunk/include/camera.h
+/svn/chdk/!svn/ver/3325/trunk/include/camera.h
 END
 shot_histogram.h
 K 25
@@ -105,29 +51,29 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/chdk/!svn/ver/2900/trunk/include/propset1.h
 END
-propset3.h
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/3288/trunk/include/propset3.h
-END
 remotecap.h
 K 25
 svn:wc:ra_dav:version-url
 V 49
 /svn/chdk/!svn/ver/2927/trunk/include/remotecap.h
 END
-propset5.h
+propset3.h
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/chdk/!svn/ver/2907/trunk/include/propset5.h
+/svn/chdk/!svn/ver/3288/trunk/include/propset3.h
 END
 stdlib.h
 K 25
 svn:wc:ra_dav:version-url
 V 46
 /svn/chdk/!svn/ver/2723/trunk/include/stdlib.h
+END
+propset5.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2907/trunk/include/propset5.h
 END
 stdio.h
 K 25
@@ -141,11 +87,11 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/chdk/!svn/ver/2483/trunk/include/platform.h
 END
-backlight.h
+sound.h
 K 25
 svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/3175/trunk/include/backlight.h
+V 45
+/svn/chdk/!svn/ver/2453/trunk/include/sound.h
 END
 core.h
 K 25
@@ -153,23 +99,23 @@ svn:wc:ra_dav:version-url
 V 44
 /svn/chdk/!svn/ver/2483/trunk/include/core.h
 END
-sound.h
+backlight.h
 K 25
 svn:wc:ra_dav:version-url
-V 45
-/svn/chdk/!svn/ver/2453/trunk/include/sound.h
-END
-lolevel.h
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/chdk/!svn/ver/3254/trunk/include/lolevel.h
+V 49
+/svn/chdk/!svn/ver/3175/trunk/include/backlight.h
 END
 task.h
 K 25
 svn:wc:ra_dav:version-url
 V 44
 /svn/chdk/!svn/ver/2453/trunk/include/task.h
+END
+lolevel.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/3254/trunk/include/lolevel.h
 END
 cache.h
 K 25
@@ -273,29 +219,29 @@ svn:wc:ra_dav:version-url
 V 48
 /svn/chdk/!svn/ver/3281/trunk/include/keyboard.h
 END
-limits.h
-K 25
-svn:wc:ra_dav:version-url
-V 45
-/svn/chdk/!svn/ver/515/trunk/include/limits.h
-END
 lens.h
 K 25
 svn:wc:ra_dav:version-url
 V 44
 /svn/chdk/!svn/ver/2453/trunk/include/lens.h
 END
-cachebit.h
+limits.h
 K 25
 svn:wc:ra_dav:version-url
-V 48
-/svn/chdk/!svn/ver/2830/trunk/include/cachebit.h
+V 45
+/svn/chdk/!svn/ver/515/trunk/include/limits.h
 END
 console.h
 K 25
 svn:wc:ra_dav:version-url
 V 47
 /svn/chdk/!svn/ver/2579/trunk/include/console.h
+END
+cachebit.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2830/trunk/include/cachebit.h
 END
 script.h
 K 25
@@ -345,17 +291,17 @@ svn:wc:ra_dav:version-url
 V 44
 /svn/chdk/!svn/ver/2453/trunk/include/math.h
 END
-levent.h
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdk/!svn/ver/2931/trunk/include/levent.h
-END
 temperature.h
 K 25
 svn:wc:ra_dav:version-url
 V 51
 /svn/chdk/!svn/ver/2453/trunk/include/temperature.h
+END
+levent.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/2931/trunk/include/levent.h
 END
 locale.h
 K 25
@@ -386,4 +332,58 @@ K 25
 svn:wc:ra_dav:version-url
 V 47
 /svn/chdk/!svn/ver/1865/trunk/include/dryos31.h
+END
+modes.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/chdk/!svn/ver/2462/trunk/include/modes.h
+END
+versions.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3301/trunk/include/versions.h
+END
+battery.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/2453/trunk/include/battery.h
+END
+shutdown.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2453/trunk/include/shutdown.h
+END
+fileutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/2912/trunk/include/fileutil.h
+END
+file_counter.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/chdk/!svn/ver/2453/trunk/include/file_counter.h
+END
+modelist.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdk/!svn/ver/3232/trunk/include/modelist.h
+END
+touchscreen.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/chdk/!svn/ver/2453/trunk/include/touchscreen.h
+END
+gui.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdk/!svn/ver/3247/trunk/include/gui.h
 END

@@ -16,13 +16,13 @@ print("2) bright")
   set_tv96_direct(t-(f*48))
   set_sv96(s)
   set_av96(p)
-  shoot()	
+  shoot()
 
 print("3) dark")
-  set_tv96_direct(t+(f+48))
+  set_tv96_direct(t+(f*48))
   set_sv96(s)
   set_av96(p)
   shoot()
-		
+
 set_aflock(0)
 print("...done")

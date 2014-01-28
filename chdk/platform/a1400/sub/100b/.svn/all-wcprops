@@ -1,7 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/100b
+/svn/chdk/!svn/ver/3340/trunk/platform/a1400/sub/100b
+END
+bin_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/100b/bin_compat.h
+END
+funcs_by_name.csv
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/chdk/!svn/ver/3324/trunk/platform/a1400/sub/100b/funcs_by_name.csv
 END
 stubs_entry_2.S
 K 25
@@ -19,7 +31,7 @@ funcs_by_address.csv
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/100b/funcs_by_address.csv
+/svn/chdk/!svn/ver/3324/trunk/platform/a1400/sub/100b/funcs_by_address.csv
 END
 filewrite.c
 K 25
@@ -43,13 +55,13 @@ code_gen.txt
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/100b/code_gen.txt
+/svn/chdk/!svn/ver/3324/trunk/platform/a1400/sub/100b/code_gen.txt
 END
 stubs_entry.S
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/100b/stubs_entry.S
+/svn/chdk/!svn/ver/3340/trunk/platform/a1400/sub/100b/stubs_entry.S
 END
 boot.c
 K 25
@@ -80,16 +92,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 65
 /svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/100b/movie_rec.c
-END
-bin_compat.h
-K 25
-svn:wc:ra_dav:version-url
-V 66
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/100b/bin_compat.h
-END
-funcs_by_name.csv
-K 25
-svn:wc:ra_dav:version-url
-V 71
-/svn/chdk/!svn/ver/3314/trunk/platform/a1400/sub/100b/funcs_by_name.csv
 END

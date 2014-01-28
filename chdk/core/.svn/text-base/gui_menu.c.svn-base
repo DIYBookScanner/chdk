@@ -175,6 +175,11 @@ static void gui_menu_set_curr_menu(CMenu *menu_ptr, int top_item, int curr_item)
     gui_menu_curr_item = curr_item;
 }
 
+CMenu* get_curr_menu()
+{
+    return curr_menu;
+}
+
 //-------------------------------------------------------------------
 void gui_menu_init(CMenu *menu_ptr) {
 
@@ -184,6 +189,10 @@ void gui_menu_init(CMenu *menu_ptr) {
         else 
             gui_menu_set_curr_menu(menu_ptr, 0, -1);
         gui_menu_stack_ptr = 0;
+
+        // Set active Tv override menu entry if present
+        extern void set_tv_override_menu(CMenu *menu);
+        set_tv_override_menu(curr_menu);
     }
 
     num_lines = camera_screen.height/rbf_font_height()-1;
@@ -385,6 +394,10 @@ void gui_activate_sub_menu(CMenu *sub_menu)
         draw_txt_string(0, 0, "E1", MAKE_COLOR(COLOR_RED, COLOR_YELLOW));
         gui_menu_stack_ptr = 0;
     }
+
+    // Set active Tv override menu entry if present
+    extern void set_tv_override_menu(CMenu *menu);
+    set_tv_override_menu(curr_menu);
 
     // Force full redraw
     gui_menu_erase_and_redraw();

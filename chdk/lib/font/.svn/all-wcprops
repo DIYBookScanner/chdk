@@ -3,18 +3,6 @@ svn:wc:ra_dav:version-url
 V 38
 /svn/chdk/!svn/ver/2677/trunk/lib/font
 END
-codepages.h
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/875/trunk/lib/font/codepages.h
-END
-rbf_font.c
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/2677/trunk/lib/font/rbf_font.c
-END
 Makefile
 K 25
 svn:wc:ra_dav:version-url
@@ -32,4 +20,16 @@ K 25
 svn:wc:ra_dav:version-url
 V 54
 /svn/chdk/!svn/ver/1234/trunk/lib/font/font_8x16_uni.h
+END
+codepages.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/875/trunk/lib/font/codepages.h
+END
+rbf_font.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2677/trunk/lib/font/rbf_font.c
 END

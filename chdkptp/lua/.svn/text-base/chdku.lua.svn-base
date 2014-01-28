@@ -548,20 +548,21 @@ end
 --[[
 read all pending messages, processing as specified by opts
 opts {
-	all=handler -- for all not matched by a specific handler
+	default=handler -- for all not matched by a specific handler
 	user=handler
 	return=handler
 	error=handler
 }
 handler = table or function(msg,opts)
+function may return false (not nil) optionally an error message to end processing
 ]]
 function con_methods:read_all_msgs(opts)
 	opts = util.extend_table({},opts)
 	-- if an 'all' handler is given, use it for any that don't have a specific handler
-	if opts.all then
+	if opts.default then
 		for i,mtype in ipairs({'user','return','error'}) do
 			if not opts[mtype] then
-				opts[mtype] = opts.all
+				opts[mtype] = opts.default
 			end
 		end
 	end
@@ -578,7 +579,8 @@ function con_methods:read_all_msgs(opts)
 			table.insert(handler,msg)
 		elseif type(handler) == 'function' then
 			local status, err = handler(msg,opts)
-			if not status then
+			-- nil / no return value is NOT treated as an error
+			if status == false then
 				return false, err
 			end
 		elseif handler then -- nil or false = ignore

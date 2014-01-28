@@ -3,6 +3,36 @@ svn:wc:ra_dav:version-url
 V 38
 /svn/chdk/!svn/ver/3241/trunk/lib/libc
 END
+strncmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/515/trunk/lib/libc/strncmp.c
+END
+strtol.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/515/trunk/lib/libc/strtol.c
+END
+strrchr.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/chdk/!svn/ver/515/trunk/lib/libc/strrchr.c
+END
+memset.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/515/trunk/lib/libc/memset.c
+END
+memcpy.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdk/!svn/ver/515/trunk/lib/libc/memcpy.c
+END
 Makefile
 K 25
 svn:wc:ra_dav:version-url
@@ -68,34 +98,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 46
 /svn/chdk/!svn/ver/515/trunk/lib/libc/memcmp.c
-END
-strncmp.c
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/chdk/!svn/ver/515/trunk/lib/libc/strncmp.c
-END
-strtol.c
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdk/!svn/ver/515/trunk/lib/libc/strtol.c
-END
-strrchr.c
-K 25
-svn:wc:ra_dav:version-url
-V 47
-/svn/chdk/!svn/ver/515/trunk/lib/libc/strrchr.c
-END
-memset.c
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdk/!svn/ver/515/trunk/lib/libc/memset.c
-END
-memcpy.c
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdk/!svn/ver/515/trunk/lib/libc/memcpy.c
 END

@@ -38,6 +38,7 @@ m.cli_cmds = {
 			s=false,
 			c=false,
 			badpix=false,
+			cmdwait=60
 		},
 		help_detail=[[
  [local]       local destination directory or filename (w/o extension!)
@@ -58,6 +59,7 @@ m.cli_cmds = {
    -s=<start>   first line of for subimage raw
    -c=<count>   number of lines for subimage
    -badpix[=n]  interpolate over pixels with value <= n, default 0, (dng only)
+   -cmdwait=n   wait n seconds for command, default 60
 ]],
 		func=function(self,args)
 			local dst = args[1]
@@ -128,8 +130,10 @@ m.cli_cmds = {
 				end
 			end
 
-			opts.cap_timeout=60000 -- 1 minute
-			opts.shoot_hook_timeout=10000
+			-- wait time for remotecap
+			opts.cap_timeout=30000
+			-- wait time for shoot hook
+			opts.shoot_hook_timeout=args.cmdwait * 1000
 
 			local opts_s = serialize(opts)
 			cli.dbgmsg('rs_init\n')
@@ -141,7 +145,7 @@ m.cli_cmds = {
 				return false,rerr
 			end
 
-			local status,err = con:exec('rsint_run('..opts_s..')',{libs={'rsint'}})
+			local status,err = con:exec('return rsint_run('..opts_s..')',{libs={'rsint'}})
 			-- rs_shoot should not initialize remotecap if there's an error, so no need to uninit
 			if not status then
 				return false,err
@@ -185,19 +189,13 @@ m.cli_cmds = {
 					warnf('script_status failed %s\n',tostring(err))
 					break
 				end
-				if not status.run then 
-					warnf('script not running\n')
-					break
-				end
 				if status.msg then
-					status, err = con:read_all_msgs({
+					local status, err = con:read_all_msgs({
 						['return']=function(msg,opts)
 							printf("script return %s\n",tostring(msg.value))
-							return true
 						end,
 						user=function(msg,opts)
 							printf("script msg %s\n",tostring(msg.value))
-							return true
 						end,
 						error=function(msg,opts)
 							return false,msg.value
@@ -206,6 +204,10 @@ m.cli_cmds = {
 					if not status then
 						return false, err
 					end
+				end
+				if not status.run then 
+					warnf('script not running\n')
+					break
 				end
 				-- TODO could check if remotecap has timed out here
 				status, err = con:write_msg(line)
@@ -291,6 +293,7 @@ function rsint_run(opts)
 	end
 
 	hook_shoot.set(opts.shoot_hook_timeout)
+	local shoot_count = hook_shoot.count()
 	press('shoot_full')
 	while true do
 		local next_shot
@@ -298,9 +301,18 @@ function rsint_run(opts)
 		if msg == 's' or msg == 'l' then
 			next_shot = true
 		end
-		if next_shot and hook_shoot.is_ready() then
-			hook_shoot.continue()
-			next_shot = false
+		if next_shot then
+ 			if hook_shoot.is_ready() then
+				shoot_count = hook_shoot.count()
+				hook_shoot.continue()
+				next_shot = false
+			end
+		else
+			if hook_shoot.count() > shoot_count and not hook_shoot.is_ready() then
+				hook_shoot.set(0)
+				release('shoot_full')
+				return false, 'timeout waiting for command'
+			end
 		end
 		if msg == 'l' then
 			break

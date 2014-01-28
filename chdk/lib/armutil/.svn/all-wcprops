@@ -3,6 +3,12 @@ svn:wc:ra_dav:version-url
 V 41
 /svn/chdk/!svn/ver/2753/trunk/lib/armutil
 END
+cache.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/2753/trunk/lib/armutil/cache.c
+END
 callfunc_test.c
 K 25
 svn:wc:ra_dav:version-url
@@ -32,10 +38,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 50
 /svn/chdk/!svn/ver/2453/trunk/lib/armutil/Makefile
-END
-cache.c
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/2753/trunk/lib/armutil/cache.c
 END

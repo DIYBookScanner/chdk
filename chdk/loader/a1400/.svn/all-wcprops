@@ -1,13 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/chdk/!svn/ver/3314/trunk/loader/a1400
-END
-main.c
-K 25
-svn:wc:ra_dav:version-url
-V 49
-/svn/chdk/!svn/ver/3314/trunk/loader/a1400/main.c
+/svn/chdk/!svn/ver/3324/trunk/loader/a1400
 END
 Makefile
 K 25
@@ -26,4 +20,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 50
 /svn/chdk/!svn/ver/3314/trunk/loader/a1400/entry.S
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/chdk/!svn/ver/3314/trunk/loader/a1400/main.c
 END

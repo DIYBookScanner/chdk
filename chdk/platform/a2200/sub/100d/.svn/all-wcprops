@@ -1,19 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/chdk/!svn/ver/3259/trunk/platform/a2200/sub/100d
-END
-filewrite.c
-K 25
-svn:wc:ra_dav:version-url
-V 65
-/svn/chdk/!svn/ver/3148/trunk/platform/a2200/sub/100d/filewrite.c
-END
-Makefile
-K 25
-svn:wc:ra_dav:version-url
-V 62
-/svn/chdk/!svn/ver/3148/trunk/platform/a2200/sub/100d/Makefile
+/svn/chdk/!svn/ver/3340/trunk/platform/a2200/sub/100d
 END
 capt_seq.c
 K 25
@@ -31,7 +19,7 @@ stubs_entry.S
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/chdk/!svn/ver/3254/trunk/platform/a2200/sub/100d/stubs_entry.S
+/svn/chdk/!svn/ver/3340/trunk/platform/a2200/sub/100d/stubs_entry.S
 END
 boot.c
 K 25
@@ -92,4 +80,16 @@ K 25
 svn:wc:ra_dav:version-url
 V 74
 /svn/chdk/!svn/ver/3250/trunk/platform/a2200/sub/100d/funcs_by_address.csv
+END
+filewrite.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/chdk/!svn/ver/3148/trunk/platform/a2200/sub/100d/filewrite.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/chdk/!svn/ver/3148/trunk/platform/a2200/sub/100d/Makefile
 END

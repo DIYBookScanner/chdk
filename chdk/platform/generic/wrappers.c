@@ -137,12 +137,12 @@ short get_parameter_size(long id)
 
 long get_parameter_data(long id, void *buf, long bufsize)
 {
-    return _GetParameterData(id|0x4000, buf, bufsize);
+    return _GetParameterData(id|PARAMETER_DATA_FLAG, buf, bufsize);
 }
 
 long set_parameter_data(long id, void *buf, long bufsize)
 {
-    return _SetParameterData(id|0x4000, buf, bufsize);
+    return _SetParameterData(id|PARAMETER_DATA_FLAG, buf, bufsize);
 }
 
 void mark_filesystem_bootable()

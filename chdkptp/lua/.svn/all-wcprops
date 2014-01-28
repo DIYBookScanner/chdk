@@ -1,7 +1,37 @@
 K 25
 svn:wc:ra_dav:version-url
 V 35
-/svn/chdkptp/!svn/ver/480/trunk/lua
+/svn/chdkptp/!svn/ver/483/trunk/lua
+END
+fsutil.lua
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdkptp/!svn/ver/420/trunk/lua/fsutil.lua
+END
+ustime.lua
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/chdkptp/!svn/ver/251/trunk/lua/ustime.lua
+END
+cli.lua
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdkptp/!svn/ver/483/trunk/lua/cli.lua
+END
+dng.lua
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/chdkptp/!svn/ver/477/trunk/lua/dng.lua
+END
+exposure.lua
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/chdkptp/!svn/ver/286/trunk/lua/exposure.lua
 END
 multicam.lua
 K 25
@@ -67,7 +97,7 @@ chdku.lua
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/svn/chdkptp/!svn/ver/478/trunk/lua/chdku.lua
+/svn/chdkptp/!svn/ver/482/trunk/lua/chdku.lua
 END
 dngcli.lua
 K 25
@@ -92,34 +122,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 48
 /svn/chdkptp/!svn/ver/431/trunk/lua/gui_live.lua
-END
-fsutil.lua
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdkptp/!svn/ver/420/trunk/lua/fsutil.lua
-END
-ustime.lua
-K 25
-svn:wc:ra_dav:version-url
-V 46
-/svn/chdkptp/!svn/ver/251/trunk/lua/ustime.lua
-END
-cli.lua
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/chdkptp/!svn/ver/478/trunk/lua/cli.lua
-END
-dng.lua
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/svn/chdkptp/!svn/ver/477/trunk/lua/dng.lua
-END
-exposure.lua
-K 25
-svn:wc:ra_dav:version-url
-V 48
-/svn/chdkptp/!svn/ver/286/trunk/lua/exposure.lua
 END

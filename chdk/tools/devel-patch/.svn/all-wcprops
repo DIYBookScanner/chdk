@@ -3,15 +3,15 @@ svn:wc:ra_dav:version-url
 V 46
 /svn/chdk/!svn/ver/515/trunk/tools/devel-patch
 END
-README.TXT
-K 25
-svn:wc:ra_dav:version-url
-V 57
-/svn/chdk/!svn/ver/515/trunk/tools/devel-patch/README.TXT
-END
 console-r140.diff
 K 25
 svn:wc:ra_dav:version-url
 V 64
 /svn/chdk/!svn/ver/511/trunk/tools/devel-patch/console-r140.diff
+END
+README.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/chdk/!svn/ver/515/trunk/tools/devel-patch/README.TXT
 END

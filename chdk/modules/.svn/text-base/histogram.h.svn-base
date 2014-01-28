@@ -10,7 +10,8 @@
 
 // Values for conf.show_histo
 #define SHOW_ALWAYS    1
-#define SHOW_HALF      2
+#define SHOW_REC       2
+#define SHOW_HALF      3
 
 //-------------------------------------------------------------------
 

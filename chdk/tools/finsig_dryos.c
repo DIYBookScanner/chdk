@@ -4065,8 +4065,9 @@ void print_kval(firmware *fw, uint32_t tadr, int tsiz, int tlen, uint32_t ev, co
 
         int r = (kval >> 5) & 7;
         uint32_t b = (1 << (kval & 0x1F));
+        int i = (kval >> 16) & 1;
 
-        bprintf("//#define %-20s0x%08x // Found @0x%08x, levent 0x%x\n",fn,b,tadr,ev);
+        bprintf("//#define %-20s0x%08x // Found @0x%08x, levent 0x%x%s\n",fn,b,tadr,ev,i?" (non-inverted logic)":"");
         bprintf("//#define %-20s%d\n",rn,r);
     }
 }
@@ -4276,11 +4277,13 @@ void find_key_vals(firmware *fw)
             // Event ID's have changed in DryOS R49 **********
             print_kval(fw,tadr,tsiz,tlen,0x20A,"SD_READONLY","_FLAG");
             print_kval(fw,tadr,tsiz,tlen,0x202,"USB","_MASK");
+            print_kval(fw,tadr,tsiz,tlen,0x205,"BATTCOVER","_FLAG");
         }
         else
         {
             print_kval(fw,tadr,tsiz,tlen,0x90A,"SD_READONLY","_FLAG");
             print_kval(fw,tadr,tsiz,tlen,0x902,"USB","_MASK");
+            print_kval(fw,tadr,tsiz,tlen,0x905,"BATTCOVER","_FLAG");
         }
 
         uint32_t key_half = add_kmval(fw,tadr,tsiz,tlen,0,"KEY_SHOOT_HALF",0);
