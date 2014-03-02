@@ -1,4 +1,12 @@
 --[[
+Authors: nafraf
+         kariluoma
+
+lua native calls need to be enabled 
+(Main Menu -> Miscallaneous -> Enable Lua Native Calls?)
+]]
+
+--[[
 @title Set a1400 to continuous mode over chdkptp
 ]]
 
